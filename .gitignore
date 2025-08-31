@@ -1,0 +1,4 @@
+node_modules
+Data_prep_nbs/Stockfish
+**/.ipynb_checkpoints/
+**/.DS_Store

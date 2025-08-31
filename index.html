@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Mistake Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Compact Header -->
+        <header class="app-header">
+            <h1>Chess Mistake Analyzer</h1>
+            <div class="header-stats">
+                <span id="quick-stats"></span>
+            </div>
+        </header>
+
+        <!-- Filter Bar - Prominent Position -->
+        <div class="filter-bar">
+            <div id="phase-filters" class="filter-group phase-filters"></div>
+            <div class="filter-separator"></div>
+            <div id="motif-filters" class="filter-group motif-filters"></div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Left Panel - Compact Controls -->
+            <aside class="left-panel">
+                <div class="navigation-card">
+                    <h3>Position</h3>
+                    <div class="position-nav">
+                        <button id="prev-mistake" title="Previous">◄</button>
+                        <div class="position-indicator">
+                            <span id="mistake-counter">1/100</span>
+                            <div class="progress-bar">
+                                <div id="progress-fill" class="progress-fill"></div>
+                            </div>
+                        </div>
+                        <button id="next-mistake" title="Next">►</button>
+                    </div>
+                </div>
+
+                <div class="move-info-card">
+                    <h3>Move Analysis</h3>
+                    <div class="move-comparison">
+                        <div class="move-item">
+                            <span class="move-label">Played:</span>
+                            <span id="actual-move" class="mistake-move">--</span>
+                            <span id="actual-eval" class="move-eval">--</span>
+                        </div>
+                        <div class="move-item">
+                            <span class="move-label">Best:</span>
+                            <span id="best-move" class="best-move">--</span>
+                            <span id="best-eval" class="move-eval hidden">--</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="engine-card">
+                    <h3>Engine Analysis</h3>
+                    <div class="engine-status">
+                        <span id="engine-status" class="status-indicator">Initializing...</span>
+                        <span id="engine-depth" class="depth-indicator"></span>
+                    </div>
+                    <div class="engine-eval">
+                        <span class="eval-label">Position:</span>
+                        <span id="engine-evaluation" class="engine-score">0.00</span>
+                    </div>
+                    <div class="engine-lines">
+                        <div id="engine-pv" class="principal-variation"></div>
+                        <div id="engine-alternatives" class="alternative-moves"></div>
+                    </div>
+                    <button id="analyze-deeper" class="action-btn">
+                        <span>🔍</span> Deep Analysis
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Center - Chess Board -->
+            <div class="board-container">
+                <div class="board-wrapper">
+                    <div id="chess-board"></div>
+                    <div class="coordinates">
+                        <div class="files"></div>
+                        <div class="ranks"></div>
+                    </div>
+                </div>
+                <div class="board-controls">
+                    <button id="flip-board" title="Flip Board">⟲</button>
+                    <button id="reset-board" title="Reset">⟳</button>
+                    <button id="first-move" title="First">⟨⟨</button>
+                    <button id="prev-move" title="Previous">◄</button>
+                    <button id="next-move" title="Next">►</button>
+                    <button id="last-move" title="Last">⟩⟩</button>
+                </div>
+                <div class="action-buttons">
+                    <button id="show-best-move" class="action-btn">
+                        <span>💡</span> Show Best
+                    </button>
+                    <button id="practice-position" class="action-btn">
+                        <span>🎯</span> Practice
+                    </button>
+                    <button id="load-fen-btn" class="action-btn">
+                        <span>📋</span> Load FEN
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Panel - Analysis -->
+            <aside class="right-panel">
+                <div class="motifs-card">
+                    <h3>Tactical Patterns</h3>
+                    <div id="mistake-motifs" class="motif-tags"></div>
+                </div>
+
+                <div class="insight-card">
+                    <h3>Key Insight</h3>
+                    <div id="mistake-reasoning" class="reasoning-text"></div>
+                </div>
+
+                <div class="moves-card">
+                    <h3>Move List</h3>
+                    <div id="move-list" class="move-list"></div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Hidden FEN Input Modal -->
+        <div id="fen-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3>Load Position (FEN)</h3>
+                <input type="text" id="fen-input" placeholder="Enter FEN notation">
+                <button id="load-fen">Load Position</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

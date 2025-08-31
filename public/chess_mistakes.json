@@ -1,0 +1,2952 @@
+[
+  {
+    "id": 0,
+    "position": {
+      "fen": "rnbqkbnr/ppp2ppp/3p4/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+      "move_number": 4,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nf3",
+      "best": "Qf3",
+      "actual_line": "Nf3 g5 d4 g4 Ng1 Qh4+",
+      "best_line": "Qf3 Nc6 Qxf4 Nd4 Bd3"
+    },
+    "evaluation": {
+      "after_actual": 0.65,
+      "after_best": 0.0,
+      "difference": 0.65,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features Black's advanced f4 pawn as the central tactical element. The best move Qf3 would have been a defensive move to immediately challenge this advanced pawn and maintain equality. By playing Nf3 instead, White allowed Black to continue the kingside pawn storm with g5, giving Black the initiative for a kingside attack. White missed the chance to neutralize Black's advanced pawn structure and allowed Black to gain an advantage through the pawn advance."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 1,
+    "position": {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "move_number": 2,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nc3",
+      "best": "exd5",
+      "actual_line": "Nc3 d4 Nb1 e5 Bc4 Qg5",
+      "best_line": "exd5 Nf6 d4 Nxd5 Nf3"
+    },
+    "evaluation": {
+      "after_actual": 0.3,
+      "after_best": -0.84,
+      "difference": 1.14,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Advantage",
+        "One-move puzzle"
+      ],
+      "reasoning": "The primary tactical motif is 'Hanging piece' - Black's d5 pawn is undefended and White missed the opportunity to capture it with exd5. This also qualifies as 'Advantage' since White could have seized a decisive advantage (eval difference of 1.14 points). It's a 'One-move puzzle' as the solution is the simple capture exd5. White missed this basic tactical opportunity, allowing Black to maintain a strong central presence instead of gaining material/positional advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 2,
+    "position": {
+      "fen": "1r2r1k1/p1p2p1p/3p1Bpb/2pN1P2/4P3/5P2/PqPK2QP/3R2R1 w - - 2 20",
+      "move_number": 20,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "Ke1",
+      "actual_line": "f4 Bxf4+ Ke1 Be5 fxg6 hxg6",
+      "best_line": "Ke1 Qxa2 Bc3 a5 Qe2"
+    },
+    "evaluation": {
+      "after_actual": -2.05,
+      "after_best": -4.04,
+      "difference": 1.99,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Discovered attack",
+        "Defensive move"
+      ],
+      "reasoning": "The position centers around White's dangerously exposed king on d2. Black has a powerful queen on b2 and coordinated pieces creating serious threats. The best move Ke1 is a crucial defensive move to get the king to safety, while the actual move f4 was a mistake that allowed Bxf4+ - a discovered attack that further exposes the white king. Black is conducting a kingside attack against the exposed white king, with the queen, bishops, and rooks all participating in the assault. White missed the critical defensive resource of moving the king to safety."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 3,
+    "position": {
+      "fen": "1r2r1k1/p1p2p1p/3p1Bp1/2pNbP2/4P3/8/PqP3QP/3RK1R1 w - - 2 22",
+      "move_number": 22,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "c3",
+      "best": "fxg6",
+      "actual_line": "c3 Bxh2 Nxc7 Qxg2 Rxg2 Rxe4+",
+      "best_line": "fxg6 hxg6 Rf1 Re6 Qf3"
+    },
+    "evaluation": {
+      "after_actual": -1.73,
+      "after_best": -2.65,
+      "difference": 0.92,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Sacrifice",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a classic kingside attack pattern where White has attacking pieces (Bishop on f6, pawn on f5) aimed at Black's castled king position. The best move fxg6 continues this attack by sacrificing the f-pawn to open the g-file and create threats against the exposed Black king on g8. However, White played the defensive c3 instead, trying to deal with Black's active queen on b2. This allowed Black to maintain pressure with moves like Bxh2, creating counterplay. White missed the opportunity to create maximum practical chances through the kingside attack, even though Black maintains an advantage in both lines."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 4,
+    "position": {
+      "fen": "r1bq1rk1/ppp1np2/2np3p/8/2BbPBpP/2N5/PPP3PN/R2QR1K1 w - - 0 12",
+      "move_number": 12,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Kh1",
+      "best": "Be3",
+      "actual_line": "Kh1 Ng6 Nd5 Nxf4 Nxf4 Bxb2",
+      "best_line": "Be3 Bxe3+ Rxe3 Ne5 Bb3"
+    },
+    "evaluation": {
+      "after_actual": 2.45,
+      "after_best": 1.66,
+      "difference": 0.79,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Hanging piece",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "White missed the opportunity to challenge Black's strong centralized bishop on d4 with Be3. The best move Be3 forces an exchange that eliminates Black's well-placed bishop and maintains White's piece coordination. Instead, the passive king move Kh1 allows Black to keep the powerful bishop and create threats, leading to Black winning the b2 pawn in the continuation. This represents a defensive move that fails to address the central tactical issue - the need to neutralize Black's active pieces."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 5,
+    "position": {
+      "fen": "rnbqk2r/ppp1npb1/3p3p/6p1/2BPPp2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 1 8",
+      "move_number": 8,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Re1",
+      "best": "g3",
+      "actual_line": "Re1 Bg4 Nd5 O-O h3 Bh5",
+      "best_line": "g3 Nbc6 gxf4 g4 Nh4"
+    },
+    "evaluation": {
+      "after_actual": 2.03,
+      "after_best": 0.88,
+      "difference": 1.15,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "Black has an advanced f4 pawn creating pressure on White's kingside structure. The best move g3 is a defensive move that directly challenges this advanced pawn by offering to exchange it with gxf4. White's actual move Re1 fails to address this central threat, allowing Black to maintain pressure and potentially follow up with moves like Bg4, creating a kingside attack. The advanced f4 pawn is the key tactical element - it's deep in White's position and creating concrete threats that need to be addressed immediately."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 6,
+    "position": {
+      "fen": "rq3rk1/p1p1bppp/3p1n2/2p5/4PP2/2N1BP2/PPPQ3P/2KR3R w - - 2 13",
+      "move_number": 13,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qg2",
+      "best": "e5",
+      "actual_line": "Qg2 Qb4 Rdg1 g6 a3 Qb7",
+      "best_line": "e5 Nh5 Rhg1 Re8 f5"
+    },
+    "evaluation": {
+      "after_actual": -0.96,
+      "after_best": -1.53,
+      "difference": 0.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Advanced pawn",
+        "Defensive move"
+      ],
+      "reasoning": "The best move e5 represents a kingside attack motif, where White should advance the central pawn to support a pawn storm (e5-f5) against Black's castled king position. The advanced pawn on e5 would be deep in Black's territory, supporting the f5 advance. However, White played the defensive Qg2 instead, missing the opportunity to create serious kingside threats. White's mistake was being too passive when a concrete attacking plan was available."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 7,
+    "position": {
+      "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "d4",
+      "actual_line": "f4 exf4 Qf3 Nc6 Qxf4 Nd4",
+      "best_line": "d4 exd4 Qxd4 Nc6 Bb5"
+    },
+    "evaluation": {
+      "after_actual": 0.19,
+      "after_best": -0.51,
+      "difference": 0.7,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Quiet move",
+        "Defensive move"
+      ],
+      "reasoning": "White missed the tactical opportunity d4, which would have seized central control and created immediate pressure on Black's position. The best move d4 is a 'Quiet move' that doesn't capture or check but prepares strong central pressure. By playing f4 instead, White allowed Black to maintain central control and potentially gain an 'Advantage'. The position requires precise play, making it also a 'Defensive move' situation where White needed to find the most accurate continuation to maintain equality."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 8,
+    "position": {
+      "fen": "r1bq1rk1/ppp1npb1/2np3p/8/2BPPppP/2N5/PPP3PN/R1BQR1K1 w - - 2 11",
+      "move_number": 11,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxf4",
+      "best": "Ne2",
+      "actual_line": "Bxf4 Bxd4+ Be3 Bxe3+ Rxe3 Ne5",
+      "best_line": "Ne2 f3 gxf3 Ng6 h5"
+    },
+    "evaluation": {
+      "after_actual": 1.6,
+      "after_best": 1.01,
+      "difference": 0.59,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "Black has advanced pawns on f4 and g4 creating a kingside attack against White's castled king. The best move Ne2 is a defensive move that prepares to deal with Black's threat of f3, which would further advance the dangerous pawn and create more pressure. White's actual move Bxf4 removes one advanced pawn but allows Black to continue the attack with Bxd4+, leading to a worse position for White. The advanced pawn motif is central as Black's f-pawn and g-pawn are deep in White's territory creating concrete threats."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 9,
+    "position": {
+      "fen": "rnbqkbnr/ppp2p2/3p3p/6p1/2B1Pp2/2N2N2/PPPP2PP/R1BQK2R w KQkq - 0 6",
+      "move_number": 6,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "O-O",
+      "best": "d4",
+      "actual_line": "O-O Nc6 d4 Bg7 Qd3 Bg4",
+      "best_line": "d4 Nc6 h4 Bg7 Qd3"
+    },
+    "evaluation": {
+      "after_actual": 1.38,
+      "after_best": 0.52,
+      "difference": 0.86,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Pin",
+        "Advantage"
+      ],
+      "reasoning": "White missed the strong central advance d4 which would have maintained a significant advantage and prepared a kingside attack with h4. Instead, by castling immediately with O-O, White allowed Black to equalize with counterplay including the pin Bg4 on the knight. The best line d4 Nc6 h4 shows White's plan to attack Black's kingside where the king will likely castle, while the actual line allows Black to create tactical complications with the pin."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 10,
+    "position": {
+      "fen": "r2qkb1r/pppn1ppb/4pn1p/7P/3P4/4BNN1/PPP2PP1/R2QKB1R w KQkq - 2 10",
+      "move_number": 10,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qd2",
+      "best": "Bd3",
+      "actual_line": "Qd2 Rc8 Bd3 Bxd3 Qxd3 c5",
+      "best_line": "Bd3 Bxd3 Qxd3 c5 Ne4"
+    },
+    "evaluation": {
+      "after_actual": 0.5,
+      "after_best": -0.11,
+      "difference": 0.61,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "The position involves a critical defensive decision where White needed to play the precise move Bd3 to offer a bishop trade and neutralize Black's pressure on the kingside. By playing Qd2 instead, White allowed Black to maintain better piece coordination and central control. The best move Bd3 represents a defensive pattern where White proactively trades off Black's strong dark-squared bishop that was putting pressure on White's position. White missed this defensive resource and instead played a more passive queen development that gave Black additional tempo to improve their position with moves like Rc8."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 11,
+    "position": {
+      "fen": "r2q1rk1/pp1nbpp1/4pn1p/2p4P/3P4/3QBNN1/PPP2PP1/2KR3R w - - 3 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qd2",
+      "best": "Ne5",
+      "actual_line": "Qd2 c4 Kb1 Rc8 c3 b5",
+      "best_line": "Ne5 cxd4 Qxd4 Nxe5 Qxe5"
+    },
+    "evaluation": {
+      "after_actual": 1.65,
+      "after_best": 0.57,
+      "difference": 1.08,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Sacrifice",
+        "Kingside attack",
+        "Advantage"
+      ],
+      "reasoning": "The best move Ne5 represents a knight sacrifice tactical motif where White gives up material temporarily to gain attacking chances and positional compensation. The sacrifice targets Black's kingside where the king has castled, making this also a kingside attack pattern. White missed the opportunity to create tactical complications with the knight sacrifice, instead playing the passive Qd2 which allows Black to consolidate with c4 and gain the advantage. The evaluation swing from +0.57 to -1.65 (from White's perspective) shows White missed a chance to maintain near-equality and instead fell into a disadvantageous position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 12,
+    "position": {
+      "fen": "6r1/R4Rpk/p7/1p4rp/2p2N2/8/PP3K2/8 w - - 6 39",
+      "move_number": 39,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nh3",
+      "best": "Ne6",
+      "actual_line": "Nh3 Rc5 Nf4 b4 Ne6 Ra5",
+      "best_line": "Ne6 Rg4 Nf8+ Kh6 Rxa6+"
+    },
+    "evaluation": {
+      "after_actual": -0.97,
+      "after_best": -1.77,
+      "difference": 0.8,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Fork",
+        "Deflection",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "The best move Ne6 creates a fork-like tactic by attacking Black's rook on g5 while setting up Nf8+ check. This deflects Black's rook from its defensive duties. The Black king on h7 is somewhat exposed, allowing the tactical sequence Nf8+ Kh6 Rxa6+. White's actual move Nh3 was a defensive retreat that missed this tactical opportunity to reduce Black's advantage through the forcing sequence."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 13,
+    "position": {
+      "fen": "r2r4/p3Rppk/4p2p/1pp1P2P/8/8/PPP2P1R/2K1n1N1 w - - 4 23",
+      "move_number": 23,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "f3",
+      "actual_line": "f4 Rd4 Re2 Nxc2 Kxc2 Rad8",
+      "best_line": "f3 c4 Re2 Nd3+ cxd3"
+    },
+    "evaluation": {
+      "after_actual": -0.72,
+      "after_best": -2.06,
+      "difference": 1.34,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Defensive move",
+        "Fork"
+      ],
+      "reasoning": "White's king on c1 is exposed with Black's knight on e1 creating multiple threats. The best move f3 was a crucial defensive move to limit Black's tactical opportunities, particularly preventing the knight from forking or creating discovered attacks. By playing f4 instead, White allowed Black to maintain more tactical pressure with moves like Nd3+ creating forks and checks. The knight on e1 is the key tactical piece exploiting White's exposed king position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 14,
+    "position": {
+      "fen": "6r1/4RRpk/p3N2p/1p6/2p5/4K3/PP4r1/8 w - - 1 35",
+      "move_number": 35,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Ra7",
+      "best": "Nf8+",
+      "actual_line": "Ra7 Kh8 Nf8 Rxb2 Rxa6 Rh2",
+      "best_line": "Nf8+ Kh8 Re6 Rg3+ Kd4"
+    },
+    "evaluation": {
+      "after_actual": -1.76,
+      "after_best": -3.37,
+      "difference": 1.61,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Advantage",
+        "Long puzzle"
+      ],
+      "reasoning": "The position features an exposed black king on h7 that White should exploit with Nf8+ to force it to the corner and maintain attacking chances. White missed the opportunity to keep the black king under pressure and instead played Ra7, allowing Black to consolidate. The best move Nf8+ exemplifies a kingside attack against the exposed king, where White could have maintained a significant advantage. White's mistake was not recognizing that forcing the king to h8 with check would keep Black's pieces poorly coordinated and maintain winning chances."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 15,
+    "position": {
+      "fen": "3r4/4RRpk/p3p2p/1p6/2pN4/4K3/PP4r1/8 w - - 0 34",
+      "move_number": 34,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nxe6",
+      "best": "Kf3",
+      "actual_line": "Nxe6 Rd3+ Kf4 Rf2+ Kg4 Rxf7",
+      "best_line": "Kf3 Rg1 Nxe6 Rf1+ Kg4"
+    },
+    "evaluation": {
+      "after_actual": 0.0,
+      "after_best": -0.57,
+      "difference": 0.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Defensive move",
+        "Hanging piece"
+      ],
+      "reasoning": "The position features White's exposed king on e3 that needs to find safety. The best move Kf3 is a defensive move that improves king safety before capturing material. The e6 pawn was hanging (undefended), making Nxe6 tempting, but White missed that king safety should come first. By playing Nxe6 immediately, White allowed Black's rooks to create threats with checks (Rd3+ and Rf2+), forcing the white king into a more precarious position and losing the advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 16,
+    "position": {
+      "fen": "r4r2/pp2Rppk/4p2p/2p1P2P/8/6N1/PPP2Pn1/2K4R w - - 0 20",
+      "move_number": 20,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Ne2",
+      "best": "Rxb7",
+      "actual_line": "Ne2 Rad8 Rg1 Nh4 Rxb7 Rd5",
+      "best_line": "Rxb7 Nf4 Ne4 Ne2+ Kb1"
+    },
+    "evaluation": {
+      "after_actual": -0.58,
+      "after_best": -1.52,
+      "difference": 0.94,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Fork",
+        "Exposed king",
+        "Defensive move",
+        "Kingside attack"
+      ],
+      "reasoning": "The position features multiple tactical motifs. The best move Rxb7 captures a hanging pawn on b7, but this leads to tactical complications where Black's knight on g2 becomes very active. In the best line, Black plays Nf4 followed by Ne4 and then Ne2+, creating a fork that checks the White king on c1 and likely attacks another piece. The actual move Ne2 was a defensive move trying to neutralize Black's active knight on g2, but it missed the opportunity to grab material with Rxb7. Black's king on h7 is somewhat exposed, and there are elements of a kingside attack with White's rook on e7 and advanced h-pawn. White missed the tactical shot Rxb7 which, despite leading to complications, would have been the principled continuation."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 17,
+    "position": {
+      "fen": "rnbqk1nr/ppppppbp/6p1/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "d4",
+      "actual_line": "f4 c5 Nf3 Nc6 Bc4 e6",
+      "best_line": "d4 d6 Nf3 c6 Be2"
+    },
+    "evaluation": {
+      "after_actual": 0.33,
+      "after_best": -0.57,
+      "difference": 0.9,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "This position represents a critical opening moment where White missed the opportunity to establish a strong central presence with d4. The best move d4 would be a 'Defensive move' - preventing Black from gaining central control and maintaining White's opening advantage. Instead, f4 is premature, weakening the kingside and allowing Black to seize the initiative in the center with moves like c5. The evaluation swing of 0.9 points shows White missed securing an 'Advantage' through proper central play. Black's threat in the position is to establish central control with c5, which White's best move d4 would have prevented by maintaining central tension and supporting piece development."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 18,
+    "position": {
+      "fen": "rnbqk1nr/ppp1ppbp/3p2p1/8/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+      "move_number": 4,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nf3",
+      "best": "d4",
+      "actual_line": "Nf3 c5 d4 cxd4 Nxd4 Nc6",
+      "best_line": "d4 Nf6 Nf3 O-O Bd3"
+    },
+    "evaluation": {
+      "after_actual": -0.01,
+      "after_best": -0.67,
+      "difference": 0.66,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Quiet move",
+        "Defensive move"
+      ],
+      "reasoning": "The actual move Nf3 is a quiet developing move that avoids the tactical complications arising from the more principled d4. While d4 is objectively stronger as it seizes central space and challenges Black's setup, it allows Black tactical counterplay with moves like ...c5, creating sharp positions where Black can generate active piece play. Nf3, while less ambitious, maintains a solid position and avoids giving Black immediate tactical opportunities. The evaluation difference suggests that White missed the chance to create more challenging problems for Black in the center, instead choosing a safer but less testing continuation."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 19,
+    "position": {
+      "fen": "6r1/5Rpk/1R6/1p6/2p4p/6rN/PP3K2/8 w - - 2 42",
+      "move_number": 42,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nf4",
+      "best": "Rf3",
+      "actual_line": "Nf4 c3 Rxb5 Rc8 bxc3 Rcxc3",
+      "best_line": "Rf3 Rg4 Rxb5 Rd8 a4"
+    },
+    "evaluation": {
+      "after_actual": -0.66,
+      "after_best": -2.56,
+      "difference": 1.9,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position revolves around Black's advanced c4 pawn which becomes the key tactical element. In the best line (Rf3), White makes a defensive move to limit Black's advantage by winning the b5 pawn and creating counterplay. However, White missed this opportunity and played Nf4, allowing Black's c-pawn to advance to c3 with greater effect. The 'Advanced pawn' motif is central as Black's c4 pawn (and its advance to c3) is the main tactical theme. White needed the 'Defensive move' Rf3 to minimize Black's 'Advantage', but failed to find it."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 20,
+    "position": {
+      "fen": "r2qk2r/1b2ppbp/p1np1np1/1pp5/4PP2/P1NP1NP1/1PP3BP/R1BQ1RK1 w kq - 5 10",
+      "move_number": 10,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "e5",
+      "best": "f5",
+      "actual_line": "e5 dxe5 Nxe5 Rc8 Be3 O-O",
+      "best_line": "f5 O-O Nd5 b4 Bg5"
+    },
+    "evaluation": {
+      "after_actual": 0.58,
+      "after_best": -0.21,
+      "difference": 0.79,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Advanced pawn",
+        "Advantage"
+      ],
+      "reasoning": "The best move f5 represents a kingside attack motif, creating an advanced pawn that restricts Black's kingside and prepares further attacking chances. White missed the opportunity to seize a significant advantage (200-600cp range) by not playing f5. Instead of the aggressive f5 pawn storm that would have given White attacking prospects and central control via Nd5, White played the more passive e5, allowing Black to neutralize the center with dxe5 and achieve better piece coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 21,
+    "position": {
+      "fen": "6r1/R4Rpk/p7/1p5p/2p3r1/7N/PP3K2/8 w - - 8 40",
+      "move_number": 40,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Rxa6",
+      "best": "Nf4",
+      "actual_line": "Rxa6 b4 Rf5 g5 Kf3 c3",
+      "best_line": "Nf4 h4 Ne6 Kg6 Kf3"
+    },
+    "evaluation": {
+      "after_actual": -0.75,
+      "after_best": -1.49,
+      "difference": 0.74,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Exposed king",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "The position features Black's advanced pawns (c4, b5) deep in White's territory threatening to promote, which is the 'Advanced pawn' motif. Black's king on h7 is somewhat exposed with limited defenders around it. The best move Nf4 is a quiet move that doesn't capture or check but prepares to deal with Black's pawn threats and improves White's piece coordination. It's also a defensive move needed to avoid letting Black's advanced pawns become overwhelming. White missed the opportunity to centralize the knight with Nf4, which would have better coordinated the pieces to handle Black's dangerous passed pawns, instead choosing the materialistic Rxa6 which allows Black's c-pawn to advance dangerously with c3."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 22,
+    "position": {
+      "fen": "r2qk2r/1b2ppbp/p1np2p1/1pp1P3/5Pn1/P1NP1NP1/1PP3BP/R1BQ1RK1 w kq - 1 11",
+      "move_number": 11,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qe2",
+      "best": "h3",
+      "actual_line": "Qe2 dxe5 h3 Nh6 g4 f5",
+      "best_line": "h3 Nh6 g4 O-O Be3"
+    },
+    "evaluation": {
+      "after_actual": 0.44,
+      "after_best": -0.72,
+      "difference": 1.16,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Trapped piece",
+        "Attacking f2 or f7",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "The position centers around Black's knight on g4, which is creating threats against White's kingside, particularly targeting the f2 square. The best move h3 is a defensive move that attacks this knight, essentially trapping it or forcing it to a worse square (h6). By not playing h3, White allows Black to maintain pressure on the kingside. The knight on g4 is in a somewhat precarious position where it can be attacked by the h-pawn, making it a 'trapped piece' motif. White missed the opportunity to immediately challenge this threatening knight and instead played the passive Qe2."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 23,
+    "position": {
+      "fen": "2r5/2bqBpkp/p7/1p3p2/8/P1NP2P1/1PP1R1KP/5R2 w - - 7 28",
+      "move_number": 28,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bb4",
+      "best": "Bg5",
+      "actual_line": "Bb4 a5 Re7 Qc6+ Ne4 Bd8",
+      "best_line": "Bg5 Re8 Ref2 Qc6+ Kh3"
+    },
+    "evaluation": {
+      "after_actual": 2.2,
+      "after_best": 1.13,
+      "difference": 1.07,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Pin",
+        "Defensive move"
+      ],
+      "reasoning": "This position involves a kingside attack where White is pressing against Black's exposed king on g7. The best move Bg5 maintains pressure and pins/attacks key squares around the black king, while the actual move Bb4 allows Black to gain counterplay with a5, attacking the bishop. White missed the opportunity to maintain maximum pressure on Black's exposed king position by choosing the less forcing Bb4 instead of the more aggressive Bg5 that keeps Black's king under constant threat."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 24,
+    "position": {
+      "fen": "3q1rk1/2b1pp1p/p7/1pB2p2/8/P1NP2P1/1PP4P/R3R1K1 w - - 0 24",
+      "move_number": 24,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxe7",
+      "best": "d4",
+      "actual_line": "Bxe7 Bb6+ Kg2 Qa8+ Kh3 Re8",
+      "best_line": "d4 Re8 Rad1 h5 Rd3"
+    },
+    "evaluation": {
+      "after_actual": 3.18,
+      "after_best": 2.43,
+      "difference": 0.75,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Advantage",
+        "Defensive move"
+      ],
+      "reasoning": "The position involves a kingside attack pattern where White has attacking chances against Black's castled king. The best move d4 is a central advance that maintains pressure and keeps White's advantage (eval 2.43 for White). However, the actual move Bxe7 allows Black counterplay with Bb6+ followed by Qa8+, creating checks that expose White's king and reduce White's advantage significantly (eval drops to 3.18). The d4 move would have been a stronger positional/attacking continuation, maintaining central control and keeping Black's pieces less active. Black's threat after Bxe7 is the forcing sequence Bb6+ Kg2 Qa8+ which gives Black dangerous counterplay with checks, while the best line d4 Re8 Rad1 h5 Rd3 keeps White in control with better piece coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 25,
+    "position": {
+      "fen": "r2qk2r/1b2ppbp/p1n3p1/1pp1p3/5Pn1/P1NP1NP1/1PP1Q1BP/R1B2RK1 w kq - 0 12",
+      "move_number": 12,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Nxe5",
+      "best": "h3",
+      "actual_line": "Nxe5 Ngxe5 fxe5 O-O Bf4 b4",
+      "best_line": "h3 Nh6 Qf2 Nd4 fxe5"
+    },
+    "evaluation": {
+      "after_actual": 0.93,
+      "after_best": 0.4,
+      "difference": 0.53,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Attacking f2 or f7",
+        "Kingside attack",
+        "Defensive move",
+        "Trapped piece"
+      ],
+      "reasoning": "The position involves Black's knight on g4 creating threats against White's kingside, particularly targeting the f2 square and creating pressure around White's king. The best move h3 is a defensive move that attacks the threatening knight on g4, forcing it to retreat to h6 where it becomes somewhat trapped and less effective. White's actual move Nxe5 was inferior because it allowed Black to maintain better piece coordination and pressure on the kingside. The knight on g4 was creating tactical threats that needed to be addressed immediately rather than engaging in material exchanges."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 26,
+    "position": {
+      "fen": "2r5/2b1Bpkp/7q/pp3p2/8/P1NP2PK/1PP1R2P/5R2 w - - 4 31",
+      "move_number": 31,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kg2",
+      "best": "Bh4",
+      "actual_line": "Kg2 Qc6+ Kf2 Re8 Ke1 Kg6",
+      "best_line": "Bh4 Qh5 Ref2 f4 Ne2"
+    },
+    "evaluation": {
+      "after_actual": 1.87,
+      "after_best": 0.92,
+      "difference": 0.95,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features a classic 'Exposed king' motif with White's king on h3 being highly vulnerable to Black's attacking pieces, particularly the queen on h6. Black is conducting a 'Kingside attack' against the exposed White king. The best move Bh4 represents a critical 'Defensive move' that White needed to play to exchange Black's dangerous queen and reduce the attacking pressure. By missing this defensive resource with Kg2, White allowed Black to maintain a significant 'Advantage' (eval going from +0.92 to +1.87 for Black). White's mistake was failing to recognize that the bishop could actively defend by forcing a queen trade, instead passively moving the king and allowing Black to keep all attacking pieces on the board."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 27,
+    "position": {
+      "fen": "2r5/2b2pkp/7q/8/1B2N3/3P2p1/1PP1R1KP/5R2 w - - 0 35",
+      "move_number": 35,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "hxg3",
+      "best": "Bc3+",
+      "actual_line": "hxg3 Be5 Bc3 Bxc3 bxc3 Rc7",
+      "best_line": "Bc3+ Kf8 hxg3 Qe6 Rf6"
+    },
+    "evaluation": {
+      "after_actual": -1.83,
+      "after_best": -2.5,
+      "difference": 0.67,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "The position centers around Black's advanced g3 pawn which is deep in White's position and creating threats against White's somewhat exposed king on g2. The best move Bc3+ is an active defense that gives check and forces Black's king to move, while the actual move hxg3 is a more direct defensive approach that eliminates the dangerous advanced pawn immediately. White missed the more forcing continuation that would have maintained better practical chances despite being objectively worse."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 28,
+    "position": {
+      "fen": "2r5/2b1Bpkp/2q5/pp3p2/8/P1NP2P1/1PP1R1KP/5R2 w - - 2 30",
+      "move_number": 30,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kh3",
+      "best": "Kf2",
+      "actual_line": "Kh3 f4 d4 Qd7+ Kh4 Qxd4",
+      "best_line": "Kf2 Re8 Ke1 Kg6 Kd1"
+    },
+    "evaluation": {
+      "after_actual": 2.49,
+      "after_best": 1.9,
+      "difference": 0.59,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "White's actual move Kh3 exposes the king unnecessarily, allowing Black counterplay with f4 and subsequent tactics like Qd7+. The best move Kf2 is a defensive consolidation that keeps White's advantage while maintaining king safety. Black threatens to create complications with pawn advances and piece activity, which White should have prevented with the more solid king placement."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 29,
+    "position": {
+      "fen": "2r5/2b1Bpkp/7q/5p2/1p6/2NP2P1/1PP1R1KP/5R2 w - - 0 33",
+      "move_number": 33,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Bxb4",
+      "best": "Nd5",
+      "actual_line": "Bxb4 Qc6+ Rf3 h5 d4 h4",
+      "best_line": "Nd5 f4 Rf3 Qc6 Nxb4"
+    },
+    "evaluation": {
+      "after_actual": 0.36,
+      "after_best": -0.33,
+      "difference": 0.69,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Centralization",
+        "Knight outpost",
+        "Defensive move",
+        "Hanging piece"
+      ],
+      "reasoning": "The best move Nd5 represents a powerful centralization motif, placing the knight on an excellent outpost square where it controls key central squares and creates multiple threats. This knight move also serves as a defensive resource, as shown in the line Nd5 f4 Rf3, where White maintains better coordination. The actual move Bxb4 was inferior because it captured a 'hanging piece' (the b4 pawn) but allowed Black's queen to become more active with Qc6+, giving Black better practical chances. White missed the opportunity to maintain better piece coordination and central control with the knight maneuver."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 30,
+    "position": {
+      "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "Nf3",
+      "actual_line": "f4 g6 Nf3 Bg7 d3 d6",
+      "best_line": "Nf3 e5 Bc4 d6 d3"
+    },
+    "evaluation": {
+      "after_actual": 0.29,
+      "after_best": -0.38,
+      "difference": 0.67,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The move f4 is an aggressive pawn advance that aims to control the center and potentially launch a kingside attack, but it's premature and creates weaknesses. The best move Nf3 would have been a more solid developmental move that maintains better piece coordination. White missed the opportunity to develop naturally with Nf3, which would have led to a more balanced position. Instead, f4 gives White a temporary advantage (+0.29) but at the cost of creating long-term weaknesses in the pawn structure and king safety. The move f4 can be seen as an attempt at a kingside attack motif, but it's poorly timed. The evaluation suggests White gained a slight advantage but missed the more principled continuation."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 31,
+    "position": {
+      "fen": "r1b1k1nr/pp1ppp1p/1q4p1/nB6/2p1PP2/1Pb2N2/P1PP2PP/R1BQ1R1K w kq - 0 9",
+      "move_number": 9,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Bxd7+",
+      "best": "dxc3",
+      "actual_line": "Bxd7+ Bxd7 dxc3 Nf6 Qe2 Bg4",
+      "best_line": "dxc3 Qxb5 b4 Nc6 a4"
+    },
+    "evaluation": {
+      "after_actual": 2.76,
+      "after_best": 1.95,
+      "difference": 0.81,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Attacking f2 or f7",
+        "Advantage",
+        "Short puzzle"
+      ],
+      "reasoning": "The position features Black's advanced pawns on c4 and c3 that are deep in White's territory, creating significant threats. The best move dxc3 directly addresses this advanced pawn threat. White played Bxd7+ instead, which is a check but allows Black to maintain the dangerous advanced pawn structure. The evaluation difference of 0.81 (from 1.95 to 2.76 in Black's favor) shows White missed the opportunity to neutralize Black's pawn storm. Black's advanced pawns are the key tactical motif here, as they're creating immediate threats that White should have addressed with dxc3 rather than going for the flashy but inferior check with Bxd7+."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 32,
+    "position": {
+      "fen": "r3k1nr/pp2pp1p/1q4p1/n7/2p1PPb1/1PP2N2/P1P3PP/R1BQ1R1K w kq - 1 11",
+      "move_number": 11,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Ba3",
+      "best": "b4",
+      "actual_line": "Ba3 Rd8 Qe2 Bxf3 Rxf3 cxb3",
+      "best_line": "b4 Nc6 h3 Rd8 Qe2"
+    },
+    "evaluation": {
+      "after_actual": 3.53,
+      "after_best": 2.66,
+      "difference": 0.87,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Attacking f2 or f7",
+        "Kingside attack",
+        "Advanced pawn",
+        "Trapped piece",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a kingside attack pattern with Black's bishop on g4 pressuring White's kingside structure, particularly around f3. Black has an advanced pawn on c4 deep in White's position. The best move b4 would have trapped or attacked Black's knight on a5, forcing it to move and gaining tempo. Instead, White played Ba3 which was less effective at addressing Black's threats. Black's pieces (Bg4, Na5, advanced c4 pawn) are creating multiple threats that White needed to address more precisely. The move b4 would have been a better defensive choice, dealing with the knight while maintaining better control."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 33,
+    "position": {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "move_number": 2,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nc3",
+      "best": "exd5",
+      "actual_line": "Nc3 d4 Nce2 e5 d3 Bd6",
+      "best_line": "exd5 Qxd5 Nc3 Qd8 d4"
+    },
+    "evaluation": {
+      "after_actual": 0.36,
+      "after_best": -0.68,
+      "difference": 1.04,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Advantage"
+      ],
+      "reasoning": "The position features a hanging piece motif where Black's d5 pawn is undefended and can be captured with exd5. White missed this tactical opportunity to win material and gain an advantage. By playing Nc3 instead of exd5, White allowed Black to maintain central control and continue with moves like d4, gaining space. The best line shows White could have captured the pawn, forced Black's queen to move twice, and maintained better development with tempo."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 34,
+    "position": {
+      "fen": "r2qk1nr/pp4pp/3bbp2/2p1n3/3pP3/3P1NN1/PPP1B1PP/R1BQ1RK1 w kq - 0 11",
+      "move_number": 11,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bf4",
+      "best": "Nh5",
+      "actual_line": "Bf4 Nxf3+ Rxf3 Ne7 Nh5 O-O",
+      "best_line": "Nh5 Qd7 c4 g6 Nf4"
+    },
+    "evaluation": {
+      "after_actual": -0.07,
+      "after_best": -0.79,
+      "difference": 0.72,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a classic kingside attack motif where White's best move Nh5 targets Black's uncastled king on the kingside. Black's king remains exposed in the center, making it vulnerable to attack. The actual move Bf4 was more defensive in nature, missing the opportunity to exploit Black's exposed king position. White's knight jump to h5 would have created immediate threats against the kingside, particularly targeting the g7 and f6 squares around Black's king. By playing the passive Bf4 instead, White allowed Black to consolidate and potentially castle to safety."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 35,
+    "position": {
+      "fen": "r3k2r/ppq1n1pp/3bb3/2p1p1B1/3pP3/3P2N1/PPP1B1PP/R2Q1RK1 w kq - 2 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Nh5",
+      "best": "Bg4",
+      "actual_line": "Nh5 Rg8 Bg4 Qc8 Bxe6 Qxe6",
+      "best_line": "Bg4 Qd7 Bxe6 Qxe6 Qh5+"
+    },
+    "evaluation": {
+      "after_actual": -0.94,
+      "after_best": -2.04,
+      "difference": 1.1,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Capture the defender",
+        "Sacrifice",
+        "Advantage"
+      ],
+      "reasoning": "The best move Bg4 initiates a forcing kingside attack against Black's exposed king on e8. The sequence Bg4 Qd7 Bxe6 Qxe6 Qh5+ involves capturing the defender (the knight on e6 that helps protect the king), followed by a check that exposes Black's king further. This is a tactical sacrifice of the bishop for knight to gain a strong attacking position with tempo. White missed this opportunity by playing the less forcing Nh5, which allows Black to consolidate with moves like Rg8. The position involves attacking the uncastled king, making it a classic 'exposed king' and 'kingside attack' motif where White could have seized a decisive advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 36,
+    "position": {
+      "fen": "r3k1r1/pp1qn1pp/3bb3/2p1p1BN/3pP1B1/3P4/PPP3PP/R2Q1RK1 w q - 6 16",
+      "move_number": 16,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxe6",
+      "best": "Qf3",
+      "actual_line": "Bxe6 Qxe6 Qf3 Ng6 Qg3 Kd7",
+      "best_line": "Qf3 O-O-O Bxe6 Qxe6 Qf7"
+    },
+    "evaluation": {
+      "after_actual": -0.97,
+      "after_best": -1.94,
+      "difference": 0.97,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Attacking f2 or f7",
+        "Exposed king",
+        "Kingside attack",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "The position involves an attack on f7 and the exposed black king in the center. In the best line Qf3 O-O-O Bxe6 Qxe6 Qf7, White threatens the f7 square after Black castles queenside. However, the actual move Bxe6 was superior, immediately capturing the defender of key squares and maintaining pressure on Black's exposed king. White missed that the immediate capture was stronger than the preparatory Qf3, as it removes a key defensive piece while Black's king remains vulnerable in the center. The evaluation shows White actually found a better continuation than the engine's first choice."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 37,
+    "position": {
+      "fen": "1k1r2r1/pp2n1pp/3bq3/2p1p1BN/Q2pP3/2PP4/PP4PP/R4RK1 w - - 3 19",
+      "move_number": 19,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Rf3",
+      "best": "Ng3",
+      "actual_line": "Rf3 Qg6 Bxe7 Bxe7 Ng3 Qb6",
+      "best_line": "Ng3 h6 Bd2 dxc3 Bxc3"
+    },
+    "evaluation": {
+      "after_actual": 0.65,
+      "after_best": -0.24,
+      "difference": 0.89,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features a kingside attack pattern where both sides have castled kingside and are maneuvering for attacking chances. White's knight on h5 is somewhat exposed and the best move Ng3 would have been a defensive repositioning move to maintain better piece coordination. The actual move Rf3 was inferior because it failed to address the knight's precarious position and allowed Black to maintain pressure. The evaluation difference of 0.89 indicates White missed a chance to maintain a more balanced position and instead gave Black better practical chances. Black's pieces (queen on e6, rooks on d8/g8) are actively placed for potential kingside pressure."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 38,
+    "position": {
+      "fen": "1k1r4/p5p1/1p3b1p/2p1p3/P1Q1P1q1/2pP1RN1/1P4PP/6K1 w - - 0 27",
+      "move_number": 27,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qxc3",
+      "best": "bxc3",
+      "actual_line": "Qxc3 Qd7 a5 Qd4+ Qxd4 Rxd4",
+      "best_line": "bxc3 Qd7 Kf1 Bg5 Ke2"
+    },
+    "evaluation": {
+      "after_actual": 0.01,
+      "after_best": -0.96,
+      "difference": 0.97,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Defensive move",
+        "Hanging piece"
+      ],
+      "reasoning": "The position revolves around Black's advanced c3 pawn which is deep in White's position and creating tactical threats. White's best move bxc3 was a defensive recapture to eliminate this dangerous pawn, but instead White played Qxc3 which allowed Black to maintain pressure. The advanced pawn is the primary tactical motif, while the best move represents a necessary defensive response that White missed."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 39,
+    "position": {
+      "fen": "2kr2r1/pp2n1pp/3bq3/2p1p1BN/3pP3/2PP4/PP4PP/R2Q1RK1 w - - 1 18",
+      "move_number": 18,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qa4",
+      "best": "cxd4",
+      "actual_line": "Qa4 a6 cxd4 exd4 Nf4 Qe5",
+      "best_line": "cxd4 cxd4 Rc1+ Kb8 Qb3"
+    },
+    "evaluation": {
+      "after_actual": -0.15,
+      "after_best": -0.72,
+      "difference": 0.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Queenside attack",
+        "Exposed king",
+        "Clearance",
+        "Advantage"
+      ],
+      "reasoning": "The best move cxd4 initiates a queenside attack against Black's exposed king on c8. The sequence cxd4 cxd4 Rc1+ Kb8 Qb3 demonstrates a clearance motif where White clears the c-file for the rook to give check, forcing the black king to a worse square on b8. This creates pressure on the queenside where Black's king lacks adequate defenders. White missed this tactical opportunity by playing Qa4 instead, which doesn't create the same immediate threats. The evaluation difference of 0.57 shows White could have gained a significant advantage through this queenside attack pattern."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 40,
+    "position": {
+      "fen": "1k6/6p1/1p3b1p/2p1pN2/1r2P3/3P1R2/1P4PP/6K1 w - - 2 32",
+      "move_number": 32,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Rf2",
+      "best": "Nxh6",
+      "actual_line": "Rf2 h5 Kf1 Rb3 Rd2 Kc7",
+      "best_line": "Nxh6 Rxb2 Ng4 Bd8 Nxe5"
+    },
+    "evaluation": {
+      "after_actual": 0.55,
+      "after_best": 0.0,
+      "difference": 0.55,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Fork",
+        "Defensive move"
+      ],
+      "reasoning": "The best move Nxh6 captures a hanging pawn on h6, and the subsequent knight maneuvers create fork-like threats against multiple Black pieces (the bishop and e5 pawn). White's actual move Rf2 is a defensive move that fails to capitalize on Black's tactical vulnerabilities. White missed winning the h6 pawn and creating active piece play with the knight, instead choosing a passive defensive setup that allows Black to equalize."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 41,
+    "position": {
+      "fen": "1k1r2r1/pp2n1p1/3bq2p/2p1p1BN/Q2pP3/2PP1R2/PP4PP/R5K1 w - - 0 20",
+      "move_number": 20,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bh4",
+      "best": "Bd2",
+      "actual_line": "Bh4 Qg4 Bxe7 Bxe7 Rf7 Qg5",
+      "best_line": "Bd2 dxc3 Bxc3 Nc6 Qc4"
+    },
+    "evaluation": {
+      "after_actual": 0.57,
+      "after_best": -0.28,
+      "difference": 0.85,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Advanced pawn",
+        "Hanging piece"
+      ],
+      "reasoning": "The primary tactical motif is 'Defensive move' - White needed to play the precise Bd2 to properly defend against Black's advanced d4 pawn and maintain piece coordination. The best line Bd2 dxc3 Bxc3 shows White correctly dealing with Black's central pawn pressure. 'Advanced pawn' is also relevant as Black's d4 pawn is creating significant pressure in White's position. The actual move Bh4 was inferior because it failed to address the central tension properly, allowing Black to maintain better piece activity. White missed the opportunity to neutralize Black's pawn pressure with the more active Bd2, which would have led to better piece coordination after the forced sequence."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 42,
+    "position": {
+      "fen": "1k6/6p1/1p3b1p/2p1pN2/4P3/1r1P4/1P3RPP/6K1 w - - 4 33",
+      "move_number": 33,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Rd2",
+      "best": "Nxh6",
+      "actual_line": "Rd2 g6 Nd6 Bg5 Re2 Bc1",
+      "best_line": "Nxh6 Rxd3 Ng4 Bg5 Rf7"
+    },
+    "evaluation": {
+      "after_actual": 1.46,
+      "after_best": 0.12,
+      "difference": 1.34,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Capture the defender",
+        "Hanging piece",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The best move Nxh6 appears to capture a key defensive pawn that was protecting Black's kingside structure. The h6 pawn was likely a critical defender, and removing it would expose Black's king position or create weaknesses. White missed this tactical opportunity by playing the passive Rd2 instead, allowing Black to consolidate with g6 and improve their position. The knight on h6 would have maintained pressure and kept White's pieces more active. By not capturing this defender, White allowed Black to gain a significant positional advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 43,
+    "position": {
+      "fen": "1k1r4/pp4p1/5b1p/2p1p3/Q2pP1q1/2PP1RN1/PP4PP/6K1 w - - 1 25",
+      "move_number": 25,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qc4",
+      "best": "c4",
+      "actual_line": "Qc4 Qg5 cxd4 cxd4 Nf1 Rc8",
+      "best_line": "c4 h5 h3 Qg5 Qd1"
+    },
+    "evaluation": {
+      "after_actual": 0.46,
+      "after_best": -0.44,
+      "difference": 0.9,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Quiet move",
+        "Advantage"
+      ],
+      "reasoning": "The best move c4 is a quiet pawn advance that doesn't capture or give check, but creates a strong positional advantage by attacking Black's pawn chain and restricting Black's pieces. White missed this opportunity to gain a significant advantage (evaluation difference of 0.9). Instead, White played the defensive Qc4, allowing Black to maintain equality. The position involves White needing to find the precise move to maintain/gain advantage, making it a defensive/quiet move motif where White failed to seize the advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 44,
+    "position": {
+      "fen": "8/2k5/1p4pp/2p1p1b1/2N1P3/3r4/1PR3PP/6K1 w - - 2 37",
+      "move_number": 37,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nxe5",
+      "best": "Kf2",
+      "actual_line": "Nxe5 Re3 Nxg6 Rxe4 Kf2 Re6",
+      "best_line": "Kf2 Bf6 Ne3 Kd6 Rc3"
+    },
+    "evaluation": {
+      "after_actual": 2.18,
+      "after_best": 1.65,
+      "difference": 0.53,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "White's actual move Nxe5 captures a hanging pawn on e5, but this allows Black tactical counterplay with Re3, giving Black's rook dangerous activity and attacking White's pieces. The best move Kf2 was a quiet defensive move that would have centralized White's king and maintained better piece coordination. White missed the opportunity to keep a larger advantage by playing the more principled king centralization instead of the materialistic pawn capture."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 45,
+    "position": {
+      "fen": "r2qk2r/pp1n1pp1/2pbpn2/8/2PP1Pbp/2NB1N2/PP4PP/R1BQK2R w KQkq - 5 12",
+      "move_number": 12,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "O-O",
+      "best": "h3",
+      "actual_line": "O-O h3 g3 c5 Be3 cxd4",
+      "best_line": "h3 Bh5 O-O Qc7 Qd2"
+    },
+    "evaluation": {
+      "after_actual": 0.82,
+      "after_best": -0.26,
+      "difference": 1.08,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Defensive move",
+        "Attacking f2 or f7",
+        "Exposed king"
+      ],
+      "reasoning": "Black has initiated a kingside attack with the pawn advance g4 and bishop on h5, creating threats against White's kingside. The best move h3 was a defensive move that would challenge Black's attacking setup by attacking the g4 pawn and forcing the h5 bishop to make a decision. By castling with O-O instead, White walked into Black's kingside attack, allowing Black to maintain pressure on the kingside. The h3 move would have disrupted Black's coordination and given White better defensive chances, but castling exposed White's king to the very attack Black was preparing."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 46,
+    "position": {
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "Nf3",
+      "actual_line": "f4 d4 Nce2 c5 Nf3 Nc6",
+      "best_line": "Nf3 d4 Ne2 c5 b4"
+    },
+    "evaluation": {
+      "after_actual": 0.25,
+      "after_best": -0.35,
+      "difference": 0.6,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "The actual move f4 represents a premature kingside attack attempt that backfires. This aggressive pawn advance weakens White's kingside structure and creates tactical vulnerabilities. The best move Nf3 would have been a quiet, developing move that maintains better defensive coordination. White missed the opportunity to develop naturally and instead created weaknesses with the hasty f4 advance. The evaluation swing of 0.6 points indicates that f4 allows Black to seize the initiative through the continuation ...d4, attacking the knight and gaining central space. White's mistake was prioritizing aggression over sound development principles in the opening."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 47,
+    "position": {
+      "fen": "8/8/1pkr3p/2p5/3bP1p1/5N2/1PR1K1PP/8 w - - 0 45",
+      "move_number": 45,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nd2",
+      "best": "Nxd4+",
+      "actual_line": "Nd2 Rf6 Kd3 Kb5 b3 h5",
+      "best_line": "Nxd4+ Rxd4 Ke3 b5 Rf2"
+    },
+    "evaluation": {
+      "after_actual": 1.08,
+      "after_best": 0.0,
+      "difference": 1.08,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Defensive move",
+        "Equality",
+        "Short puzzle"
+      ],
+      "reasoning": "The primary tactical motif is 'Hanging piece' - the Black bishop on d4 was insufficiently defended and could have been captured with Nxd4+ with check, winning material or forcing favorable exchanges. This also qualifies as 'Defensive move' since White needed the precise Nxd4+ to maintain equality rather than the passive Nd2 retreat. The position represents an 'Equality' motif as the best move leads to a balanced endgame (eval 0.0), while the actual move allows Black to maintain an advantage. It's a 'Short puzzle' requiring White to find the two-move tactical sequence Nxd4+ followed by the forced recapture. White missed the opportunity to capture the hanging bishop with tempo (check), instead playing a passive retreat that allowed Black to consolidate the advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 48,
+    "position": {
+      "fen": "r3k2r/pp1n1pp1/4p3/3n4/6bp/3BqN2/PP2N1PP/R2Q1R1K w kq - 0 18",
+      "move_number": 18,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bb5",
+      "best": "h3",
+      "actual_line": "Bb5 h3 Bxd7+ Ke7 Qxd5 hxg2+",
+      "best_line": "h3 Bxf3 Rxf3 Qb6 Nf4"
+    },
+    "evaluation": {
+      "after_actual": 2.96,
+      "after_best": 2.0,
+      "difference": 0.96,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Kingside attack",
+        "Exposed king",
+        "Hanging piece"
+      ],
+      "reasoning": "The position features a critical defensive moment where White needed to play h3 to address Black's dangerous bishop on g4 that was pinning and attacking the knight on f3. Black has a strong kingside attack brewing with the active queen on e3 and bishop on g4 targeting White's somewhat exposed king on h1. By playing Bb5 instead of h3, White allowed Black to maintain the pressure and later advance the h-pawn to g2 with check, creating serious threats against White's king position. The best move h3 would have forced the bishop to make a decision and relieved the pressure on the f3 knight, maintaining White's defensive coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 49,
+    "position": {
+      "fen": "2kr3r/pp1n1pp1/4p3/1B1n4/6bp/4qN2/PP2N1PP/R2Q1R1K w - - 2 19",
+      "move_number": 19,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Ned4",
+      "best": "h3",
+      "actual_line": "Ned4 h3 gxh3 Bxh3 Qc2+ Kb8",
+      "best_line": "h3 Bh5 Qa4 Kb8 Bxd7"
+    },
+    "evaluation": {
+      "after_actual": 3.04,
+      "after_best": 2.2,
+      "difference": 0.84,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Defensive move",
+        "Attacking f2 or f7",
+        "Deflection"
+      ],
+      "reasoning": "This position features a kingside attack motif where Black has an active queen on e3 and bishop on g4 creating threats against White's king on h1. The best move h3 is a defensive move that deflects the Black bishop from g4, preventing Black's tactical threats involving the h3-square and potential attacks on f2. White missed this defensive resource by playing Ned4, which allows Black to continue the attack with h3, gxh3, Bxh3, creating dangerous threats against the exposed White king. The position shows characteristics of attacking f2/f7 as Black's pieces are coordinated to create threats around White's king position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 50,
+    "position": {
+      "fen": "8/1p4p1/p2kpp2/5b2/8/4nNPp/PP5P/2N3K1 w - - 5 33",
+      "move_number": 33,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kf2",
+      "best": "Nd4",
+      "actual_line": "Kf2 Nd1+ Ke2 Nxb2 Nd2 Bg4+",
+      "best_line": "Nd4 Be4 Nde2 e5 Nc3"
+    },
+    "evaluation": {
+      "after_actual": 5.41,
+      "after_best": 4.84,
+      "difference": 0.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Fork",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a fork tactic where Black's knight on e3 can play Nd1+ after White's Kf2, forking the king and b2 pawn. The best move Nd4 is a defensive move that centralizes the knight and prevents Black's tactical threats. White's king is somewhat exposed, making it vulnerable to Black's active knight. White missed the opportunity to consolidate with Nd4, instead allowing Black's fork tactic with the inferior Kf2."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 51,
+    "position": {
+      "fen": "rn1qkb1r/pp3pp1/2p1pn2/5b2/3P1P1p/5N2/PPP1N1PP/R1BQKB1R w KQkq - 0 9",
+      "move_number": 9,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "c4",
+      "best": "Nc3",
+      "actual_line": "c4 c5 d5 exd5 cxd5 Qxd5",
+      "best_line": "Nc3 h3 g3 Bb4 Bd2"
+    },
+    "evaluation": {
+      "after_actual": 1.89,
+      "after_best": 1.22,
+      "difference": 0.67,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "Black has initiated a kingside attack with ...h4, threatening to advance further with ...h3 and create weaknesses around White's king. The best move Nc3 followed by g3 represents the correct defensive approach to neutralize this threat. White's actual move c4 is premature and ignores Black's kingside pressure, allowing Black to gain counterplay in the center with ...c5. This falls under 'Advantage' motif as White missed the chance to maintain a better position and allowed Black to equalize the game more easily."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 52,
+    "position": {
+      "fen": "r3k2r/pp1n1pp1/4pn2/3p4/2P3bp/3BqN2/PP2N1PP/R2Q1R1K w kq - 0 17",
+      "move_number": 17,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "cxd5",
+      "best": "h3",
+      "actual_line": "cxd5 h3 dxe6 hxg2+ Kxg2 Bxe6",
+      "best_line": "h3 dxc4 Bxc4 Bxf3 Rxf3"
+    },
+    "evaluation": {
+      "after_actual": 3.39,
+      "after_best": 2.77,
+      "difference": 0.62,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Pin",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a classic kingside attack pattern where Black has a queen on e3 and bishop on g4 creating serious threats against White's king on h1. The best move h3 is a defensive move that attacks the threatening bishop on g4, forcing it to make a decision and reducing Black's attacking potential. White missed this defensive resource by playing cxd5 instead, allowing Black to maintain the pin on the f3 knight (pinned by the bishop on g4) and continue the kingside attack. After the actual move cxd5, Black gets to play h3 first, and the resulting line hxg2+ exposes White's king further, demonstrating the 'exposed king' motif where the king becomes vulnerable due to insufficient defenders."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 53,
+    "position": {
+      "fen": "8/1pk3p1/p3pp2/3n1b2/8/6Pp/PP1N3P/2N4K w - - 1 31",
+      "move_number": 31,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Nf3",
+      "best": "Nf1",
+      "actual_line": "Nf3 Be4 Kg1 Bxf3 Nd3 Bg4",
+      "best_line": "Nf1 Be4+ Kg1 f5 Nd2"
+    },
+    "evaluation": {
+      "after_actual": 5.45,
+      "after_best": 4.42,
+      "difference": 1.03,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Exposed king",
+        "Advantage"
+      ],
+      "reasoning": "This position primarily involves a defensive move motif. The best move Nf1 is a precise defensive move needed to prevent Black's threatening Be4+ check, which would further expose White's king and increase Black's advantage. White's king on h1 is somewhat exposed with limited defenders. The actual move Nf3 was inferior because it failed to prevent Black's Be4, allowing Black to maintain pressure with the bishop-knight coordination. Black threatens to increase the advantage through active piece play, and White needed the defensive Nf1 to minimize this threat. The position also falls under 'Advantage' as Black is pressing a significant positional advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 54,
+    "position": {
+      "fen": "rn1qk2r/pp2bppp/4b3/2ppP3/8/2PB1N2/PPP3PP/R1BQ1RK1 w kq - 2 9",
+      "move_number": 9,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Bf4",
+      "best": "Qe1",
+      "actual_line": "Bf4 Nc6 Be3 Qc7 Qe1 c4",
+      "best_line": "Qe1 Nc6 Qg3 c4 Qxg7"
+    },
+    "evaluation": {
+      "after_actual": 0.34,
+      "after_best": -0.53,
+      "difference": 0.87,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Advanced pawn",
+        "Attacking f2 or f7",
+        "Advantage"
+      ],
+      "reasoning": "The best move Qe1 initiates a kingside attack against Black's castled king position. The line Qe1 Nc6 Qg3 c4 Qxg7 shows White attacking the g7 square near Black's king, which is a classic kingside attack pattern. White also has an advanced pawn on e5 that supports this attack. By playing Bf4 instead, White missed the opportunity to seize a decisive advantage (200cp \u2264 eval \u2264 600cp range), allowing Black to equalize. The attack focuses on the area around f7/g7, which are weak squares in Black's kingside pawn structure after castling."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 55,
+    "position": {
+      "fen": "3q1r1k/pp2bppp/2r1b3/2ppP3/5B2/2P2NQ1/PPP3PP/R4RK1 w - - 0 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Rad1",
+      "best": "Bg5",
+      "actual_line": "Rad1 h6 Ne1 d4 cxd4 cxd4",
+      "best_line": "Bg5 Bf5 c4 dxc4 Rad1"
+    },
+    "evaluation": {
+      "after_actual": 1.2,
+      "after_best": 0.32,
+      "difference": 0.88,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Capture the defender",
+        "Pin",
+        "Kingside attack",
+        "Advantage"
+      ],
+      "reasoning": "The best move Bg5 attacks the bishop on e7, which is a classic 'capture the defender' motif. The bishop on e7 is likely defending key squares or pieces around Black's king. By attacking it with Bg5, White forces the bishop to move or be exchanged, weakening Black's kingside defense. This could also create a pin if the bishop is pinned to the king or queen. The position shows White had a chance to maintain an advantage (eval +0.32) but missed it by playing the inferior Rad1, allowing Black to improve their position (eval +1.2 in Black's favor). White's pieces (Queen on g3, Knight on f3, advanced pawn on e5) are well-placed for a kingside attack, and the best move Bg5 would have continued this attacking theme by removing a key defender."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 56,
+    "position": {
+      "fen": "8/1p4p1/p2kpp2/3b4/8/3Nn1Pp/PP1N3P/6K1 w - - 13 37",
+      "move_number": 37,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kf2",
+      "best": "Nf2",
+      "actual_line": "Kf2 Ng4+ Kg1 e5 a4 a5",
+      "best_line": "Nf2 e5 g4 Bxa2 b3"
+    },
+    "evaluation": {
+      "after_actual": 5.29,
+      "after_best": 4.42,
+      "difference": 0.87,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Fork",
+        "Defensive move",
+        "Quiet move",
+        "Advantage"
+      ],
+      "reasoning": "The position involves a critical choice between Nf2 and Kf2. The best move Nf2 likely serves as a defensive move to control key squares and prevent Black's knight from becoming too active. After the actual move Kf2, Black can play Ng4+ creating a fork (checking the king and potentially attacking other pieces). The knight move Nf2 would have been a quiet but strong defensive move, maintaining better control. White missed the opportunity to keep a larger advantage (eval difference of 0.87 points), allowing Black's pieces to become more active with the knight fork Ng4+."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 57,
+    "position": {
+      "fen": "5r1k/pp1qbppp/2r1b3/2ppP3/5B2/2P2NQ1/PPP3PP/3R1RK1 w - - 2 15",
+      "move_number": 15,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Ng5",
+      "best": "Bg5",
+      "actual_line": "Ng5 Bg4 Nf3 Ra6 h3 Be6",
+      "best_line": "Bg5 Ra6 Bxe7 Qxe7 a3"
+    },
+    "evaluation": {
+      "after_actual": 1.04,
+      "after_best": 0.44,
+      "difference": 0.6,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Capture the defender",
+        "Kingside attack",
+        "Advanced pawn",
+        "Exposed king"
+      ],
+      "reasoning": "The primary tactical motif is 'Capture the defender' - the best move Bg5 attacks the bishop on e7, which is a crucial piece defending Black's kingside. By removing or forcing the exchange of this defender, White can intensify pressure on Black's exposed king on h8. The position also features a 'Kingside attack' as White's pieces (Queen on g3, potential bishop on g5) are aimed at Black's castled king position. White has an 'Advanced pawn' on e5 that supports the attack and restricts Black's pieces. Black's king qualifies as 'Exposed' with limited escape squares and facing coordinated pressure from White's pieces. White missed the opportunity to maintain strong attacking chances by playing the inferior Ng5 instead of the forcing Bg5, allowing Black to consolidate the defense with moves like Bg4."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 58,
+    "position": {
+      "fen": "r1bqkb1r/pppn1ppp/4pn2/8/4NP2/5N2/PPPP2PP/R1BQKB1R w KQkq - 3 6",
+      "move_number": 6,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Ng3",
+      "best": "Nxf6+",
+      "actual_line": "Ng3 Bd6 d4 c5 Bd3 Qc7",
+      "best_line": "Nxf6+ Nxf6 g3 Bd7 Bg2"
+    },
+    "evaluation": {
+      "after_actual": 0.62,
+      "after_best": -0.07,
+      "difference": 0.69,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Fork",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "White missed a tactical fork with Nxf6+, which would capture the knight on f6 with check. This move removes a key defender of Black's kingside position. Instead, White played the passive Ng3, retreating the active knight from e4 and allowing Black to consolidate with moves like Bd6. The best line Nxf6+ Nxf6 g3 Bd7 Bg2 shows White maintaining near equality, while the actual line Ng3 Bd6 d4 c5 Bd3 Qc7 gives Black a clear advantage. White essentially missed capturing a defender that was protecting Black's kingside structure."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 59,
+    "position": {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "d4",
+      "actual_line": "f4 d4 Nb1 f5 exf5 Qd5",
+      "best_line": "d4 Nf6 Bg5 dxe4 Nxe4"
+    },
+    "evaluation": {
+      "after_actual": 0.26,
+      "after_best": -0.38,
+      "difference": 0.64,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "One-move puzzle"
+      ],
+      "reasoning": "The position involves White missing the opportunity to seize a slight advantage through the central pawn break d4. Instead of challenging Black's central pawn structure immediately, White played the premature f4, allowing Black to consolidate and gain a small advantage. The best move d4 would have opened the center, challenged Black's pawn on d5, and followed classical opening principles. This represents a tactical opportunity to gain an advantage through proper central control rather than the actual move which allows Black to strengthen their position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 60,
+    "position": {
+      "fen": "r1bqk2r/pppn1ppp/3bp3/3n4/3P1P2/5NN1/PPP3PP/R1BQKB1R w KQkq - 1 8",
+      "move_number": 8,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Ne5",
+      "best": "c4",
+      "actual_line": "Ne5 O-O Be2 f5 Bf3 c5",
+      "best_line": "c4 Bb4+ Kf2 N5f6 Bd3"
+    },
+    "evaluation": {
+      "after_actual": 0.3,
+      "after_best": -0.36,
+      "difference": 0.66,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "The best move c4 attacks Black's centralized knight on d5, which becomes a tactical target. This knight, while not exactly 'hanging,' is forced to move under pressure, disrupting Black's piece coordination. The move c4 is also a quiet developing move that improves White's central control. White missed the opportunity to challenge Black's strong central knight and instead played Ne5, allowing Black to consolidate with castling and maintain better piece coordination. The evaluation swing of 0.66 points shows White missed a chance to equalize the position and instead allowed Black to maintain a slight advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 61,
+    "position": {
+      "fen": "r2q1rk1/pp1b2pp/2pb1p2/3np3/3P1P2/2PB1QN1/PP4PP/R1B1K2R w KQ - 0 13",
+      "move_number": 13,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bc4",
+      "best": "Qh5",
+      "actual_line": "Bc4 Kh8 O-O exd4 cxd4 Qb6",
+      "best_line": "Qh5 e4 Nxe4 Bxf4 O-O"
+    },
+    "evaluation": {
+      "after_actual": 0.93,
+      "after_best": -0.35,
+      "difference": 1.28,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Advantage"
+      ],
+      "reasoning": "The best move Qh5 initiates a direct kingside attack against Black's castled king, which becomes somewhat exposed after the queen move creates immediate threats. White missed the opportunity to seize a significant advantage (evaluation swing of 1.28) by playing the more passive Bc4 instead of the aggressive Qh5. The line Qh5 e4 Nxe4 Bxf4 O-O shows White maintaining attacking chances even after Black's central counterplay with e4, as White can continue with Nxe4 and maintain pressure on the kingside while completing development with castling."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 62,
+    "position": {
+      "fen": "r2q1rk1/pppb2pp/3bpp2/3n4/3P1P2/2P3N1/PP4PP/R1BQKB1R w KQ - 0 11",
+      "move_number": 11,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Qf3",
+      "best": "c4",
+      "actual_line": "Qf3 Bc6 f5 exf5 Bc4 Re8+",
+      "best_line": "c4 Nb4 Be2 Nc6 O-O"
+    },
+    "evaluation": {
+      "after_actual": 1.57,
+      "after_best": -0.23,
+      "difference": 1.8,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Exposed king",
+        "Hanging piece"
+      ],
+      "reasoning": "The position centers around a critical defensive moment where White must deal with Black's centralized knight on d5. The best move c4 is a precise defensive move that challenges the knight and maintains balance, while the actual move Qf3 allows Black to seize the initiative. White's king remains uncastled, making it vulnerable to Black's developing attack. The knight on d5 is not exactly hanging but becomes a target that White should have addressed immediately with c4."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 63,
+    "position": {
+      "fen": "2r2r1k/pp3ppp/6q1/3PP1B1/2p4Q/3b1R2/PP1R2PP/6K1 w - - 0 24",
+      "move_number": 24,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Rdf2",
+      "best": "h3",
+      "actual_line": "Rdf2 c3 bxc3 Be4 d6 Bxf3",
+      "best_line": "h3 Rg8 d6 Qe6 Be7"
+    },
+    "evaluation": {
+      "after_actual": -0.98,
+      "after_best": -2.74,
+      "difference": 1.76,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Kingside attack",
+        "Exposed king",
+        "Advantage"
+      ],
+      "reasoning": "White has advanced pawns on d5 and e5 creating threats deep in Black's position. The best move h3 supports a kingside attack against Black's somewhat exposed king on h8, while the actual move Rdf2 allows Black counterplay with c3. White missed the opportunity to maintain pressure with the advanced pawn push d6 in the best line, instead allowing Black to seize the initiative with pawn advances and piece activity."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 64,
+    "position": {
+      "fen": "r2q1r1k/pp1b2pp/2pb1p2/3np3/2BP1P2/2P2QN1/PP4PP/R1B1K2R w KQ - 2 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "f5",
+      "best": "O-O",
+      "actual_line": "f5 exd4 O-O dxc3 bxc3 b5",
+      "best_line": "O-O exd4 cxd4 Qb6 Qf2"
+    },
+    "evaluation": {
+      "after_actual": 1.87,
+      "after_best": 0.82,
+      "difference": 1.05,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Castling",
+        "Defensive move"
+      ],
+      "reasoning": "The position features Black's somewhat exposed king after castling kingside, making it a target for White's attack. The best move O-O represents a key defensive/consolidating moment where White should bring the king to safety before continuing the attack. White's actual move f5 was more aggressive but missed the chance to castle safely first, allowing Black more counterplay with moves like exd4 and b5. The tactical theme revolves around the timing of when to consolidate (castle) versus when to attack the exposed enemy king."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 65,
+    "position": {
+      "fen": "r6k/pp4pp/5p2/3p1b2/3Pr3/1P2B1P1/1P3KP1/R2R4 w - - 2 23",
+      "move_number": 23,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Rdc1",
+      "best": "Ra5",
+      "actual_line": "Rdc1 Bd7 Rc5 Rae8 Rc3 a6",
+      "best_line": "Ra5 Be6 Rc1 Bg8 b4"
+    },
+    "evaluation": {
+      "after_actual": 2.32,
+      "after_best": 1.27,
+      "difference": 1.05,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "This position involves White maintaining and consolidating an advantage in the middle game. The best move Ra5 attacks the black bishop on f5, forcing it to retreat and allowing White to maintain better piece coordination with moves like b4 to expand on the queenside. The actual move Rdc1, while still good for White, allows Black to keep the bishop more actively placed and maintain some counterplay with the rook on e4. White missed the opportunity to immediately challenge Black's active pieces and instead played a more passive rook coordination move. The position falls under 'Advantage' as White is seizing the chance to get a decisive advantage (eval between 200cp-600cp), and involves elements of defensive consolidation and quiet positional improvement."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 66,
+    "position": {
+      "fen": "3R4/1p1r4/p4pk1/3p1b2/3P4/1P4P1/1P3KP1/8 w - - 2 32",
+      "move_number": 32,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Rxd7",
+      "best": "Re8",
+      "actual_line": "Rxd7 Bxd7 g4 Be6 b4 Kg5",
+      "best_line": "Re8 Kf7 Rh8 Re7 b4"
+    },
+    "evaluation": {
+      "after_actual": 5.82,
+      "after_best": 4.84,
+      "difference": 0.98,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Advantage",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "The position involves White having captured a rook with Rxd7, suggesting Black had a hanging piece. However, the best move Re8 was a quieter, more positional continuation that would have maintained a larger advantage (4.84 vs 5.82 evaluation). The actual move Rxd7, while winning material, allows Black's bishop to become more active (Bxd7 followed by Be6), giving Black better defensive chances. The best line Re8 Kf7 Rh8 Re7 b4 shows White maintaining pressure with the rook on the back rank before Black can fully coordinate. White missed the opportunity to keep maximum pressure and allowed Black more counterplay by taking the immediate material gain."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 67,
+    "position": {
+      "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "Nf3",
+      "actual_line": "f4 g6 Nf3 Bg7 g3 e6",
+      "best_line": "Nf3 e5 Bc4 Be7 d3"
+    },
+    "evaluation": {
+      "after_actual": 0.26,
+      "after_best": -0.29,
+      "difference": 0.55,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "White played the aggressive f4 instead of the solid Nf3. While f4 aims for a kingside attack by controlling central squares and preparing potential pawn storms, it exposes White's king by weakening the kingside structure. The best move Nf3 is a defensive developing move that maintains better king safety while still controlling important central squares. White missed the opportunity to maintain a slight advantage and instead allowed Black to equalize with better chances."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 68,
+    "position": {
+      "fen": "r6k/pp4p1/5p1p/3p1b2/3Pr3/1P2B1P1/1P3KP1/R1R5 w - - 0 24",
+      "move_number": 24,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Rc7",
+      "best": "Ra5",
+      "actual_line": "Rc7 Rae8 Rc3 a6 Ra5 b5",
+      "best_line": "Ra5 Rae8 Rc3 R4e7 b4"
+    },
+    "evaluation": {
+      "after_actual": 2.18,
+      "after_best": 1.64,
+      "difference": 0.54,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Defensive move",
+        "Quiet move",
+        "Queenside attack"
+      ],
+      "reasoning": "White missed the opportunity to maintain pressure with Ra5 followed by b4, which would create threats on the queenside and maintain a significant advantage (eval 1.64). Instead, Rc7 allows Black to improve coordination with Rae8, reducing White's advantage from 1.64 to 2.18. The best line Ra5 Rae8 Rc3 R4e7 b4 shows White creating queenside pressure and maintaining better piece coordination. This is a quiet positional move that prepares concrete threats rather than making immediate captures or checks. White's mistake allows Black to neutralize some of the pressure and achieve better defensive coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 69,
+    "position": {
+      "fen": "r2q1r1k/pp1b2pp/2pb1p2/3n1P2/2Bp4/2P2QN1/PP4PP/R1B1K2R w KQ - 0 15",
+      "move_number": 15,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "cxd4",
+      "best": "O-O",
+      "actual_line": "cxd4 Qb6 Bxd5 cxd5 Be3 Qb4+",
+      "best_line": "O-O dxc3 bxc3 b5 Bxd5"
+    },
+    "evaluation": {
+      "after_actual": 2.74,
+      "after_best": 2.03,
+      "difference": 0.71,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Castling",
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "The position centers around king safety. White's best move O-O addresses the critical need to castle and bring the king to safety, as the white king remains dangerously exposed on e1. The actual move cxd4 opens up the position prematurely while the king is still uncastled, allowing Black tactical opportunities with moves like Qb6 and potential checks. Black has a centralized knight on d5 and can create immediate threats against the exposed white king. By not castling, White missed the opportunity to consolidate the position safely while maintaining the advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 70,
+    "position": {
+      "fen": "r1bq1knr/pp3pbp/3p2p1/1N2p3/Q2pPP2/2PB4/PP1P2PP/R1B1K2R w KQ - 2 11",
+      "move_number": 11,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "b3",
+      "best": "Qa3",
+      "actual_line": "b3 Bd7 Ba3 a6 Nxd6 Bxa4",
+      "best_line": "Qa3 exf4 Bc4 Be6 Bxe6"
+    },
+    "evaluation": {
+      "after_actual": -0.24,
+      "after_best": -1.12,
+      "difference": 0.88,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Kingside attack",
+        "Exposed king",
+        "Advantage"
+      ],
+      "reasoning": "The position features Black's exposed king on f8 that hasn't castled, making it vulnerable to attack. White's best move Qa3 was a defensive move that paradoxically allowed Black's threatening pawn break exf4 but maintained compensation through active piece play and pressure on Black's exposed king. The actual move b3 was inferior because it failed to address Black's central pawn break threat (exf4), allowing Black to improve their position with moves like Bd7. White missed the opportunity to maintain pressure on Black's kingside where the uncastled king remains exposed. The evaluation difference of 0.88 points represents White missing a chance to maintain an advantage through proper defensive technique."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 71,
+    "position": {
+      "fen": "r2q1k1r/1p1bnpbp/p2B2p1/1N2p3/Q2pPP2/1PPB4/P2P2PP/R3K2R w KQ - 0 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "fxe5",
+      "best": "Qa3",
+      "actual_line": "fxe5 axb5 Qxd4 Kg8 O-O Nc8",
+      "best_line": "Qa3 Bxb5 Bxb5 axb5 Bxe7+"
+    },
+    "evaluation": {
+      "after_actual": 1.07,
+      "after_best": 0.0,
+      "difference": 1.07,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Hanging piece",
+        "Sacrifice",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features a hanging piece motif where White's knight on b5 is under attack by Black's bishop. The best move Qa3 initiates a defensive sacrifice sequence - White allows Bxb5 but follows with Bxb5 axb5 Bxe7+ to maintain material balance through a temporary sacrifice. The actual move fxe5 fails to address this threat, allowing Black to simply capture the knight with axb5, giving Black a significant material advantage. This represents White missing a critical defensive resource and falling into a worse position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 72,
+    "position": {
+      "fen": "Q3bk1r/1p2qpbp/6p1/1p2P3/3pP3/1PPB4/P2P2PP/R3K2R w KQ - 1 17",
+      "move_number": 17,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxb5",
+      "best": "cxd4",
+      "actual_line": "Bxb5 Qh4+ Kd1 Bh6 Rf1 Kg7",
+      "best_line": "cxd4 Bh6 Qa5 Qh4+ g3"
+    },
+    "evaluation": {
+      "after_actual": -2.95,
+      "after_best": -4.23,
+      "difference": 1.28,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "The position features Black's uncastled king on f8 making it exposed and vulnerable. In the best line, Black threatens a kingside attack with Qh4+ check, forcing White to play g3. White's best move cxd4 was a defensive move to better handle Black's threats, but White instead played the inferior Bxb5, missing the opportunity to put up stronger resistance. The evaluation difference of 1.28 shows White allowed Black to maintain a stronger advantage than necessary."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 73,
+    "position": {
+      "fen": "r1bqk1nr/pppnppbp/3p2p1/8/4PP2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+      "move_number": 5,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "d3",
+      "best": "d4",
+      "actual_line": "d3 e5 Be2 Ne7 fxe5 Nxe5",
+      "best_line": "d4 e6 Bd3 Ne7 Qe2"
+    },
+    "evaluation": {
+      "after_actual": -0.31,
+      "after_best": -0.96,
+      "difference": 0.65,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Quiet move",
+        "Defensive move"
+      ],
+      "reasoning": "White missed a significant tactical opportunity by playing d3 instead of d4. The best move d4 would have given White a substantial advantage (eval -0.96 favoring White) by seizing central space and potentially disrupting Black's pawn structure. The move d4 followed by e6 Bd3 Ne7 Qe2 shows White building a strong central presence. Instead, d3 allows Black to equalize more easily with e5, and White only maintains a slight edge. This represents a missed 'Advantage' where White could have seized a decisive positional plus. The move d4 is also a 'Quiet move' that doesn't capture or check but prepares strong central control, and d3 could be seen as a 'Defensive move' that is more cautious but less ambitious than the optimal continuation."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 74,
+    "position": {
+      "fen": "r2q1k1r/1p1bnpbp/3B2p1/1p2P3/Q2pP3/1PPB4/P2P2PP/R3K2R w KQ - 0 15",
+      "move_number": 15,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxe7+",
+      "best": "Qxd4",
+      "actual_line": "Bxe7+ Kxe7 Qxd4 Qc7 Qb4+ Kd8",
+      "best_line": "Qxd4 Kg8 O-O h5 a4"
+    },
+    "evaluation": {
+      "after_actual": 2.26,
+      "after_best": 0.78,
+      "difference": 1.48,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Hanging piece",
+        "Sacrifice",
+        "Advantage"
+      ],
+      "reasoning": "White missed the simple tactical shot Qxd4, capturing Black's hanging pawn on d4 which was undefended. Instead, White played the flashy but inferior Bxe7+, sacrificing the bishop for a check. While Bxe7+ does expose Black's king and forces it to move (Kxe7), this sacrifice doesn't yield sufficient compensation compared to simply winning the free pawn with Qxd4. The d4 pawn was a hanging piece that White could have captured for free, maintaining a solid advantage. The actual move Bxe7+ falls into the 'sacrifice' motif as White gives up material, and 'exposed king' as it forces Black's king into the open, but it's tactically inferior to the simple material gain."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 75,
+    "position": {
+      "fen": "rnbqk1nr/ppp1ppbp/3p2p1/8/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+      "move_number": 4,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nf3",
+      "best": "d4",
+      "actual_line": "Nf3 c5 d4 cxd4 Nxd4 Nc6",
+      "best_line": "d4 Nc6 Be3 Nf6 Nf3"
+    },
+    "evaluation": {
+      "after_actual": -0.15,
+      "after_best": -0.67,
+      "difference": 0.52,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Quiet move",
+        "Advantage"
+      ],
+      "reasoning": "The best move d4 is a quiet central advance that doesn't give check or capture but establishes a strong pawn center and prepares better piece development. White missed the opportunity to seize a significant advantage (evaluation difference of 0.52) by playing the premature Nf3 instead of the central d4. The best line d4 Nc6 Be3 Nf6 Nf3 shows White maintaining central control and better piece coordination, while the actual line allows Black to equalize with c5 and central exchanges."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 76,
+    "position": {
+      "fen": "r1bq1rk1/ppp3bp/3p1npn/4ppN1/4PP2/2NP2P1/PPP3BP/R1BQ1RK1 w - - 2 10",
+      "move_number": 10,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "b3",
+      "best": "fxe5",
+      "actual_line": "b3 exf4 gxf4 Nxe4 dxe4 Bxc3",
+      "best_line": "fxe5 dxe5 Kh1 c6 Qe2"
+    },
+    "evaluation": {
+      "after_actual": 1.27,
+      "after_best": -0.3,
+      "difference": 1.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Sacrifice",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "The position involves a kingside attack where White missed a critical tactical opportunity. The best move 'fxe5' involves capturing Black's central pawn, which likely serves as a key defender of Black's kingside structure. After 'fxe5 dxe5', White opens lines toward Black's castled king position. White's actual move 'b3' was a slow positional move that allowed Black to maintain their strong central presence with pawns on e5 and f5, and potentially launch a counterattack with moves like 'exf4'. The evaluation swing from -0.3 (slight advantage to Black after best move) to +1.27 (clear advantage to Black after actual move) indicates White missed a chance to maintain near-equality and instead fell into a worse position. The line 'b3 exf4 gxf4 Nxe4 dxe4 Bxc3' shows Black can win material by capturing the defender and creating tactical complications."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 77,
+    "position": {
+      "fen": "r5k1/1R3p2/4p3/p1B2np1/8/3r2PK/PR5P/8 w - - 0 29",
+      "move_number": 29,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kg4",
+      "best": "Be7",
+      "actual_line": "Kg4 Kg7 Rb8 Rxb8 Rxb8 Rd5",
+      "best_line": "Be7 Nxe7 Rxe7 Rf3 Kg4"
+    },
+    "evaluation": {
+      "after_actual": 2.06,
+      "after_best": 0.61,
+      "difference": 1.45,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Sacrifice",
+        "Capture the defender",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "The best move Be7 is a bishop sacrifice to eliminate Black's dangerous knight on f5, which is a key defender and attacker in Black's position. By playing Kg4 instead, White missed this defensive sacrifice and allowed Black to maintain the active knight while White's king becomes more exposed. The knight on f5 is well-placed to support Black's attack and control key squares around White's king. White's mistake allows Black to keep this strong piece and maintain pressure."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 78,
+    "position": {
+      "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "Nf3",
+      "actual_line": "f4 g6 Nf3 Bg7 a4 a6",
+      "best_line": "Nf3 Nd4 Nb5 Nxb5 Bxb5"
+    },
+    "evaluation": {
+      "after_actual": 0.31,
+      "after_best": -0.26,
+      "difference": 0.57,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Fork",
+        "Quiet move"
+      ],
+      "reasoning": "The best move Nf3 is a defensive move that prepares to counter Black's tactical threat of Nd4 (which would fork multiple pieces and centralize powerfully). White's actual move f4 is a mistake because it fails to address this central threat, allowing Black to maintain better piece coordination. The position involves Black's potential knight fork on d4 that White should defend against with Nf3, followed by the counter-tactic Nb5."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 79,
+    "position": {
+      "fen": "rnbqk1nr/ppppppbp/6p1/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "d4",
+      "actual_line": "f4 c5 g3 Nc6 Bg2 e6",
+      "best_line": "d4 d5 exd5 Nf6 Bc4"
+    },
+    "evaluation": {
+      "after_actual": 0.22,
+      "after_best": -0.63,
+      "difference": 0.85,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Defensive move"
+      ],
+      "reasoning": "This position involves White missing the opportunity to seize a clear advantage in the opening. The best move d4 would establish a strong pawn center and give White the initiative with moves like d4 d5 exd5 Nf6 Bc4, maintaining pressure and better piece coordination. Instead, the actual move f4 is premature and allows Black to equalize with counterplay via ...c5, challenging White's center and achieving a comfortable position. White missed the chance to maintain opening advantage through central control."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 80,
+    "position": {
+      "fen": "r5k1/1R3p2/4p3/p2r2p1/6K1/B3n1P1/PR5P/8 w - - 4 31",
+      "move_number": 31,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kh5",
+      "best": "Kf3",
+      "actual_line": "Kh5 Kg7 Rxf7+ Kxf7 Rf2+ Rf5",
+      "best_line": "Kf3 Nc4 Rb8+ Rd8 Rxa8"
+    },
+    "evaluation": {
+      "after_actual": 5.28,
+      "after_best": 4.05,
+      "difference": 1.23,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Back rank mate",
+        "Exposed king",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features a critical back rank tactic where the best move Kf3 sets up Rb8+ to exploit Black's back rank weakness, forcing the rook to d8 and allowing Rxa8 to win material. The actual move Kh5 exposes White's king and misses this tactical opportunity, allowing Black counterplay with Rxf7+ and creating threats against White's exposed king position. White had a clear path to maintain and increase the advantage through the back rank attack but instead played a move that weakened the king's safety."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 81,
+    "position": {
+      "fen": "r2r2k1/pp3p1p/2q1p1p1/5n2/3P1P2/B2P2PK/P6P/1R1Q1R2 w - - 1 22",
+      "move_number": 22,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qb3",
+      "best": "Qe2",
+      "actual_line": "Qb3 Ne3 Rf2 Rd5 Be7 b6",
+      "best_line": "Qe2 Rd5 Rbc1 Qd7 Bb2"
+    },
+    "evaluation": {
+      "after_actual": 3.36,
+      "after_best": 2.5,
+      "difference": 0.86,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "White's king on h3 is in an exposed position, making this primarily about king safety and defensive coordination. The best move Qe2 provides better defensive coordination and maintains White's advantage (eval 2.5), while the actual move Qb3 allows Black tactical counterplay with Ne3, threatening the exposed white king and worsening White's position (eval 3.36, which favors Black more). The position involves a kingside attack theme as Black can exploit White's exposed king position. This also qualifies as an 'Advantage' motif since White missed the chance to maintain a significant positional advantage. The defensive move aspect is crucial - Qe2 was the precise defensive coordination needed."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 82,
+    "position": {
+      "fen": "r5k1/pR3p1p/4p1p1/5n2/5P2/B2r2PK/P6P/5R2 w - - 0 25",
+      "move_number": 25,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Bc5",
+      "best": "Bb2",
+      "actual_line": "Bc5 a6 Rfb1 h5 Be7 Kg7",
+      "best_line": "Bb2 h6 Rc1 g5 fxg5"
+    },
+    "evaluation": {
+      "after_actual": 0.64,
+      "after_best": 0.04,
+      "difference": 0.6,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Quiet move",
+        "Advantage"
+      ],
+      "reasoning": "This position involves a critical defensive choice where White needed to play the quiet retreat Bb2 to maintain near-equality. Instead, White played the more aggressive-looking Bc5, which appears active but actually allows Black better counterplay. The best move Bb2 is a precise defensive/quiet move that keeps the position balanced, while the actual move Bc5 gives White a larger advantage but at the cost of allowing Black more active possibilities. The 'Advantage' motif applies because White is seizing an advantage (though not the optimal one) with eval going from +0.04 to +0.64."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 83,
+    "position": {
+      "fen": "r1b1k2r/ppq1ppbp/3p1np1/8/4PP2/2PB4/P2PN1PP/1RBQK2R w Kkq - 3 12",
+      "move_number": 12,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Nd4",
+      "best": "O-O",
+      "actual_line": "Nd4 O-O f5 a6 O-O b5",
+      "best_line": "O-O O-O Bc2 e6 d3"
+    },
+    "evaluation": {
+      "after_actual": 0.49,
+      "after_best": -0.02,
+      "difference": 0.51,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Castling",
+        "Defensive move",
+        "Kingside attack"
+      ],
+      "reasoning": "The position centers around king safety and castling. The best move O-O is a defensive castling move that brings White's king to safety while the actual move Nd4 is a premature aggressive attempt that allows Black to gain an advantage. White missed the importance of king safety - with both kings uncastled, the priority should be getting the king to safety via castling rather than launching premature attacks. The Nd4 move, while aggressive, leaves White's king exposed in the center and allows Black to consolidate with better coordination after castling."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 84,
+    "position": {
+      "fen": "r2qkb1r/pppn1ppp/8/3pP3/5Bb1/2P2N2/PPP3PP/R2QKB1R w KQkq - 3 8",
+      "move_number": 8,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Bd3",
+      "best": "Qxd5",
+      "actual_line": "Bd3 Nc5 h3 Be6 O-O Nxd3",
+      "best_line": "Qxd5 Nc5 O-O-O Qxd5 Rxd5"
+    },
+    "evaluation": {
+      "after_actual": -0.22,
+      "after_best": -1.37,
+      "difference": 1.15,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Pin",
+        "Advanced pawn",
+        "Hanging piece",
+        "Advantage"
+      ],
+      "reasoning": "The position features a clear pin motif with Black's bishop on g4 pinning White's knight on f3 to the queen on d1. White missed the tactical opportunity to play Qxd5, capturing Black's hanging pawn on d5 and forcing favorable exchanges (Qxd5 Nc5 O-O-O Qxd5 Rxd5). Instead, White played the passive Bd3, allowing Black to maintain the pin and pressure with moves like Nc5. White also has an advanced pawn on e5 deep in Black's territory. The evaluation difference of 1.15 points indicates White missed a significant advantage by not capturing the central pawn and simplifying the position favorably."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 85,
+    "position": {
+      "fen": "r4rk1/ppq2pbp/2bp1np1/4p3/4PP2/2P2N2/P1BP2PP/1RBQ1RK1 w - - 2 16",
+      "move_number": 16,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Qe2",
+      "best": "fxe5",
+      "actual_line": "Qe2 exf4 d3 Nh5 Qd2 d5",
+      "best_line": "fxe5 dxe5 Qe1 Rac8 d3"
+    },
+    "evaluation": {
+      "after_actual": 0.94,
+      "after_best": -0.23,
+      "difference": 1.17,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Defensive move",
+        "Quiet move"
+      ],
+      "reasoning": "The position involves White missing a chance to seize a decisive advantage through the central break fxe5. The best move fxe5 would capture Black's central pawn and lead to favorable pawn exchanges, giving White better central control and piece activity. Instead, White played the more passive Qe2, which allows Black to maintain central tension and potentially equalize with moves like exf4. This represents a missed opportunity to convert a roughly equal position into a clear advantage. The motifs are 'Advantage' (White missed the chance to get a decisive advantage with eval swing of 1.17), 'Defensive move' (Qe2 is more cautious/defensive in nature), and 'Quiet move' (Qe2 doesn't make immediate threats but prepares for later play, though less effectively than the best continuation)."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 86,
+    "position": {
+      "fen": "5r1r/1pkqb3/p3p3/P2pP1pp/3Nb3/2P3BP/2PQ2P1/R4R1K w - - 0 23",
+      "move_number": 23,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Rab1",
+      "best": "Qe2",
+      "actual_line": "Rab1 h4 Bf2 g4 Rb6 Kc8",
+      "best_line": "Qe2 h4 Bh2 Kb8 Rab1"
+    },
+    "evaluation": {
+      "after_actual": 1.91,
+      "after_best": 0.98,
+      "difference": 0.93,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Queenside attack",
+        "Exposed king",
+        "Defensive move"
+      ],
+      "reasoning": "This position features a queenside attack against Black's exposed king on c7. The best move Qe2 is a crucial defensive move that prepares for Black's threatening kingside pawn storm with ...h4-g4, keeping White's bishop safe on h2. The actual move Rab1 launches the attack too early, allowing Black dangerous counterplay. White missed that defending against Black's kingside threats should come before pressing the queenside attack."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 87,
+    "position": {
+      "fen": "2kr3r/pppqb1pp/4p1b1/3pP3/1P6/2P2NBP/P1PQ2P1/R4R1K w - - 1 17",
+      "move_number": 17,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Nd4",
+      "best": "Bh4",
+      "actual_line": "Nd4 Be4 Rf7 Rdg8 Qe2 h5",
+      "best_line": "Bh4 Bxh4 Nxh4 Be4 Nf3"
+    },
+    "evaluation": {
+      "after_actual": 0.68,
+      "after_best": 0.0,
+      "difference": 0.68,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Sacrifice",
+        "Advanced pawn",
+        "Queenside attack"
+      ],
+      "reasoning": "The best move Bh4 represents a tactical sacrifice where White offers the bishop to achieve equality. After Bh4 Bxh4 Nxh4 Be4 Nf3, White sacrifices material but gets compensation through piece activity and the advanced e5 pawn. The actual move Nd4 allows Black to consolidate with Be4, giving Black a slight advantage. White missed the opportunity to use the sacrifice motif to maintain balance, instead allowing Black to improve their position with the bishop pair and better piece coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 88,
+    "position": {
+      "fen": "2kr3r/pppq1ppp/4n1b1/2bpPB2/8/2P2NBP/PPPQ2P1/R4R1K w - - 3 15",
+      "move_number": 15,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bxe6",
+      "best": "Nh4",
+      "actual_line": "Bxe6 fxe6 b4 Be7 Qe3 c5",
+      "best_line": "Nh4 a6 b4 Ba7 Rad1"
+    },
+    "evaluation": {
+      "after_actual": 0.19,
+      "after_best": -0.68,
+      "difference": 0.87,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Kingside attack",
+        "Queenside attack",
+        "Advantage"
+      ],
+      "reasoning": "White has an advanced pawn on e5 creating pressure in Black's position. The best move Nh4 would have initiated a kingside attack while Black's king is on the queenside, allowing White to maintain a significant advantage (eval -0.68). Instead, White played Bxe6, exchanging off an active piece and allowing Black to equalize. White missed the opportunity to exploit the advanced pawn and launch a decisive attack on the kingside while Black's king position remains somewhat exposed on the queenside."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 89,
+    "position": {
+      "fen": "2kr3r/pppq1ppp/4n3/2bpP2b/8/2PB1NBP/PPPQ2P1/R4R1K w - - 1 14",
+      "move_number": 14,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "Bf5",
+      "best": "b4",
+      "actual_line": "Bf5 Bg6 Nh4 Kb8 a4 Be7",
+      "best_line": "b4 Bb6 a4 a6 a5"
+    },
+    "evaluation": {
+      "after_actual": -0.81,
+      "after_best": -1.46,
+      "difference": 0.65,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Queenside attack",
+        "Advanced pawn",
+        "Defensive move"
+      ],
+      "reasoning": "The position features a classic queenside attack motif where White should play b4-a4-a5 to create threats against Black's queenside-castled king on c8. White has an advanced pawn on e5 which is deep in Black's position. The actual move Bf5 was defensive, trying to trade pieces and reduce Black's attacking potential, but it missed the more forcing queenside pawn advance. Black has threatening bishops on c5 and h5 creating pressure, and White's best defense paradoxically involved counter-attacking with the b4 pawn storm rather than passive piece play."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 90,
+    "position": {
+      "fen": "4q2r/1pk1b3/p3p3/P2pP3/4b1P1/2P2N2/2PQ2KB/5R2 w - - 1 29",
+      "move_number": 29,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "c4",
+      "best": "Kg1",
+      "actual_line": "c4 Qg8 Qf4 Qh7 Qg3 Bc5",
+      "best_line": "Kg1 Qg6 Qf4 Rg8 Qg3"
+    },
+    "evaluation": {
+      "after_actual": 4.22,
+      "after_best": 3.18,
+      "difference": 1.04,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move"
+      ],
+      "reasoning": "White's king on g2 is in an exposed position facing a potential kingside attack from Black's queen on e8, rook on h8, and active bishops. The best move Kg1 is a crucial defensive move to bring the king to safety on g1, while the actual move c4 ignores this king safety concern. Black's threat is demonstrated in the best line where after Kg1, Black immediately plays Qg6 targeting the exposed king. White missed the importance of king safety by playing the pawn advance c4 instead of the defensive Kg1."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 91,
+    "position": {
+      "fen": "8/1pk2r2/p3p1q1/P2pP3/2P1bQPb/5N2/2P4B/5R1K w - - 9 34",
+      "move_number": 34,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Qe3",
+      "best": "Qxf7+",
+      "actual_line": "Qe3 Qxg4 cxd5 Bxd5 Qc5+ Bc6",
+      "best_line": "Qxf7+ Qxf7 Kg2 dxc4 Kh3"
+    },
+    "evaluation": {
+      "after_actual": 6.98,
+      "after_best": 6.32,
+      "difference": 0.66,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Attacking f2 or f7",
+        "Exposed king",
+        "Advantage",
+        "Short puzzle"
+      ],
+      "reasoning": "The best move Qxf7+ is a direct attack on the f7 square where Black's rook sits, forcing Black's queen to recapture and giving White a material advantage. This is a classic 'Attacking f2 or f7' pattern. Black's king on b7 is also somewhat exposed with limited defenders. White missed this forcing sequence that wins the exchange (rook for nothing initially), instead playing Qe3 which allows Black counterplay with Qxg4. The position falls under 'Advantage' as White maintains a significant plus but not crushing, and it's a 'Short puzzle' requiring just a couple of moves to secure the advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 92,
+    "position": {
+      "fen": "2k2r1r/pppqb3/4p3/PP1pP1pp/3Nb3/2P3BP/2PQ2P1/R4R1K w - - 0 21",
+      "move_number": 21,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "b6",
+      "best": "Qe2",
+      "actual_line": "b6 a6 Qe2 h4 Bh2 c5",
+      "best_line": "Qe2 Bc5 Nb3 Be7"
+    },
+    "evaluation": {
+      "after_actual": 1.88,
+      "after_best": 0.0,
+      "difference": 1.88,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Queenside attack",
+        "Advanced pawn",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "This position features a queenside attack pattern where White has advanced pawns (a5, b5) targeting Black's queenside-castled king on c8. The best move Qe2 is a defensive move that centralizes the queen to deal with Black's active bishop on e4 and maintains equality. However, the actual move b6 is premature - it advances the pawn without proper preparation, allowing Black to consolidate with ...a6 and gain counterplay. The evaluation swing from 0.0 to +1.88 in Black's favor shows White missed the need for careful preparation before pushing the attack, instead allowing Black to seize the advantage through better piece coordination."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 93,
+    "position": {
+      "fen": "7r/1pkqb3/p3p3/P2pP3/3Nb1pp/2P4P/2PQ2PB/5R1K w - - 0 26",
+      "move_number": 26,
+      "game_state": "middle game"
+    },
+    "moves": {
+      "actual": "hxg4",
+      "best": "Qe3",
+      "actual_line": "hxg4 h3 Kg1 hxg2 Rf2 Kb8",
+      "best_line": "Qe3 Rg8 hxg4 Rxg4 Rf2"
+    },
+    "evaluation": {
+      "after_actual": 3.48,
+      "after_best": 2.41,
+      "difference": 1.07,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Kingside attack",
+        "Advanced pawn",
+        "Defensive move",
+        "Exposed king"
+      ],
+      "reasoning": "Black has created a dangerous kingside attack with advanced pawns on g4 and h4, threatening White's king on h1. The best move Qe3 was a defensive move that would have better dealt with Black's threats by centralizing the queen and preparing active defense. White's actual move hxg4 was inferior because while it eliminated one attacking pawn, it allowed Black to continue the attack with ...h3, maintaining dangerous pressure against White's exposed king position. The position features Black's advanced pawns as the main tactical theme, supported by the kingside attack motif."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 94,
+    "position": {
+      "fen": "8/1pk4r/p3p1q1/P2pP3/2P1bQPb/5N2/2P3KB/5R2 w - - 7 33",
+      "move_number": 33,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kh1",
+      "best": "Kg1",
+      "actual_line": "Kh1 Rf7 Qxf7+ Qxf7 Kg1 Qg6",
+      "best_line": "Kg1 Be7 Kg2 Rf7 Qg3"
+    },
+    "evaluation": {
+      "after_actual": 5.34,
+      "after_best": 4.52,
+      "difference": 0.82,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Exposed king",
+        "Kingside attack",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position features Black's pieces (rook on h7, queen on g6, bishops on e4 and h4) coordinating for a kingside attack against White's exposed king. White's actual move Kh1 was inferior to Kg1 because it places the king in a more vulnerable corner position where Black can better coordinate the attack. The best move Kg1 would have been a more precise defensive move, keeping the king more centralized and allowing better defensive coordination. Black threatens to intensify the kingside attack with moves like Rf7, and White's king placement is critical for defense. The evaluation difference of 0.82 shows White missed the chance to maintain a better defensive setup."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 95,
+    "position": {
+      "fen": "8/1p1k4/p2Pp3/P7/2P5/7K/7r/8 w - - 0 43",
+      "move_number": 43,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "Kxh2",
+      "best": "Kg4",
+      "actual_line": "Kxh2 Kxd6 Kg3 e5 Kf3 Kc5",
+      "best_line": "Kg4 Kxd6 Kg5 e5 c5+"
+    },
+    "evaluation": {
+      "after_actual": 8.38,
+      "after_best": 7.7,
+      "difference": 0.68,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advanced pawn",
+        "Defensive move",
+        "Advantage"
+      ],
+      "reasoning": "The position centers around White's advanced d6 pawn, which is deep in Black's position and critical for White's winning chances. The best move Kg4 was a defensive move that would maintain the advanced pawn's support and preserve White's advantage (eval 7.7). However, the actual move Kxh2 was inferior because it allowed Black to capture the advanced d6 pawn with Kxd6, significantly reducing White's winning chances (eval dropped from 7.7 to 8.38, favoring Black more). White missed the opportunity to properly defend the advanced pawn and maintain the advantage in this king and pawn endgame."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 96,
+    "position": {
+      "fen": "8/1p1k4/p2Pp3/P7/8/7K/2P2r1B/8 w - - 1 42",
+      "move_number": 42,
+      "game_state": "endgame"
+    },
+    "moves": {
+      "actual": "c4",
+      "best": "Bg1",
+      "actual_line": "c4 Rxh2+ Kxh2 Kxd6 Kg3 Kc5",
+      "best_line": "Bg1 Rf5 Bb6 Kxd6 Kg3"
+    },
+    "evaluation": {
+      "after_actual": 6.21,
+      "after_best": 5.52,
+      "difference": 0.69,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Deflection",
+        "Exposed king",
+        "Sacrifice",
+        "Crushing"
+      ],
+      "reasoning": "This is an endgame position where White has a crushing advantage (eval 5.52-6.21 favoring White). The best move Bg1 is a defensive move that deflects Black's rook from its aggressive position on f2, where it threatens White's exposed king on h3 with checks like Rxh2+. The actual move c4 was inferior because it allows Black the tactical shot Rxh2+ Kxh2, forcing White's king to a worse square and giving Black counterplay by capturing the advanced d6 pawn with Kxd6. White missed the precise defensive technique - instead of pushing for immediate pawn promotion with c4, White should have first neutralized Black's rook activity with Bg1, maintaining the crushing advantage while avoiding tactical complications around the exposed king."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 97,
+    "position": {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+      "move_number": 3,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "f4",
+      "best": "d4",
+      "actual_line": "f4 d4 Nce2 c5 Nf3 Nc6",
+      "best_line": "d4 Nf6 Bg5 dxe4 Nxe4"
+    },
+    "evaluation": {
+      "after_actual": 0.31,
+      "after_best": -0.3,
+      "difference": 0.61,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Defensive move",
+        "Quiet move",
+        "Advantage"
+      ],
+      "reasoning": "White missed the critical central breakthrough d4, which is the principled move in the French Defense. The best move d4 allows Black to capture on e4 but White gets excellent piece activity and central control in return. By playing f4 instead, White avoids the tactical complications but allows Black to maintain a solid central structure. The position involves a defensive concept where White needed to find the precise continuation to maintain equality in the opening, but chose a safer, less challenging approach that gives Black a slight advantage."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 98,
+    "position": {
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/4NP2/8/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+      "move_number": 5,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "Ng3",
+      "best": "Nxf6+",
+      "actual_line": "Ng3 Bd7 Nf3 c5 d3 Be7",
+      "best_line": "Nxf6+ Qxf6 Nf3 Qxf4 d4"
+    },
+    "evaluation": {
+      "after_actual": 0.71,
+      "after_best": 0.02,
+      "difference": 0.69,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Fork",
+        "Capture the defender",
+        "Advantage"
+      ],
+      "reasoning": "The best move Nxf6+ creates a tactical fork pattern where the knight captures the defender on f6 with check, forcing Black's queen to recapture and allowing White to continue with tactical pressure. White missed this opportunity by playing the passive Ng3, allowing Black to gain a significant advantage (0.69 evaluation swing). The knight on f6 was a key defender that White should have eliminated to maintain dynamic equality in the position."
+    },
+    "is_player_move": true
+  },
+  {
+    "id": 99,
+    "position": {
+      "fen": "rn1qkb1r/pbp2ppp/1p2pn2/8/5P2/5NN1/PPPP2PP/R1BQKB1R w KQkq - 2 7",
+      "move_number": 7,
+      "game_state": "opening"
+    },
+    "moves": {
+      "actual": "c3",
+      "best": "d4",
+      "actual_line": "c3 h5 h4 c5 Bb5+ Nbd7",
+      "best_line": "d4 h5 Bb5+ Nc6 Ne5"
+    },
+    "evaluation": {
+      "after_actual": 1.05,
+      "after_best": 0.39,
+      "difference": 0.66,
+      "quality": "mistake"
+    },
+    "analysis": {
+      "motifs": [
+        "Advantage",
+        "Kingside attack",
+        "Pin",
+        "Exposed king"
+      ],
+      "reasoning": "The position falls into the 'Advantage' category as the evaluation difference of 0.66 puts it in the 200-600cp range where one side can seize a decisive advantage. White missed the opportunity to play the aggressive d4, which would have led to Bb5+ creating a pin against Black's king (still in the center). The best line shows d4 h5 Bb5+ Nc6 Ne5, where White gets active piece play and puts pressure on Black's exposed king in the center. Instead, the passive c3 allows Black to consolidate with moves like h5 and c5, gaining space and initiative. The motif involves White missing a chance to exploit Black's king safety issues and central control."
+    },
+    "is_player_move": true
+  }
+]

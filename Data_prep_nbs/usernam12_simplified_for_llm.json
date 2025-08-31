@@ -1,0 +1,4560 @@
+[
+  {
+    "game": {
+      "game_number": 1,
+      "white": "usernam12",
+      "black": "Waldler59",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 14,
+      "perfect_moves": 5,
+      "inaccuracies": 1,
+      "mistakes": 7,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 4,
+        "fen": "rnbqkbnr/ppp2ppp/3p4/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+        "played": "Nf3",
+        "best": "Qf3",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 5,
+        "fen": "rnbqkbnr/ppp2p1p/3p4/6p1/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 5",
+        "played": "Bc4",
+        "best": "d4",
+        "loss": 0.56,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "rnbqk2r/ppp1npb1/3p3p/6p1/2BPPp2/2N2N2/PPP3PP/R1BQ1RK1 w kq - 1 8",
+        "played": "Re1",
+        "best": "g3",
+        "loss": 1.13,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r1bq1rk1/ppp1npb1/2np3p/8/2BPPppP/2N5/PPP3PN/R1BQR1K1 w - - 2 11",
+        "played": "Bxf4",
+        "best": "Ne2",
+        "loss": 0.73,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r1bq1rk1/ppp1np2/2np3p/8/2BbPBpP/2N5/PPP3PN/R2QR1K1 w - - 0 12",
+        "played": "Kh1",
+        "best": "Be3",
+        "loss": 0.82,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r1bq1rk1/ppp2p2/2np2np/8/2BbPBpP/2N5/PPP3PN/R2QR2K w - - 2 13",
+        "played": "Bxh6",
+        "best": "Ne2",
+        "loss": 1.9,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 2,
+      "white": "usernam12",
+      "black": "Ngcongo235",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 70,
+      "perfect_moves": 40,
+      "inaccuracies": 4,
+      "mistakes": 13,
+      "blunders": 6
+    },
+    "key_mistakes": [
+      {
+        "move": 19,
+        "fen": "1r2rbk1/p1p2p1p/3p1Bp1/2p2P2/4P3/2N2P2/PqPK2QP/3R2R1 w - - 0 19",
+        "played": "Nd5",
+        "best": "Rb1",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "1r2r1k1/p1p2p1p/3p1Bpb/2pN1P2/4P3/5P2/PqPK2QP/3R2R1 w - - 2 20",
+        "played": "f4",
+        "best": "Ke1",
+        "loss": 1.99,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "1r2r1k1/p1p2p1p/3p1Bp1/2pNbP2/4P3/8/PqP3QP/3RK1R1 w - - 2 22",
+        "played": "c3",
+        "best": "fxg6",
+        "loss": 1.03,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "4k3/p1p2p1p/1r1p2p1/2p2P2/4P3/2P5/P2R1K1P/6R1 w - - 4 28",
+        "played": "Rgd1",
+        "best": "Re2",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 37,
+        "fen": "8/4k3/1r1p1p2/p1p2Kp1/8/2P5/P2R3P/6R1 w - - 2 37",
+        "played": "Re2+",
+        "best": "h4",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "8/5k2/1r1p1p2/p1p2Kp1/8/2P5/P3R2P/6R1 w - - 4 38",
+        "played": "Re6",
+        "best": "Rge1",
+        "loss": 1.59,
+        "type": "mistake"
+      },
+      {
+        "move": 39,
+        "fen": "8/5k2/3pRp2/p1p2Kp1/8/2P5/Pr5P/6R1 w - - 6 39",
+        "played": "Rxd6",
+        "best": "Rxf6+",
+        "loss": 1.3,
+        "type": "mistake"
+      },
+      {
+        "move": 41,
+        "fen": "8/5k2/3R1p2/p1p3p1/6K1/2P5/r6P/6R1 w - - 0 41",
+        "played": "h3",
+        "best": "Rf1",
+        "loss": 0.85,
+        "type": "mistake"
+      },
+      {
+        "move": 42,
+        "fen": "8/5k2/3R1p2/p1p3p1/6K1/2P4P/2r5/6R1 w - - 1 42",
+        "played": "Rg3",
+        "best": "Rf1",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 43,
+        "fen": "8/5k2/3R1p2/2p3p1/p5K1/2P3RP/2r5/8 w - - 0 43",
+        "played": "Ra6",
+        "best": "Rf3",
+        "loss": 0.65,
+        "type": "mistake"
+      },
+      {
+        "move": 48,
+        "fen": "6k1/R7/7R/2p3p1/6K1/p1P4P/r7/8 w - - 5 48",
+        "played": "Rb6",
+        "best": "Rd6",
+        "loss": 91.83,
+        "type": "blunder"
+      },
+      {
+        "move": 50,
+        "fen": "5k2/R7/6R1/2p3p1/6K1/p1P4P/1r6/8 w - - 9 50",
+        "played": "Rxa3",
+        "best": "Rd6",
+        "loss": 2.04,
+        "type": "blunder"
+      },
+      {
+        "move": 51,
+        "fen": "1r3k2/8/6R1/2p3p1/6K1/R1P4P/8/8 w - - 1 51",
+        "played": "Ra7",
+        "best": "Kxg5",
+        "loss": 3.99,
+        "type": "blunder"
+      },
+      {
+        "move": 54,
+        "fen": "1r4k1/R7/2R5/2p3p1/6K1/2P4P/8/8 w - - 7 54",
+        "played": "Kxg5",
+        "best": "Rg6+",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 55,
+        "fen": "4r1k1/R7/2R5/2p3K1/8/2P4P/8/8 w - - 1 55",
+        "played": "Rxc5",
+        "best": "Kh6",
+        "loss": 92.42,
+        "type": "blunder"
+      },
+      {
+        "move": 56,
+        "fen": "3r2k1/R7/8/2R3K1/8/2P4P/8/8 w - - 1 56",
+        "played": "h4",
+        "best": "Rc6",
+        "loss": 5.74,
+        "type": "blunder"
+      },
+      {
+        "move": 57,
+        "fen": "3r1k2/R7/8/2R3K1/7P/2P5/8/8 w - - 1 57",
+        "played": "h5",
+        "best": "Rc6",
+        "loss": 90.15,
+        "type": "blunder"
+      },
+      {
+        "move": 58,
+        "fen": "3r2k1/R7/8/2R3KP/8/2P5/8/8 w - - 1 58",
+        "played": "Rcc7",
+        "best": "Rc6",
+        "loss": 0.8,
+        "type": "mistake"
+      },
+      {
+        "move": 65,
+        "fen": "3r1k2/6RR/8/7P/6K1/2P5/8/8 w - - 15 65",
+        "played": "Rd7",
+        "best": "h6",
+        "loss": 0.6,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 3,
+      "white": "usernam12",
+      "black": "AK064",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 43,
+      "perfect_moves": 25,
+      "inaccuracies": 2,
+      "mistakes": 13,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "played": "Nc3",
+        "best": "exd5",
+        "loss": 1.12,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r2qkb1r/pppn1ppb/4pn1p/7P/3P4/4BNN1/PPP2PP1/R2QKB1R w KQkq - 2 10",
+        "played": "Qd2",
+        "best": "Bd3",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r2q1rk1/pp1nbpp1/4pn1p/2p4P/3P4/3QBNN1/PPP2PP1/2KR3R w - - 3 14",
+        "played": "Qd2",
+        "best": "Ne5",
+        "loss": 0.92,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "r4r2/pp2Rppk/4p2p/2p1P2P/8/6N1/PPP2Pn1/2K4R w - - 0 20",
+        "played": "Ne2",
+        "best": "Rxb7",
+        "loss": 1.5,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r2r4/p3Rppk/4p2p/1pp1P2P/8/8/PPP2P1R/2K1n1N1 w - - 4 23",
+        "played": "f4",
+        "best": "f3",
+        "loss": 1.41,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "r7/p3Rppk/4p2p/1pp1P2P/5r2/8/PPK1R3/6N1 w - - 0 26",
+        "played": "Nh3",
+        "best": "Rc7",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "r7/p3RRpk/4p2p/1pp3r1/8/8/PPK5/6N1 w - - 1 30",
+        "played": "Nf3",
+        "best": "Nh3",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 34,
+        "fen": "3r4/4RRpk/p3p2p/1p6/2pN4/4K3/PP4r1/8 w - - 0 34",
+        "played": "Nxe6",
+        "best": "Kf3",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 35,
+        "fen": "6r1/4RRpk/p3N2p/1p6/2p5/4K3/PP4r1/8 w - - 1 35",
+        "played": "Ra7",
+        "best": "Nf8+",
+        "loss": 1.13,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "6r1/R4Rpk/p3N1r1/1p5p/2p5/8/PP3K2/8 w - - 4 38",
+        "played": "Nf4",
+        "best": "Nf8+",
+        "loss": 2.29,
+        "type": "blunder"
+      },
+      {
+        "move": 39,
+        "fen": "6r1/R4Rpk/p7/1p4rp/2p2N2/8/PP3K2/8 w - - 6 39",
+        "played": "Nh3",
+        "best": "Ne6",
+        "loss": 0.72,
+        "type": "mistake"
+      },
+      {
+        "move": 40,
+        "fen": "6r1/R4Rpk/p7/1p5p/2p3r1/7N/PP3K2/8 w - - 8 40",
+        "played": "Rxa6",
+        "best": "Nf4",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 41,
+        "fen": "6r1/5Rpk/R7/1p6/2p3rp/7N/PP3K2/8 w - - 0 41",
+        "played": "Rb6",
+        "best": "Rf5",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 42,
+        "fen": "6r1/5Rpk/1R6/1p6/2p4p/6rN/PP3K2/8 w - - 2 42",
+        "played": "Nf4",
+        "best": "Rf3",
+        "loss": 1.46,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 4,
+      "white": "usernam12",
+      "black": "est8",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 37,
+      "perfect_moves": 15,
+      "inaccuracies": 4,
+      "mistakes": 10,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqk1nr/ppppppbp/6p1/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 1.07,
+        "type": "mistake"
+      },
+      {
+        "move": 4,
+        "fen": "rnbqk1nr/ppp1ppbp/3p2p1/8/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+        "played": "Nf3",
+        "best": "d4",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r2qk2r/1b2ppbp/p1np1np1/1pp5/4PP2/P1NP1NP1/1PP3BP/R1BQ1RK1 w kq - 5 10",
+        "played": "e5",
+        "best": "f5",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2qk2r/1b2ppbp/p1np2p1/1pp1P3/5Pn1/P1NP1NP1/1PP3BP/R1BQ1RK1 w kq - 1 11",
+        "played": "Qe2",
+        "best": "h3",
+        "loss": 1.4,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "3q1rk1/2brpp1p/p5p1/1pB2n2/8/P1NP2P1/1PP2QBP/R3R1K1 w - - 3 20",
+        "played": "Bc6",
+        "best": "Bh3",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "3q1rk1/2b1pp1p/p4rp1/1pB2n2/4B3/P1NP2P1/1PP2Q1P/R3R1K1 w - - 7 22",
+        "played": "Bxf5",
+        "best": "Nd5",
+        "loss": 5.52,
+        "type": "blunder"
+      },
+      {
+        "move": 23,
+        "fen": "3q1rk1/2b1pp1p/p5p1/1pB2r2/8/P1NP2P1/1PP2Q1P/R3R1K1 w - - 0 23",
+        "played": "Qxf5",
+        "best": "Qd4",
+        "loss": 2.22,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "3q1rk1/2b1pp1p/p7/1pB2p2/8/P1NP2P1/1PP4P/R3R1K1 w - - 0 24",
+        "played": "Bxe7",
+        "best": "d4",
+        "loss": 0.81,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "2r5/2bqBpkp/p7/1p3p2/8/P1NP2P1/1PP1R1KP/5R2 w - - 7 28",
+        "played": "Bb4",
+        "best": "Bg5",
+        "loss": 2.51,
+        "type": "blunder"
+      },
+      {
+        "move": 31,
+        "fen": "2r5/2b1Bpkp/7q/pp3p2/8/P1NP2PK/1PP1R2P/5R2 w - - 4 31",
+        "played": "Kg2",
+        "best": "Bh4",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 32,
+        "fen": "2r5/2b1Bpkp/7q/p4p2/1p6/P1NP2P1/1PP1R1KP/5R2 w - - 0 32",
+        "played": "axb4",
+        "best": "Nd5",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "2r5/2b1Bpkp/7q/5p2/1p6/2NP2P1/1PP1R1KP/5R2 w - - 0 33",
+        "played": "Bxb4",
+        "best": "Nd5",
+        "loss": 0.82,
+        "type": "mistake"
+      },
+      {
+        "move": 35,
+        "fen": "2r5/2b2pkp/7q/8/1B2N3/3P2p1/1PP1R1KP/5R2 w - - 0 35",
+        "played": "hxg3",
+        "best": "Bc3+",
+        "loss": 0.95,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 5,
+      "white": "usernam12",
+      "black": "IThror",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 26,
+      "perfect_moves": 18,
+      "inaccuracies": 0,
+      "mistakes": 3,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nf3",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 7,
+        "fen": "r1bqk1nr/pp1pppbp/6p1/nB6/2p1PP2/2N2N2/PPPP2PP/R1BQ1RK1 w kq - 0 7",
+        "played": "b3",
+        "best": "d3",
+        "loss": 3.3,
+        "type": "blunder"
+      },
+      {
+        "move": 9,
+        "fen": "r1b1k1nr/pp1ppp1p/1q4p1/nB6/2p1PP2/1Pb2N2/P1PP2PP/R1BQ1R1K w kq - 0 9",
+        "played": "Bxd7+",
+        "best": "dxc3",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r3k1nr/pp2pp1p/1q4p1/n7/2p1PPb1/1PP2N2/P1P3PP/R1BQ1R1K w kq - 1 11",
+        "played": "Ba3",
+        "best": "b4",
+        "loss": 0.84,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "5k1r/ppr1pP2/1q3np1/n3Q3/2p5/BPP2R2/P1P3PP/R6K w - - 0 20",
+        "played": "Qxf6",
+        "best": "Rxf6",
+        "loss": 4.62,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 6,
+      "white": "usernam12",
+      "black": "tekeltili",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 49,
+      "perfect_moves": 26,
+      "inaccuracies": 4,
+      "mistakes": 13,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "played": "Nc3",
+        "best": "exd5",
+        "loss": 1.08,
+        "type": "mistake"
+      },
+      {
+        "move": 7,
+        "fen": "rn1qkbnr/pp4pp/5p2/2p1p3/3pPPb1/3P1N2/PPP1N1PP/R1BQKB1R w KQkq - 2 7",
+        "played": "Ng3",
+        "best": "h3",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2qk1nr/pp4pp/3bbp2/2p1n3/3pP3/3P1NN1/PPP1B1PP/R1BQ1RK1 w kq - 0 11",
+        "played": "Bf4",
+        "best": "Nh5",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r3k1r1/pp1qn1pp/3bb3/2p1p1BN/3pP1B1/3P4/PPP3PP/R2Q1RK1 w q - 6 16",
+        "played": "Bxe6",
+        "best": "Qf3",
+        "loss": 0.8,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "2kr2r1/pp2n1pp/3bq3/2p1p1BN/3pP3/2PP4/PP4PP/R2Q1RK1 w - - 1 18",
+        "played": "Qa4",
+        "best": "cxd4",
+        "loss": 0.67,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "1k1r2r1/pp2n1pp/3bq3/2p1p1BN/Q2pP3/2PP4/PP4PP/R4RK1 w - - 3 19",
+        "played": "Rf3",
+        "best": "Qb3",
+        "loss": 0.89,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "1k1r2r1/pp2n1p1/3bq2p/2p1p1BN/Q2pP3/2PP1R2/PP4PP/R5K1 w - - 0 20",
+        "played": "Bh4",
+        "best": "Bd2",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "1k1r4/pp4p1/5b1p/2p1p3/Q2pP1q1/2PP1RN1/PP4PP/6K1 w - - 1 25",
+        "played": "Qc4",
+        "best": "c4",
+        "loss": 0.94,
+        "type": "mistake"
+      },
+      {
+        "move": 27,
+        "fen": "1k1r4/p5p1/1p3b1p/2p1p3/P1Q1P1q1/2pP1RN1/1P4PP/6K1 w - - 0 27",
+        "played": "Qxc3",
+        "best": "bxc3",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "1k6/6p1/1p3b1p/2p1pN2/4P3/1r1P4/1P3RPP/6K1 w - - 4 33",
+        "played": "Rd2",
+        "best": "Nxh6",
+        "loss": 1.3,
+        "type": "mistake"
+      },
+      {
+        "move": 35,
+        "fen": "1k6/8/1p4pp/2p1pNb1/4P3/1r1P4/1PR3PP/6K1 w - - 0 35",
+        "played": "Nd6",
+        "best": "h4",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 45,
+        "fen": "8/8/1pkr3p/2p5/3bP1p1/5N2/1PR1K1PP/8 w - - 0 45",
+        "played": "Nd2",
+        "best": "Nxd4+",
+        "loss": 1.13,
+        "type": "mistake"
+      },
+      {
+        "move": 49,
+        "fen": "8/8/4k2p/1pp5/4P1p1/8/1PR1K1PP/8 w - - 0 49",
+        "played": "Ke3",
+        "best": "Rxc5",
+        "loss": 0.99,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 7,
+      "white": "usernam12",
+      "black": "study_hack",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 53,
+      "perfect_moves": 30,
+      "inaccuracies": 6,
+      "mistakes": 10,
+      "blunders": 4
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "rn1qkb1r/pp2ppp1/2p2n2/5b2/5P1p/5N2/PPPPN1PP/R1BQKB1R w KQkq - 2 8",
+        "played": "d4",
+        "best": "Ned4",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 9,
+        "fen": "rn1qkb1r/pp3pp1/2p1pn2/5b2/3P1P1p/5N2/PPP1N1PP/R1BQKB1R w KQkq - 0 9",
+        "played": "c4",
+        "best": "Nc3",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r2qk2r/pp1n1pp1/2pbpn2/8/2PP1Pbp/2NB1N2/PP4PP/R1BQK2R w KQkq - 5 12",
+        "played": "O-O",
+        "best": "h3",
+        "loss": 1.19,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r3k2r/ppqn1pp1/2pbpn2/8/2PP1Pbp/2NB1N2/PP4PP/R1BQ1RK1 w kq - 7 13",
+        "played": "d5",
+        "best": "h3",
+        "loss": 2.78,
+        "type": "blunder"
+      },
+      {
+        "move": 15,
+        "fen": "r3k2r/pp1n1pp1/2p1pn2/3P4/2P2qbp/2NB1N2/PP4PP/R2Q1RK1 w kq - 0 15",
+        "played": "Ne2",
+        "best": "dxe6",
+        "loss": 2.01,
+        "type": "blunder"
+      },
+      {
+        "move": 17,
+        "fen": "r3k2r/pp1n1pp1/4pn2/3p4/2P3bp/3BqN2/PP2N1PP/R2Q1R1K w kq - 0 17",
+        "played": "cxd5",
+        "best": "h3",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r3k2r/pp1n1pp1/4p3/3n4/6bp/3BqN2/PP2N1PP/R2Q1R1K w kq - 0 18",
+        "played": "Bb5",
+        "best": "h3",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "2kr3r/pp1n1pp1/4p3/1B1n4/6bp/4qN2/PP2N1PP/R2Q1R1K w - - 2 19",
+        "played": "Ned4",
+        "best": "h3",
+        "loss": 1.47,
+        "type": "mistake"
+      },
+      {
+        "move": 31,
+        "fen": "8/1pk3p1/p3pp2/3n1b2/8/6Pp/PP1N3P/2N4K w - - 1 31",
+        "played": "Nf3",
+        "best": "Nf1",
+        "loss": 1.52,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "8/1p4p1/p2kpp2/5b2/8/4nNPp/PP5P/2N3K1 w - - 5 33",
+        "played": "Kf2",
+        "best": "Nd2",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 37,
+        "fen": "8/1p4p1/p2kpp2/3b4/8/3Nn1Pp/PP1N3P/6K1 w - - 13 37",
+        "played": "Kf2",
+        "best": "Nf2",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 46,
+        "fen": "8/5bp1/5p2/4k3/1p3Nn1/2N3Pp/1P5P/6K1 w - - 0 46",
+        "played": "Nd1",
+        "best": "Nd3+",
+        "loss": 3.18,
+        "type": "blunder"
+      },
+      {
+        "move": 53,
+        "fen": "8/5bp1/5p2/8/1p6/2kNK1P1/7P/8 w - - 2 53",
+        "played": "Ke2",
+        "best": "h3",
+        "loss": 2.22,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 8,
+      "white": "usernam12",
+      "black": "eltvillekuhn",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 27,
+      "perfect_moves": 13,
+      "inaccuracies": 5,
+      "mistakes": 4,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 14,
+        "fen": "3q1r1k/pp2bppp/2r1b3/2ppP3/5B2/2P2NQ1/PPP3PP/R4RK1 w - - 0 14",
+        "played": "Rad1",
+        "best": "Bg5",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "5r1k/pp1qbppp/2r1b3/2ppP3/5B2/2P2NQ1/PPP3PP/3R1RK1 w - - 2 15",
+        "played": "Ng5",
+        "best": "Bg5",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "2r2r1k/pp3ppp/6q1/2ppP1B1/2P1b2Q/8/PPPR2PP/3R2K1 w - - 1 21",
+        "played": "cxd5",
+        "best": "Be7",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "2r2r1k/pp3ppp/6q1/3PP1B1/2p4Q/3b1R2/PP1R2PP/6K1 w - - 0 24",
+        "played": "Rdf2",
+        "best": "h3",
+        "loss": 1.57,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "2r2r1k/pp3ppp/6q1/3PP1B1/2p1b2Q/5R2/PP3RPP/6K1 w - - 2 25",
+        "played": "Rf4",
+        "best": "Rg3",
+        "loss": 4.1,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 9,
+      "white": "usernam12",
+      "black": "chesshero01",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 32,
+      "perfect_moves": 14,
+      "inaccuracies": 5,
+      "mistakes": 10,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.69,
+        "type": "mistake"
+      },
+      {
+        "move": 6,
+        "fen": "r1bqkb1r/pppn1ppp/4pn2/8/4NP2/5N2/PPPP2PP/R1BQKB1R w KQkq - 3 6",
+        "played": "Ng3",
+        "best": "Nxf6+",
+        "loss": 0.7,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r1bqk2r/pppn1ppp/3bp3/3n4/3P1P2/5NN1/PPP3PP/R1BQKB1R w KQkq - 1 8",
+        "played": "Ne5",
+        "best": "c4",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2q1rk1/pppb2pp/3bpp2/3n4/3P1P2/2P3N1/PP4PP/R1BQKB1R w KQ - 0 11",
+        "played": "Qf3",
+        "best": "c4",
+        "loss": 1.71,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r2q1rk1/pp1b2pp/2pb1p2/3np3/3P1P2/2PB1QN1/PP4PP/R1B1K2R w KQ - 0 13",
+        "played": "Bc4",
+        "best": "Qh5",
+        "loss": 1.17,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r2q1r1k/pp1b2pp/2pb1p2/3np3/2BP1P2/2P2QN1/PP4PP/R1B1K2R w KQ - 2 14",
+        "played": "f5",
+        "best": "O-O",
+        "loss": 1.05,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r6k/pp4pp/5p2/3p1b2/3Pr3/1P2B1P1/1P3KP1/R2R4 w - - 2 23",
+        "played": "Rdc1",
+        "best": "Ra5",
+        "loss": 1.22,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "r6k/pp4p1/5p1p/3p1b2/3Pr3/1P2B1P1/1P3KP1/R1R5 w - - 0 24",
+        "played": "Rc7",
+        "best": "Ra5",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "4r2k/ppR3p1/5p1p/3p1b2/3Pr3/1P2B1P1/1P3KP1/R7 w - - 2 25",
+        "played": "Bxh6",
+        "best": "Re1",
+        "loss": 1.83,
+        "type": "mistake"
+      },
+      {
+        "move": 32,
+        "fen": "3R4/1p1r4/p4pk1/3p1b2/3P4/1P4P1/1P3KP1/8 w - - 2 32",
+        "played": "Rxd7",
+        "best": "Re8",
+        "loss": 1.41,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 10,
+      "white": "usernam12",
+      "black": "KnownAsMage",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 39,
+      "perfect_moves": 23,
+      "inaccuracies": 5,
+      "mistakes": 6,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 11,
+        "fen": "r1bq1knr/pp3pbp/3p2p1/1N2p3/Q2pPP2/2PB4/PP1P2PP/R1B1K2R w KQ - 2 11",
+        "played": "b3",
+        "best": "Qa3",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r2q1k1r/pp1bnpbp/3p2p1/1N2p3/Q2pPP2/BPPB4/P2P2PP/R3K2R w KQ - 3 13",
+        "played": "Bxd6",
+        "best": "Qb4",
+        "loss": 2.15,
+        "type": "blunder"
+      },
+      {
+        "move": 14,
+        "fen": "r2q1k1r/1p1bnpbp/p2B2p1/1N2p3/Q2pPP2/1PPB4/P2P2PP/R3K2R w KQ - 0 14",
+        "played": "fxe5",
+        "best": "Qa3",
+        "loss": 1.54,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r2q1k1r/1p1bnpbp/3B2p1/1p2P3/Q2pP3/1PPB4/P2P2PP/R3K2R w KQ - 0 15",
+        "played": "Bxe7+",
+        "best": "Qxd4",
+        "loss": 1.42,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "Q3bk1r/1p2qpbp/6p1/1B2P3/4P3/1Pp5/P2P2PP/R3K2R w KQ - 0 18",
+        "played": "d4",
+        "best": "Qxe8+",
+        "loss": 5.48,
+        "type": "blunder"
+      },
+      {
+        "move": 32,
+        "fen": "1r6/7p/6p1/P2P2k1/1p2P3/1P1K4/6PP/5R2 w - - 0 32",
+        "played": "Kc4",
+        "best": "d6",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "4r3/7p/6p1/P2P2k1/1pK1P3/1P6/6PP/5R2 w - - 2 33",
+        "played": "Re1",
+        "best": "Kd4",
+        "loss": 0.92,
+        "type": "mistake"
+      },
+      {
+        "move": 34,
+        "fen": "4r3/7p/6p1/P2P4/1pK1Pk2/1P6/6PP/4R3 w - - 4 34",
+        "played": "Kxb4",
+        "best": "Kd4",
+        "loss": 1.1,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 11,
+      "white": "usernam12",
+      "black": "hapinok",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 12,
+      "perfect_moves": 3,
+      "inaccuracies": 2,
+      "mistakes": 4,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqk1nr/ppppppbp/6p1/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 4,
+        "fen": "rnbqk1nr/ppp1ppbp/3p2p1/8/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+        "played": "Nf3",
+        "best": "d4",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r1bq1rk1/ppp3bp/3p1npn/4ppN1/4PP2/2NP2P1/PPP3BP/R1BQ1RK1 w - - 2 10",
+        "played": "b3",
+        "best": "fxe5",
+        "loss": 1.21,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r1bq1rk1/ppp2nbp/3p1np1/4ppN1/4PP2/1PNP2P1/P1P3BP/R1BQ1RK1 w - - 1 11",
+        "played": "fxe5",
+        "best": "exf5",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r1bq1rk1/ppp2nbp/5np1/4ppN1/4P3/1PNP2P1/P1P3BP/R1BQ1RK1 w - - 0 12",
+        "played": "Bb2",
+        "best": "Kh1",
+        "loss": 3.86,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 12,
+      "white": "usernam12",
+      "black": "AndreiKanter",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 32,
+      "perfect_moves": 16,
+      "inaccuracies": 3,
+      "mistakes": 4,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 15,
+        "fen": "r2r2k1/pp1bnpbp/1q1pp1p1/8/4PP2/B1PP2P1/P3N1BP/R2Q1R1K w - - 5 15",
+        "played": "e5",
+        "best": "g4",
+        "loss": 2.31,
+        "type": "blunder"
+      },
+      {
+        "move": 19,
+        "fen": "r2r2k1/pp3pbp/2qpp1p1/4Pn2/5P2/B1PP2PK/P3N2P/1R1Q1R2 w - - 3 19",
+        "played": "exd6",
+        "best": "Nd4",
+        "loss": 4.43,
+        "type": "blunder"
+      },
+      {
+        "move": 22,
+        "fen": "r2r2k1/pp3p1p/2q1p1p1/5n2/3P1P2/B2P2PK/P6P/1R1Q1R2 w - - 1 22",
+        "played": "Qb3",
+        "best": "Qe2",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "r5k1/1R3p2/4p3/p1B2np1/8/3r2PK/PR5P/8 w - - 0 29",
+        "played": "Kg4",
+        "best": "Be7",
+        "loss": 0.95,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "r5k1/1R3p2/4p3/p1Br1np1/6K1/6P1/PR5P/8 w - - 2 30",
+        "played": "Ba3",
+        "best": "Be7",
+        "loss": 1.41,
+        "type": "mistake"
+      },
+      {
+        "move": 31,
+        "fen": "r5k1/1R3p2/4p3/p2r2p1/6K1/B3n1P1/PR5P/8 w - - 4 31",
+        "played": "Kh5",
+        "best": "Kf3",
+        "loss": 1.28,
+        "type": "mistake"
+      },
+      {
+        "move": 32,
+        "fen": "r7/1R3pk1/4p3/p2r2pK/8/B3n1P1/PR5P/8 w - - 6 32",
+        "played": "R2b5",
+        "best": "Rxf7+",
+        "loss": 94.2,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 13,
+      "white": "usernam12",
+      "black": "pilliwarrior",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 21,
+      "perfect_moves": 10,
+      "inaccuracies": 4,
+      "mistakes": 2,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 12,
+        "fen": "r1b1k2r/ppq1ppbp/3p1np1/8/4PP2/2PB4/P2PN1PP/1RBQK2R w Kkq - 3 12",
+        "played": "Nd4",
+        "best": "Bb5+",
+        "loss": 0.63,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r4rk1/ppq2pbp/2bp1np1/4p3/4PP2/2P2N2/P1BP2PP/1RBQ1RK1 w - - 2 16",
+        "played": "Qe2",
+        "best": "d3",
+        "loss": 1.2,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r3r1k1/1pq2pbp/p1b3p1/3pP2n/3P1p2/B1P2N2/P1B1Q1PP/1R3RK1 w - - 2 21",
+        "played": "Bd6",
+        "best": "Qd2",
+        "loss": 3.31,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 14,
+      "white": "usernam12",
+      "black": "Agafonovtim",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 43,
+      "perfect_moves": 22,
+      "inaccuracies": 2,
+      "mistakes": 14,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nf3",
+        "loss": 0.53,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r2qkb1r/pppn1ppp/8/3pP3/5Bb1/2P2N2/PPP3PP/R2QKB1R w KQkq - 3 8",
+        "played": "Bd3",
+        "best": "Qxd5",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "2kr3r/pppq1ppp/4n3/2bpP2b/8/2PB1NBP/PPPQ2P1/R4R1K w - - 1 14",
+        "played": "Bf5",
+        "best": "b4",
+        "loss": 0.58,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "2kr3r/pppq1ppp/4n1b1/2bpPB2/8/2P2NBP/PPPQ2P1/R4R1K w - - 3 15",
+        "played": "Bxe6",
+        "best": "Nh4",
+        "loss": 0.71,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "2kr3r/pppqb1pp/4p1b1/3pP3/1P6/2P2NBP/P1PQ2P1/R4R1K w - - 1 17",
+        "played": "Nd4",
+        "best": "Qe3",
+        "loss": 0.71,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "2k2r1r/pppqb3/4p3/PP1pP1pp/3Nb3/2P3BP/2PQ2P1/R4R1K w - - 0 21",
+        "played": "b6",
+        "best": "Qe2",
+        "loss": 1.64,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "2k2r1r/1ppqb3/pP2p3/P2pP1pp/3Nb3/2P3BP/2PQ2P1/R4R1K w - - 0 22",
+        "played": "bxc7",
+        "best": "Rxf8+",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "5r1r/1pkqb3/p3p3/P2pP1pp/3Nb3/2P3BP/2PQ2P1/R4R1K w - - 0 23",
+        "played": "Rab1",
+        "best": "Qe2",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "7r/1pkqb3/p3p3/P2pP3/3Nb1pp/2P4P/2PQ2PB/5R1K w - - 0 26",
+        "played": "hxg4",
+        "best": "Qe3",
+        "loss": 1.09,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "4q2r/1pk1b3/p3p3/P2pP3/4b1P1/2P2N2/2PQ2KB/5R2 w - - 1 29",
+        "played": "c4",
+        "best": "Qf4",
+        "loss": 0.56,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "8/1pk4r/p3p1q1/P2pP3/2P1bQPb/5N2/2P3KB/5R2 w - - 7 33",
+        "played": "Kh1",
+        "best": "cxd5",
+        "loss": 1.07,
+        "type": "mistake"
+      },
+      {
+        "move": 34,
+        "fen": "8/1pk2r2/p3p1q1/P2pP3/2P1bQPb/5N2/2P4B/5R1K w - - 9 34",
+        "played": "Qe3",
+        "best": "Qxf7+",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 42,
+        "fen": "8/1p1k4/p2Pp3/P7/8/7K/2P2r1B/8 w - - 1 42",
+        "played": "c4",
+        "best": "Bg3",
+        "loss": 0.83,
+        "type": "mistake"
+      },
+      {
+        "move": 43,
+        "fen": "8/1p1k4/p2Pp3/P7/2P5/7K/7r/8 w - - 0 43",
+        "played": "Kxh2",
+        "best": "Kg3",
+        "loss": 0.69,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 15,
+      "white": "usernam12",
+      "black": "nikolai-gertcyk",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 38,
+      "perfect_moves": 19,
+      "inaccuracies": 4,
+      "mistakes": 8,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 5,
+        "fen": "rnbqkb1r/ppp2ppp/4pn2/8/4NP2/8/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+        "played": "Ng3",
+        "best": "Nxf6+",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2qk2r/p2nbppp/1p2pn2/1Bp2P2/8/2P2bN1/PP1P2PP/R1BQ1RK1 w kq - 0 11",
+        "played": "Rxf3",
+        "best": "Qxf3",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r2q1rk1/p2nbppp/1p3n2/1Bp1pP2/8/2PP1RN1/PP4PP/R1BQ2K1 w - - 1 13",
+        "played": "Bxd7",
+        "best": "Ba6",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "3r1r2/p4ppk/1pq2b1p/2p1pP2/4N1Q1/2PP3R/PP4PP/R5K1 w - - 6 19",
+        "played": "Rf1",
+        "best": "Re1",
+        "loss": 0.88,
+        "type": "mistake"
+      },
+      {
+        "move": 27,
+        "fen": "6k1/p4pp1/1p3b1p/2pqpP2/3r4/3P3R/PP2Q1PP/5RK1 w - - 0 27",
+        "played": "a3",
+        "best": "b3",
+        "loss": 1.01,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "6k1/p4pp1/5b1p/1ppqpP2/3r4/P2P3R/1P2Q1PP/5RK1 w - - 0 28",
+        "played": "Rg3",
+        "best": "Re3",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "6k1/p4pp1/5b1p/3qpP2/2pr4/P5R1/1P2Q1PP/5RK1 w - - 0 30",
+        "played": "Qh5",
+        "best": "Re3",
+        "loss": 0.72,
+        "type": "mistake"
+      },
+      {
+        "move": 31,
+        "fen": "8/p4ppk/5b1p/3qpP1Q/2pr4/P5R1/1P4PP/5RK1 w - - 2 31",
+        "played": "Qe2",
+        "best": "Re3",
+        "loss": 2.14,
+        "type": "blunder"
+      },
+      {
+        "move": 37,
+        "fen": "8/p4ppk/5b1p/5P2/2p1Q1RP/P7/1P1r1qP1/4R2K w - - 3 37",
+        "played": "Qxc4",
+        "best": "Qe3",
+        "loss": 100.0,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 16,
+      "white": "usernam12",
+      "black": "LeoSuarezMDQ",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 44,
+      "perfect_moves": 22,
+      "inaccuracies": 4,
+      "mistakes": 8,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 15,
+        "fen": "r4rk1/1p1bb2p/pqn1pnp1/2pp2N1/P4P2/2PP2P1/1P2N1BP/R1BQ1RK1 w - - 2 15",
+        "played": "Rb1",
+        "best": "Bh3",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "2r2rk1/1p1bb2p/pq2pnp1/n1pp2N1/P4P2/2PP2PP/1P2N1B1/1RBQ1RK1 w - - 1 17",
+        "played": "Kh2",
+        "best": "Be3",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "1r3r1k/1Q5p/p4np1/1b4N1/3q1P2/3P2PP/1P4BK/1R2R3 w - - 7 29",
+        "played": "Qf3",
+        "best": "Qc7",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 32,
+        "fen": "1r3r1k/7p/p5p1/1b4Nn/2q2P2/6PP/1P3QBK/3RR3 w - - 4 32",
+        "played": "Rc1",
+        "best": "Qa7",
+        "loss": 1.0,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "1r3r1k/7p/p5p1/1b4Nn/1q3P2/6PP/1P3QBK/2R1R3 w - - 6 33",
+        "played": "Re4",
+        "best": "Rc7",
+        "loss": 1.5,
+        "type": "mistake"
+      },
+      {
+        "move": 34,
+        "fen": "1r3r1k/7p/p2q2p1/1b4Nn/4RP2/6PP/1P3QBK/2R5 w - - 8 34",
+        "played": "Rd4",
+        "best": "Qa7",
+        "loss": 2.75,
+        "type": "blunder"
+      },
+      {
+        "move": 35,
+        "fen": "1r3r1k/7p/p4qp1/1b4Nn/3R1P2/6PP/1P3QBK/2R5 w - - 10 35",
+        "played": "Rc7",
+        "best": "Qd2",
+        "loss": 3.23,
+        "type": "blunder"
+      },
+      {
+        "move": 39,
+        "fen": "5r1k/2R4p/p2Rnqp1/1b6/5P2/6PP/1P1Q2BK/8 w - - 0 39",
+        "played": "Qc3",
+        "best": "Ra7",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 41,
+        "fen": "5r1k/6np/p2R2p1/1b6/5P2/2R3PP/1P4BK/8 w - - 1 41",
+        "played": "Rc7",
+        "best": "g4",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 43,
+        "fen": "5r1k/2R5/pR4p1/1b3n1p/5P2/6PP/1P4BK/8 w - - 0 43",
+        "played": "Rbb7",
+        "best": "Rxg6",
+        "loss": 0.51,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 17,
+      "white": "usernam12",
+      "black": "buzdolab",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 16,
+      "perfect_moves": 12,
+      "inaccuracies": 0,
+      "mistakes": 4,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "played": "Nc3",
+        "best": "exd5",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 4,
+        "fen": "rnbqkb1r/ppp1pppp/5n2/8/4N3/8/PPPP1PPP/R1BQKBNR w KQkq - 1 4",
+        "played": "Ng3",
+        "best": "Nxf6+",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r1bq1rk1/pp1n1pp1/2p4B/4p3/3P2n1/2PB1NP1/PP1Q1PP1/R3K2R w KQ - 1 13",
+        "played": "Bxg7",
+        "best": "Bh7+",
+        "loss": 1.23,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r1bq1rk1/pp1n1p1R/2p5/4p3/3P2n1/2PB1NP1/PP1Q1PP1/R3K3 w Q - 2 15",
+        "played": "O-O-O",
+        "best": "Rh5",
+        "loss": 0.99,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 18,
+      "white": "usernam12",
+      "black": "faceface1",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 31,
+      "perfect_moves": 15,
+      "inaccuracies": 3,
+      "mistakes": 7,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 9,
+        "fen": "r2qkbnr/5ppp/b1p1p3/p1pp4/4PP2/2NP1N2/PPP3PP/R1BQ1RK1 w kq - 1 9",
+        "played": "b3",
+        "best": "Qe1",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r2qkb1r/5ppp/b1p1pn2/p1pp4/4PP2/1PNP1N2/P1P3PP/R1BQ1RK1 w kq - 1 10",
+        "played": "Re1",
+        "best": "e5",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r2qk2r/3nbppp/b1p1p3/p1pp4/4PP2/BPNP1N2/P1P3PP/R2QR1K1 w kq - 5 12",
+        "played": "Ne5",
+        "best": "exd5",
+        "loss": 1.46,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r3k2r/4bppp/b1p1p3/p1ppq3/N3P3/BP1P4/P1P3PP/R2QR1K1 w kq - 0 15",
+        "played": "Nxc5",
+        "best": "Qd2",
+        "loss": 4.13,
+        "type": "blunder"
+      },
+      {
+        "move": 20,
+        "fen": "r6r/3k1ppp/b1p1p3/p1Bp4/4P3/1PP5/P5PP/3RR2K w - - 1 20",
+        "played": "exd5",
+        "best": "h4",
+        "loss": 0.9,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "r6r/1b1k1ppp/4p3/p1Bp4/2P5/1P6/P5PP/3RR2K w - - 1 22",
+        "played": "cxd5",
+        "best": "h4",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "r1r5/3k2pp/4pp2/p1Bb4/5R2/1P6/P5PP/3R3K w - - 2 25",
+        "played": "Ba3",
+        "best": "Rc4",
+        "loss": 1.39,
+        "type": "mistake"
+      },
+      {
+        "move": 27,
+        "fen": "r7/3k2pp/4pp2/p2b4/5R2/1P6/r5PP/2BR3K w - - 0 27",
+        "played": "Rh4",
+        "best": "Rg4",
+        "loss": 0.77,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 19,
+      "white": "usernam12",
+      "black": "Makharu",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 51,
+      "perfect_moves": 25,
+      "inaccuracies": 3,
+      "mistakes": 18,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 5,
+        "fen": "rnbqkb1r/pp2pppp/2p2n2/8/4NP2/8/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+        "played": "Ng3",
+        "best": "Qe2",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 7,
+        "fen": "rn1qkb1r/pp3ppp/2p1pn2/8/5Pb1/5NN1/PPPP2PP/R1BQKB1R w KQkq - 0 7",
+        "played": "c3",
+        "best": "Be2",
+        "loss": 0.58,
+        "type": "mistake"
+      },
+      {
+        "move": 9,
+        "fen": "r2qkb1r/pp3ppp/2n1pn2/1Bp5/5Pb1/2P2NN1/PP1P2PP/R1BQK2R w KQkq - 2 9",
+        "played": "Qa4",
+        "best": "Bxc6+",
+        "loss": 0.94,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "2r2k1r/p3bppp/1qp2n2/2p1NN1b/Q7/2P4P/PP1P2P1/R1B2RK1 w - - 0 16",
+        "played": "Kh1",
+        "best": "d3",
+        "loss": 1.21,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "2r2k1r/p1q1bppp/2p2n2/4NN1b/Q2p4/2P4P/PP4P1/R1B2R1K w - - 0 18",
+        "played": "cxd4",
+        "best": "Bf4",
+        "loss": 0.92,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "2r2k1r/p1q1bppp/2p2nb1/4NN2/Q2P4/7P/PP4P1/R1B2R1K w - - 1 19",
+        "played": "Bg5",
+        "best": "Nxe7",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "2r2k1r/p1q2ppp/2pb1nb1/4NNB1/Q2P4/7P/PP4P1/R4R1K w - - 3 20",
+        "played": "Bxf6",
+        "best": "Nxg7",
+        "loss": 1.04,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "2r2k1r/p1q2p1p/2pb1pb1/4NN2/Q2P4/7P/PP4P1/R4R1K w - - 0 21",
+        "played": "Ng4",
+        "best": "Nxd6",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "2r2k1r/p1q1bp1p/2p2p2/5R2/Q2P2N1/7P/PP4P1/R6K w - - 1 23",
+        "played": "Nxf6",
+        "best": "Qc2",
+        "loss": 0.71,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "2r2k2/p1q2prp/2p2R2/8/Q2P4/7P/PP4P1/5R1K w - - 3 26",
+        "played": "Qb4+",
+        "best": "Re1",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "1r4k1/p1q2prp/2p2R2/8/3P4/1Q5P/PP4P1/5R1K w - - 7 28",
+        "played": "Qc2",
+        "best": "Rxc6",
+        "loss": 1.22,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "1r4k1/pq3prp/2p2R2/8/3P4/7P/PPQ3P1/5R1K w - - 9 29",
+        "played": "b3",
+        "best": "Rxc6",
+        "loss": 0.97,
+        "type": "mistake"
+      },
+      {
+        "move": 36,
+        "fen": "4r1rR/p2qkp2/7Q/8/3P4/1P5P/P5P1/5R1K w - - 7 36",
+        "played": "Re1+",
+        "best": "Rxf7+",
+        "loss": 6.02,
+        "type": "blunder"
+      },
+      {
+        "move": 37,
+        "fen": "3kr1rR/p2q1p2/7Q/8/3P4/1P5P/P5P1/4R2K w - - 9 37",
+        "played": "Qf6+",
+        "best": "Rxg8",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "2k1r1rR/p2q1p2/5Q2/8/3P4/1P5P/P5P1/4R2K w - - 11 38",
+        "played": "Rxe8+",
+        "best": "Rxg8",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 42,
+        "fen": "1k2q3/p4p2/8/3Q4/3P4/1P5P/P5P1/7K w - - 4 42",
+        "played": "Qc5",
+        "best": "Qe5+",
+        "loss": 2.03,
+        "type": "blunder"
+      },
+      {
+        "move": 45,
+        "fen": "k7/p4p2/8/4Q3/3P4/1P5P/P4qPK/8 w - - 10 45",
+        "played": "Qe8+",
+        "best": "d5",
+        "loss": 0.99,
+        "type": "mistake"
+      },
+      {
+        "move": 47,
+        "fen": "8/p4p2/k7/8/3PQ3/1P5P/P4qPK/8 w - - 14 47",
+        "played": "d5",
+        "best": "Qc6+",
+        "loss": 0.69,
+        "type": "mistake"
+      },
+      {
+        "move": 48,
+        "fen": "8/p4p2/k7/3P4/4Q3/1P5P/q5PK/8 w - - 0 48",
+        "played": "Qc4+",
+        "best": "Qa4+",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 50,
+        "fen": "8/pk3p2/3P4/8/2Q5/1P5P/3q2PK/8 w - - 1 50",
+        "played": "Qc7+",
+        "best": "Qb5+",
+        "loss": 91.64,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 20,
+      "white": "usernam12",
+      "black": "mitara",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 21,
+      "perfect_moves": 9,
+      "inaccuracies": 2,
+      "mistakes": 8,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 9,
+        "fen": "r1bqk2r/1p2bpp1/p1np1n2/2p1p2p/4PP2/2NP1NP1/PPP3BP/R1BQ1RK1 w kq - 0 9",
+        "played": "Ne2",
+        "best": "Nd5",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r2qk2r/1p2bpp1/p1np1n2/2p1p2p/4PPb1/3P1NP1/PPP1N1BP/R1BQ1RK1 w kq - 2 10",
+        "played": "c3",
+        "best": "h3",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r2qk2r/1p2bpp1/p1np1n2/2p1p3/4PP1p/2PP1BP1/PP2N2P/R1BQ1RK1 w kq - 0 12",
+        "played": "Qb3",
+        "best": "g4",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r3k2r/1p1qbpp1/p1np1n2/2p1p3/4PP1p/1QPP1BP1/PP2N2P/R1B2RK1 w kq - 2 13",
+        "played": "fxe5",
+        "best": "f5",
+        "loss": 0.89,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r3k2r/1p1qbpp1/p2p1n2/2p1n3/4P2p/1QPP1BP1/PP2N2P/R1B2RK1 w kq - 0 14",
+        "played": "Nf4",
+        "best": "Bf4",
+        "loss": 1.67,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r3k2r/1p1qbp2/p2p1n2/2p1n1p1/4PN2/1QPP1BP1/PP6/R1B2RK1 w kq - 0 16",
+        "played": "Nd5",
+        "best": "Bg2",
+        "loss": 1.29,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "r3k2r/1p1qbp2/p2p4/2pnn1p1/4P3/1QPP1BP1/PP6/R1B2RK1 w kq - 0 17",
+        "played": "Qxd5",
+        "best": "Bg2",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "2kr3r/1p2bp2/p2p4/2pQn1p1/4P3/2PP1BPq/PP3K2/R1B2R2 w - - 3 19",
+        "played": "Bg2",
+        "best": "Rh1",
+        "loss": 1.37,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "2kr3r/1p2bp2/p2p4/2pQn1p1/4P1q1/2PP2P1/PP3KB1/R1B2R2 w - - 5 20",
+        "played": "Be3",
+        "best": "d4",
+        "loss": 2.84,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 21,
+      "white": "usernam12",
+      "black": "azioneperpendicolare",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 36,
+      "perfect_moves": 20,
+      "inaccuracies": 4,
+      "mistakes": 8,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 13,
+        "fen": "r1bq1k1r/pp1pn1bp/3Np1p1/2p1Pp2/5P2/2PB4/PP1P2PP/R1BQ1RK1 w - - 0 13",
+        "played": "Bc2",
+        "best": "Be2",
+        "loss": 0.77,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r2q1k1r/p2pn1bp/bp1Np1p1/4Pp2/3P1P2/8/PPB3PP/R1BQ1RK1 w - - 1 16",
+        "played": "Bd3",
+        "best": "Rf2",
+        "loss": 1.09,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r2q1k1r/p2p2bp/1p1Np1p1/3nPp2/3P1P2/3Q4/PP4PP/R1B2RK1 w - - 1 18",
+        "played": "b3",
+        "best": "Bd2",
+        "loss": 0.73,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "r2q1k1r/p2p3p/1p1Np1pb/3nPp2/3P1P2/1P1Q4/P5PP/R1B2RK1 w - - 1 19",
+        "played": "Ba3",
+        "best": "g4",
+        "loss": 1.44,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r2q1r2/p2p2kp/1p1Np1pb/3nPp2/3P1P2/BP1Q2P1/P6P/R4RK1 w - - 1 21",
+        "played": "Rac1",
+        "best": "Nb7",
+        "loss": 1.0,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "r2q1r1k/p2p3p/1p1Np1pb/3nPp2/3P1P2/BP1Q2P1/P6P/2R2RK1 w - - 3 22",
+        "played": "Nb7",
+        "best": "Qe2",
+        "loss": 0.9,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "r2q3k/p2p3p/1p1Pp1p1/3n1p2/3P1P2/1P1Q2P1/P6P/2R2RK1 w - - 1 26",
+        "played": "Rc2",
+        "best": "Qe2",
+        "loss": 1.53,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "r2q4/p2p2kp/1p1Pp3/3n1pp1/3P1P2/1P1Q2P1/P1R4P/2R3K1 w - - 0 28",
+        "played": "Qa6",
+        "best": "Rc7",
+        "loss": 1.81,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 22,
+      "white": "usernam12",
+      "black": "Vladimir63Iurev",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 27,
+      "perfect_moves": 8,
+      "inaccuracies": 2,
+      "mistakes": 10,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r4rk1/pbqn2pp/1pnbpp2/2p5/3pPPPQ/P2P1N1P/1PP1N1B1/R1B2RK1 w - - 3 15",
+        "played": "f5",
+        "best": "Bd2",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r4rk1/pbqn2pp/1pnb1p2/2p2p2/3pP1PQ/P2P1N1P/1PP1N1B1/R1B2RK1 w - - 0 16",
+        "played": "exf5",
+        "best": "gxf5",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "4rrk1/pbqn2pp/1pnb1p2/2p2P2/3p2PQ/P2P1N1P/1PP1N1B1/R1B2RK1 w - - 1 17",
+        "played": "Rf2",
+        "best": "Qf2",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "4rrk1/pbqn2p1/1pnb1p1p/2p2P2/3p2PQ/P2P1N1P/1PP1NRB1/R1B3K1 w - - 0 18",
+        "played": "Bxh6",
+        "best": "Nd2",
+        "loss": 1.7,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "5rk1/pbqnr3/1pnb1p1Q/2p2P2/3p2P1/P2P1N1P/1PP1NRB1/R5K1 w - - 1 20",
+        "played": "g5",
+        "best": "Ng5",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "5rk1/pbqn2r1/1pnb1p1Q/2p2PP1/3p4/P2P1N1P/1PP1NRB1/R5K1 w - - 1 21",
+        "played": "Kh1",
+        "best": "g6",
+        "loss": 1.79,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "5rk1/pbqn2r1/1p1b1p1Q/2p1nPP1/3p4/P2P1N1P/1PP1NRB1/R6K w - - 3 22",
+        "played": "Nh4",
+        "best": "Nxe5",
+        "loss": 2.03,
+        "type": "blunder"
+      },
+      {
+        "move": 23,
+        "fen": "5rk1/pbqn2r1/1p1b3Q/2p1nPp1/3p3N/P2P3P/1PP1NRB1/R6K w - - 0 23",
+        "played": "Ng6",
+        "best": "Nf4",
+        "loss": 1.26,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "5rk1/pbqn2r1/1p1b2nQ/2p2Pp1/3p4/P2P3P/1PP1NRB1/R6K w - - 0 24",
+        "played": "f6",
+        "best": "Raf1",
+        "loss": 1.34,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "6k1/pbqn2r1/1p1b1rnQ/2p3p1/3p4/P2P3P/1PP1NRB1/R6K w - - 0 25",
+        "played": "Raf1",
+        "best": "Rxf6",
+        "loss": 0.81,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 23,
+      "white": "usernam12",
+      "black": "Miisuri",
+      "result": "1/2-1/2",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 76,
+      "perfect_moves": 56,
+      "inaccuracies": 1,
+      "mistakes": 4,
+      "blunders": 4
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "played": "Nc3",
+        "best": "exd5",
+        "loss": 0.92,
+        "type": "mistake"
+      },
+      {
+        "move": 6,
+        "fen": "rn1qkbnr/ppp2ppp/4p1b1/8/8/5NN1/PPPP1PPP/R1BQKB1R w KQkq - 0 6",
+        "played": "d4",
+        "best": "h4",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 42,
+        "fen": "8/5pp1/1p2pk2/p6p/5P2/2P3PP/PP2RK2/3r4 w - - 0 42",
+        "played": "g4",
+        "best": "Re5",
+        "loss": 0.81,
+        "type": "mistake"
+      },
+      {
+        "move": 48,
+        "fen": "8/5p2/1p2p3/p3K1k1/6r1/2P5/PP2R3/8 w - - 0 48",
+        "played": "Kd6",
+        "best": "Rf2",
+        "loss": 2.45,
+        "type": "blunder"
+      },
+      {
+        "move": 57,
+        "fen": "8/5p2/2K1k3/2P1p3/PR6/8/3r4/8 w - - 1 57",
+        "played": "Kb7",
+        "best": "a5",
+        "loss": 2.93,
+        "type": "blunder"
+      },
+      {
+        "move": 58,
+        "fen": "8/1K1r1p2/4k3/2P1p3/PR6/8/8/8 w - - 3 58",
+        "played": "Kc8",
+        "best": "Kb6",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 70,
+        "fen": "2K5/8/2Q5/5k2/8/8/5p2/1R2q3 w - - 2 70",
+        "played": "Qd7+",
+        "best": "Qf3+",
+        "loss": 95.02,
+        "type": "blunder"
+      },
+      {
+        "move": 72,
+        "fen": "2K5/5Q2/8/8/8/6k1/5p2/1R2q3 w - - 6 72",
+        "played": "Qg7+",
+        "best": "Rb3+",
+        "loss": 98.98,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 24,
+      "white": "usernam12",
+      "black": "dcp_35",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 29,
+      "perfect_moves": 18,
+      "inaccuracies": 3,
+      "mistakes": 5,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 9,
+        "fen": "rnbqk2r/pp3ppp/8/2p1P3/1b1Pp3/5N2/PPPB2PP/R2QKB1R w KQkq - 0 9",
+        "played": "Bxb4",
+        "best": "c3",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "rnbqk2r/pp3ppp/8/4P3/1p1Pp3/5N2/PPP3PP/R2QKB1R w KQkq - 0 10",
+        "played": "Ng1",
+        "best": "Bb5+",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "rn3rk1/pp3pp1/8/4P1qp/1pBPp3/6Pb/PPP1N2P/R2Q1RK1 w - - 3 15",
+        "played": "Rf2",
+        "best": "Rf4",
+        "loss": 1.24,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "r4rk1/pp3pp1/2n5/4P1q1/1pBP4/1QP1p1Pb/PP2NR2/R5K1 w - - 0 19",
+        "played": "Rxf7",
+        "best": "Bxf7+",
+        "loss": 2.57,
+        "type": "blunder"
+      },
+      {
+        "move": 21,
+        "fen": "r6k/pp3Bp1/2n5/4P1q1/1p1P4/1QP1p1Pb/PP2N3/R5K1 w - - 1 21",
+        "played": "Kh2",
+        "best": "Qc4",
+        "loss": 0.97,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "r6k/pp3Bp1/2n5/4P1q1/1p1P2b1/1QP1p1P1/PP2N2K/R7 w - - 3 22",
+        "played": "Nf4",
+        "best": "Kg2",
+        "loss": 1.99,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 25,
+      "white": "usernam12",
+      "black": "Gotcha009",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 33,
+      "perfect_moves": 13,
+      "inaccuracies": 1,
+      "mistakes": 10,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 6,
+        "fen": "r1bqkb1r/pp1npppp/2p2n2/8/4NP2/5N2/PPPP2PP/R1BQKB1R w KQkq - 3 6",
+        "played": "Ng3",
+        "best": "Nf2",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r1bqkb1r/pp3ppp/1np1pn2/8/3P1P2/5NN1/PPP3PP/R1BQKB1R w KQkq - 0 8",
+        "played": "c3",
+        "best": "Bd3",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r1b1k2r/1pq2pbp/pn2p1p1/2p1N3/3P1P1Q/2PB4/PP4PP/R1B2RK1 w kq - 4 16",
+        "played": "Be3",
+        "best": "b3",
+        "loss": 0.73,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "r1b1k2r/1pq2pbp/p3p1p1/2pnN3/3P1P1Q/2PBB3/PP4PP/R4RK1 w kq - 6 17",
+        "played": "Bd2",
+        "best": "Rae1",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "r1b2rk1/1p3pbp/pq2p1p1/3nN3/3P1P1Q/2BB4/PP4PP/R4RK1 w - - 3 20",
+        "played": "Rad1",
+        "best": "Be4",
+        "loss": 0.77,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r1b2rk1/1p3pbp/pq2p1p1/4N3/3P1P1Q/2BBn3/PP4PP/3R1RK1 w - - 5 21",
+        "played": "Rd2",
+        "best": "Nc4",
+        "loss": 0.81,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "r1b2r1k/1p3pb1/pq2pNp1/7p/3P1P1Q/2B5/PP1R2PP/5BK1 w - - 2 25",
+        "played": "Nxh5",
+        "best": "Rd3",
+        "loss": 2.15,
+        "type": "blunder"
+      },
+      {
+        "move": 27,
+        "fen": "r1b2rk1/1p3pb1/pq2p3/7Q/3P1P2/2B5/PP1R2PP/5BK1 w - - 1 27",
+        "played": "Bd3",
+        "best": "Rd3",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "r1b2rk1/1p4b1/pq2p3/5p1Q/3P1P2/2BB4/PP1R2PP/6K1 w - - 0 28",
+        "played": "Kh1",
+        "best": "g4",
+        "loss": 0.99,
+        "type": "mistake"
+      },
+      {
+        "move": 31,
+        "fen": "r3b1k1/1p4b1/pq2pr2/5p1Q/2BP1P2/2BR4/PP4PP/7K w - - 6 31",
+        "played": "Qg5",
+        "best": "Qh4",
+        "loss": 1.43,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "r3b1k1/1p4b1/p1q1p1r1/5pQ1/2BP1P2/2B3R1/PP4PP/7K w - - 10 33",
+        "played": "Qxf5",
+        "best": "Bf1",
+        "loss": 0.82,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 26,
+      "white": "usernam12",
+      "black": "RamonClaro",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 20,
+      "perfect_moves": 9,
+      "inaccuracies": 4,
+      "mistakes": 3,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 14,
+        "fen": "r4rk1/pp1nqppp/2p5/2bpP3/4bBP1/2P2N1P/PPP1Q1B1/2KR1R2 w - - 5 14",
+        "played": "Rfe1",
+        "best": "g5",
+        "loss": 1.35,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "4rrk1/pp1nqppp/2p5/2bpP3/4bBP1/2P2N1P/PPP1Q1B1/2KRR3 w - - 7 15",
+        "played": "Qd2",
+        "best": "g5",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "4rrk1/pp3qpp/2p2n2/2bp2B1/4b1P1/2P2N1P/PPPQ2B1/2KRR3 w - - 2 18",
+        "played": "Nd4",
+        "best": "Bxf6",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "4rrk1/pp3qpp/2p5/2bp2B1/3Nn1P1/2P4P/PPP3Q1/2KRR3 w - - 1 20",
+        "played": "Nf5",
+        "best": "Be3",
+        "loss": 3.8,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 27,
+      "white": "usernam12",
+      "black": "kv76",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 53,
+      "perfect_moves": 31,
+      "inaccuracies": 3,
+      "mistakes": 9,
+      "blunders": 4
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nge2",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r4k1b/p2pn3/bqpNp1pp/4P3/2p2P2/3P4/PPP3PP/R1BQK2R w KQ - 0 14",
+        "played": "Qe2",
+        "best": "dxc4",
+        "loss": 1.31,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "r4k1b/p2p4/2p1p1pp/4P3/5P2/3bN3/PP4PP/R3K2R w KQ - 0 20",
+        "played": "Kd2",
+        "best": "O-O-O",
+        "loss": 1.96,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r4k1b/p2p4/2p1p1pp/4P3/4bP2/4N3/PP1K2PP/R6R w - - 2 21",
+        "played": "Nc4",
+        "best": "Rac1",
+        "loss": 0.8,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r4k1b/p2p4/2p1p1pp/3bP3/2N2P2/8/PP1K3P/R5R1 w - - 2 23",
+        "played": "Nd6",
+        "best": "b3",
+        "loss": 2.42,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "1r3k1b/p2p4/2pNp1pp/3bP3/5P2/8/PP1K3P/R5R1 w - - 4 24",
+        "played": "b3",
+        "best": "Rxg6",
+        "loss": 3.96,
+        "type": "blunder"
+      },
+      {
+        "move": 26,
+        "fen": "1r5b/p2pk3/2pNp2p/3bP1p1/5PR1/1P6/P2K3P/R7 w - - 2 26",
+        "played": "Nc4",
+        "best": "Re1",
+        "loss": 0.96,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "7b/p2pk3/2p1p2p/4P1p1/2P2PR1/2K5/P6r/R7 w - - 0 29",
+        "played": "Rb1",
+        "best": "Re1",
+        "loss": 2.05,
+        "type": "blunder"
+      },
+      {
+        "move": 36,
+        "fen": "7R/p4k2/3pp2p/2p1r3/2P2KR1/8/P7/8 w - - 0 36",
+        "played": "Rxh6",
+        "best": "Rh7+",
+        "loss": 0.9,
+        "type": "mistake"
+      },
+      {
+        "move": 37,
+        "fen": "5k2/p7/3pp2R/2p1r3/2P2KR1/8/P7/8 w - - 1 37",
+        "played": "Rgg6",
+        "best": "Rh8+",
+        "loss": 0.81,
+        "type": "mistake"
+      },
+      {
+        "move": 45,
+        "fen": "4k3/p6R/3pp3/2p5/2P2R2/5K2/8/r7 w - - 6 45",
+        "played": "Rg4",
+        "best": "Ke2",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 48,
+        "fen": "6k1/1R5R/3pp3/p1p5/2P5/5K2/8/r7 w - - 2 48",
+        "played": "Rhd7",
+        "best": "Rbg7+",
+        "loss": 0.69,
+        "type": "mistake"
+      },
+      {
+        "move": 50,
+        "fen": "6k1/1R1R4/3pp3/p1p5/2P2r2/8/4K3/8 w - - 6 50",
+        "played": "Rb8+",
+        "best": "Rxd6",
+        "loss": 4.24,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 28,
+      "white": "usernam12",
+      "black": "AJALICA61",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 58,
+      "perfect_moves": 43,
+      "inaccuracies": 4,
+      "mistakes": 2,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "played": "Nc3",
+        "best": "exd5",
+        "loss": 0.93,
+        "type": "mistake"
+      },
+      {
+        "move": 36,
+        "fen": "8/3P2pk/4Qp1p/8/8/p1Pq2P1/5PKP/8 w - - 1 36",
+        "played": "f3",
+        "best": "h4",
+        "loss": 2.1,
+        "type": "blunder"
+      },
+      {
+        "move": 40,
+        "fen": "7k/6p1/2q2p1p/8/2P5/5PP1/2Q3KP/8 w - - 1 40",
+        "played": "c5",
+        "best": "h4",
+        "loss": 0.85,
+        "type": "mistake"
+      },
+      {
+        "move": 47,
+        "fen": "8/6p1/5p1p/2k5/4PK2/6P1/7P/8 w - - 0 47",
+        "played": "Kf5",
+        "best": "e5",
+        "loss": 5.02,
+        "type": "blunder"
+      },
+      {
+        "move": 49,
+        "fen": "8/6p1/5p1p/5K2/4P2P/4k1P1/8/8 w - - 1 49",
+        "played": "g4",
+        "best": "h5",
+        "loss": 6.59,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 29,
+      "white": "usernam12",
+      "black": "coachperry",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 24,
+      "perfect_moves": 12,
+      "inaccuracies": 0,
+      "mistakes": 8,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nf3",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 4,
+        "fen": "r1bqkbnr/pp1p1ppp/2n5/2p1p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+        "played": "Nf3",
+        "best": "fxe5",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 5,
+        "fen": "r1bqkbnr/pp1p1ppp/2n5/2p5/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 5",
+        "played": "Bb5",
+        "best": "Bc4",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r1bqkbnr/pp1p1p1p/4n3/2p3p1/2B1Pp2/2NP1N2/PPP3PP/R1BQK2R w KQkq - 0 8",
+        "played": "O-O",
+        "best": "h4",
+        "loss": 1.33,
+        "type": "mistake"
+      },
+      {
+        "move": 9,
+        "fen": "r1bqkbnr/pp1p1p2/4n2p/2p3p1/2B1Pp2/2NP1N2/PPP3PP/R1BQ1RK1 w kq - 0 9",
+        "played": "Ne5",
+        "best": "g3",
+        "loss": 2.67,
+        "type": "blunder"
+      },
+      {
+        "move": 10,
+        "fen": "r1bqk1nr/pp1p1pb1/4n2p/2p1N1p1/2B1Pp2/2NP4/PPP3PP/R1BQ1RK1 w kq - 2 10",
+        "played": "Bxe6",
+        "best": "Nxf7",
+        "loss": 0.82,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r1bqkbnr/1p3p2/p6p/1Np1N1p1/4Pp2/3P4/PPP3PP/R1BQ1RK1 w kq - 0 14",
+        "played": "Nc3",
+        "best": "Bxf4",
+        "loss": 2.2,
+        "type": "blunder"
+      },
+      {
+        "move": 17,
+        "fen": "r3kbnr/1p3p2/p3b2p/2pNq1p1/4Pp2/3P4/PPP3PP/R1BQ1R1K w kq - 2 17",
+        "played": "Qh5",
+        "best": "Bd2",
+        "loss": 1.67,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "r3k2r/1p3p2/p3bq1p/2p1b2Q/4Pp2/3P4/PPPB3P/R4R1K w kq - 0 22",
+        "played": "d4",
+        "best": "Rg1",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r3k2r/1p3p2/p3bq1p/4b2Q/3pPp2/8/PPPB3P/R4R1K w kq - 0 23",
+        "played": "Rxf4",
+        "best": "Rg1",
+        "loss": 1.87,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 30,
+      "white": "usernam12",
+      "black": "harshalb007",
+      "result": "1/2-1/2",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 53,
+      "perfect_moves": 26,
+      "inaccuracies": 6,
+      "mistakes": 7,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 11,
+        "fen": "r1bq1rk1/pp2ppbp/2n3pn/2ppP3/5P2/2NP1NPP/PPP3B1/R1BQ1RK1 w - - 1 11",
+        "played": "Ng5",
+        "best": "g4",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r2q1rk1/pp1b1n1p/4p1p1/2pp4/3b1PP1/P1NP3P/1PP3B1/R1B1QRK1 w - - 0 18",
+        "played": "Be3",
+        "best": "Kh1",
+        "loss": 3.27,
+        "type": "blunder"
+      },
+      {
+        "move": 22,
+        "fen": "r4rk1/pp1b3p/3np1p1/2pp4/5PP1/P1NP3P/1PP2RB1/R5K1 w - - 1 22",
+        "played": "f5",
+        "best": "Ne2",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r4rk1/pp1b3p/3np3/2pp1p2/6P1/P1NP3P/1PP2RB1/R5K1 w - - 0 23",
+        "played": "gxf5",
+        "best": "Re1",
+        "loss": 1.19,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "r7/pp1b2kp/4p3/2pp1n2/8/P1NP3P/1PP3B1/4R1K1 w - - 2 26",
+        "played": "Re5",
+        "best": "Nd1",
+        "loss": 0.88,
+        "type": "mistake"
+      },
+      {
+        "move": 34,
+        "fen": "6R1/pp1b3p/8/2pNk3/8/P2P3P/1Pn5/6K1 w - - 1 34",
+        "played": "Nc3",
+        "best": "Rg5+",
+        "loss": 0.94,
+        "type": "mistake"
+      },
+      {
+        "move": 36,
+        "fen": "8/pp4Rp/8/2p1kb2/8/P1NP4/1Pn5/6K1 w - - 2 36",
+        "played": "Ne4",
+        "best": "Rxb7",
+        "loss": 1.0,
+        "type": "mistake"
+      },
+      {
+        "move": 37,
+        "fen": "8/pp4Rp/8/4kb2/2p1N3/P2P4/1Pn5/6K1 w - - 0 37",
+        "played": "Re7+",
+        "best": "Rxb7",
+        "loss": 1.08,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "8/pp2R2p/8/5b2/2pkN3/P2P4/1Pn5/6K1 w - - 2 38",
+        "played": "Nf2",
+        "best": "Nd6",
+        "loss": 2.61,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 31,
+      "white": "usernam12",
+      "black": "tekeltili",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 30,
+      "perfect_moves": 14,
+      "inaccuracies": 4,
+      "mistakes": 5,
+      "blunders": 4
+    },
+    "key_mistakes": [
+      {
+        "move": 6,
+        "fen": "r1bqk1nr/pp1p1pbp/2n1p1p1/1Bp5/4PP2/2N2N2/PPPP2PP/R1BQK2R w KQkq - 0 6",
+        "played": "e5",
+        "best": "Bxc6",
+        "loss": 0.95,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r1bq1rk1/pp1pnpbp/2n1p1p1/1Bp1P3/4NP2/5N2/PPPP2PP/R1BQK2R w KQ - 3 8",
+        "played": "b3",
+        "best": "c3",
+        "loss": 0.53,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2q1rk1/p2p1pbp/bpnNp1p1/2p1P3/5P2/1P3N2/P1PP2PP/R1BQK2R w KQ - 2 11",
+        "played": "c4",
+        "best": "Bb2",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r4rk1/p2pq1bp/bpnNp1p1/2p1P3/2P5/1P3N2/PB1P2PP/R2QK2R w KQ - 1 14",
+        "played": "d4",
+        "best": "Qe2",
+        "loss": 2.91,
+        "type": "blunder"
+      },
+      {
+        "move": 19,
+        "fen": "5rk1/p2pq2p/bp1Np1pb/4P3/2P2r2/1P1Q1N2/P5PP/R4RK1 w - - 5 19",
+        "played": "Nd4",
+        "best": "g3",
+        "loss": 2.37,
+        "type": "blunder"
+      },
+      {
+        "move": 21,
+        "fen": "5rk1/p2p3p/bp1Np1pb/4P3/2P2rq1/1P1Q1N2/P5PP/R4RK1 w - - 9 21",
+        "played": "h3",
+        "best": "Rae1",
+        "loss": 5.2,
+        "type": "blunder"
+      },
+      {
+        "move": 26,
+        "fen": "5rk1/pb1p3p/1p2p1p1/4P3/2P5/1P3NbP/P5P1/R4RK1 w - - 0 26",
+        "played": "Ng5",
+        "best": "Rad1",
+        "loss": 1.64,
+        "type": "mistake"
+      },
+      {
+        "move": 29,
+        "fen": "8/pb1p2kN/1p2p1p1/4b3/2P5/1P5P/P5P1/R5K1 w - - 1 29",
+        "played": "Ng5",
+        "best": "Rd1",
+        "loss": 8.91,
+        "type": "blunder"
+      },
+      {
+        "move": 30,
+        "fen": "8/pb1p2k1/1p2p1p1/6N1/2P5/1P5P/P5P1/b5K1 w - - 0 30",
+        "played": "Nf3",
+        "best": "Kf2",
+        "loss": 0.63,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 32,
+      "white": "usernam12",
+      "black": "AbdouOrabi",
+      "result": "1/2-1/2",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 21,
+      "perfect_moves": 9,
+      "inaccuracies": 2,
+      "mistakes": 2,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 4,
+        "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+        "played": "dxe5",
+        "best": "Nf3",
+        "loss": 0.69,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r1b1r3/ppknbppp/2p2n2/4p1B1/2P5/2N1PN2/PP2BPPP/2KR3R w - - 3 11",
+        "played": "Rd2",
+        "best": "a3",
+        "loss": 1.34,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r3r3/ppk3p1/2pRbn1p/4pp2/2P4N/4P3/PP2BPPP/2KR4 w - - 3 18",
+        "played": "Ng6",
+        "best": "f3",
+        "loss": 2.45,
+        "type": "blunder"
+      },
+      {
+        "move": 20,
+        "fen": "r3r3/ppk3p1/2pRbn1p/4pp2/2P4N/4P3/PP2BPPP/2KR4 w - - 7 20",
+        "played": "Ng6",
+        "best": "f3",
+        "loss": 2.11,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 33,
+      "white": "usernam12",
+      "black": "Wigwam28",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 22,
+      "perfect_moves": 11,
+      "inaccuracies": 3,
+      "mistakes": 4,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 11,
+        "fen": "r2q1rk1/p3ppbp/2bp1np1/1pp5/4PP1Q/2NP1N2/PPP3PP/R1B2RK1 w - - 0 11",
+        "played": "Ng5",
+        "best": "f5",
+        "loss": 1.68,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r2q1rk1/p3ppb1/2b2np1/2pp1PNp/1p2P2Q/3P4/PPP1N1PP/R1B2RK1 w - - 0 14",
+        "played": "fxg6",
+        "best": "e5",
+        "loss": 0.93,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r4rk1/p3p1b1/1qb1Nnp1/2pp3p/1p2P2Q/3P4/PPP1N1PP/R1B2RK1 w - - 2 16",
+        "played": "e5",
+        "best": "N2f4",
+        "loss": 0.77,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "5Nk1/p3p3/1qb3p1/3pb2p/1pp3nQ/3P3P/PPP1N1P1/R1B3K1 w - - 0 20",
+        "played": "d4",
+        "best": "Kf1",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "5Nk1/p3p3/1qb3p1/3p3p/1ppb2nQ/7P/PPP1N1P1/R1B3K1 w - - 0 21",
+        "played": "Nxd4",
+        "best": "Kh1",
+        "loss": 4.64,
+        "type": "blunder"
+      },
+      {
+        "move": 22,
+        "fen": "5Nk1/p3p3/2b3p1/3p3p/1ppq2nQ/7P/PPP3P1/R1B3K1 w - - 0 22",
+        "played": "Kf1",
+        "best": "Be3",
+        "loss": 5.32,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 34,
+      "white": "usernam12",
+      "black": "chessbuddymaker",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 26,
+      "perfect_moves": 9,
+      "inaccuracies": 5,
+      "mistakes": 10,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nf3",
+        "loss": 0.73,
+        "type": "mistake"
+      },
+      {
+        "move": 6,
+        "fen": "r1bqk2r/pppp1ppp/2n2n2/1B6/1b2Pp2/2N2N2/PPPP2PP/R1BQK2R w KQkq - 4 6",
+        "played": "d3",
+        "best": "e5",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 7,
+        "fen": "r1bqk2r/ppp2ppp/2n2n2/1B1p4/1b2Pp2/2NP1N2/PPP3PP/R1BQK2R w KQkq - 0 7",
+        "played": "Ne5",
+        "best": "O-O",
+        "loss": 1.1,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "2kr3r/1ppq1ppp/p1n2n2/1B6/3PpB2/2P5/P1P3PP/R2Q1RK1 w - - 0 13",
+        "played": "Ba4",
+        "best": "Be2",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "3r3r/1kp2ppp/p1n5/3q4/Pp1PpBQ1/2P5/2P3PP/R4RK1 w - - 2 18",
+        "played": "Rfb1",
+        "best": "Qe2",
+        "loss": 1.23,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "3r3r/1kp2ppp/2n5/p2q4/Pp1PpBQ1/2P5/2P3PP/RR4K1 w - - 0 19",
+        "played": "cxb4",
+        "best": "Qe2",
+        "loss": 0.82,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "3r3r/k1p3pp/8/3q1p2/PP1npB2/8/4Q1PP/RR4K1 w - - 0 23",
+        "played": "Be3",
+        "best": "Qf1",
+        "loss": 0.99,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "k2r3r/2p3pp/8/3q1p2/PP1np3/4B3/4Q1PP/RR4K1 w - - 2 24",
+        "played": "Qf2",
+        "best": "Qf1",
+        "loss": 1.84,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "k2r3r/2p3pp/8/3q4/PP1npp2/4B3/5QPP/RR4K1 w - - 0 25",
+        "played": "Bxf4",
+        "best": "Bxd4",
+        "loss": 1.49,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "k2r1r2/2p3pp/8/3q4/PP1npB2/8/5QPP/RR4K1 w - - 1 26",
+        "played": "Qh4",
+        "best": "Qe3",
+        "loss": 1.0,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 35,
+      "white": "usernam12",
+      "black": "Benko58",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 16,
+      "perfect_moves": 10,
+      "inaccuracies": 1,
+      "mistakes": 3,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nge2",
+        "loss": 0.58,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r1bqk1nr/pp1p1p1p/4p1p1/2p5/3bPP2/2NB4/PPPP2PP/R1BQK2R w KQkq - 0 8",
+        "played": "e5",
+        "best": "Nb5",
+        "loss": 1.51,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r1b1k1nr/1pqp1p1p/p3p1p1/4P3/2pbNP2/2PB4/PP1P2PP/R1BQK2R w KQkq - 0 11",
+        "played": "Bxc4",
+        "best": "cxd4",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "r1b1k1nr/1p1p1p1p/p1q1p1p1/4P3/2BbNP2/2P5/PP1P2PP/R1BQK2R w KQkq - 1 12",
+        "played": "Qe2",
+        "best": "Nd6+",
+        "loss": 2.58,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 36,
+      "white": "usernam12",
+      "black": "JohanLub",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 24,
+      "perfect_moves": 15,
+      "inaccuracies": 2,
+      "mistakes": 5,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 7,
+        "fen": "rnbqk2r/pp1pnpbp/4p1p1/8/3NPP2/2N5/PPP3PP/R1BQKB1R w KQkq - 1 7",
+        "played": "f5",
+        "best": "Be3",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 9,
+        "fen": "rnbqk2r/pp2n1bp/4p1p1/3p4/3NP3/2N5/PPP3PP/R1BQKB1R w KQkq - 0 9",
+        "played": "Bg5",
+        "best": "Bb5+",
+        "loss": 1.82,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r1bq1rk1/pp2n1bp/2n1p1p1/3p2B1/3NP3/2N5/PPPQ2PP/R3KB1R w KQ - 4 11",
+        "played": "Ndb5",
+        "best": "Nxc6",
+        "loss": 3.54,
+        "type": "blunder"
+      },
+      {
+        "move": 15,
+        "fen": "r1b2rk1/1p2n2p/p1n1p1p1/8/4p3/N1b5/PPPB2PP/2KR1B1R w - - 0 15",
+        "played": "Bxc3",
+        "best": "bxc3",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r1b2rk1/1p5p/p1n1p1p1/3n4/4p3/N1B5/PPP3PP/2KR1B1R w - - 1 16",
+        "played": "Nb1",
+        "best": "Nc4",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "3rr1k1/1b6/p1n1p1p1/1p1n3p/4p1B1/P1B5/1PP3PP/1NKRR3 w - - 0 21",
+        "played": "Rxe4",
+        "best": "Bh3",
+        "loss": 2.83,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "4r1k1/1b2n3/p1nrp1p1/1p6/6R1/P1B5/1PP3PP/1NK1R3 w - - 3 24",
+        "played": "Rh4",
+        "best": "Nd2",
+        "loss": 1.18,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 37,
+      "white": "usernam12",
+      "black": "Rel01",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 33,
+      "perfect_moves": 17,
+      "inaccuracies": 3,
+      "mistakes": 7,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 10,
+        "fen": "rn1q1k1r/1pp3pp/p4n2/2b1p3/2B1P1b1/2NP1N2/PPP3PP/R1BQK2R w KQ - 0 10",
+        "played": "Bg5",
+        "best": "h3",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "r2q1k1r/1ppn2pp/p4n2/2b1p1B1/2B1P1b1/2NP1N2/PPP3PP/R2QK2R w KQ - 2 11",
+        "played": "Nd5",
+        "best": "h3",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r2q3r/3nk2p/2p2p1B/ppb1p3/4P1b1/1B1P1N2/PPPQ2PP/R3K2R w KQ - 0 16",
+        "played": "a4",
+        "best": "a3",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r2q3r/4k2p/2p2p1B/ppb1p3/P3P3/2PB1P2/1P1Q3P/R3K2R w KQ - 1 21",
+        "played": "axb5",
+        "best": "O-O-O",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 22,
+        "fen": "r2q3r/4k2p/5p1B/ppb1p3/4P3/2PB1P2/1P1Q3P/R3K2R w KQ - 0 22",
+        "played": "Bxb5",
+        "best": "Be3",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "r6r/2q1k2p/5p1B/pBb1p3/4P3/2P2P2/1P1Q3P/R3K2R w KQ - 1 23",
+        "played": "Kd1",
+        "best": "O-O-O",
+        "loss": 5.51,
+        "type": "blunder"
+      },
+      {
+        "move": 25,
+        "fen": "3r3r/4k2p/3q1p1B/p1b1p3/4P3/2PB1P2/1P1Q3P/R2K3R w - - 5 25",
+        "played": "Ke2",
+        "best": "Rxa5",
+        "loss": 2.58,
+        "type": "blunder"
+      },
+      {
+        "move": 29,
+        "fen": "6r1/4k2p/1b3p1B/R3p3/4P3/2Pr1P2/1P5P/4K2R w - - 1 29",
+        "played": "Ra6",
+        "best": "Rb5",
+        "loss": 1.89,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "6r1/4k2p/Rb1r1p1B/4p3/4P3/2P2P2/1P5P/4K2R w - - 3 30",
+        "played": "f4",
+        "best": "c4",
+        "loss": 0.86,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "6r1/4k2p/r6B/4p3/4P3/2P5/1P3K1P/7R w - - 0 33",
+        "played": "Rd1",
+        "best": "Be3",
+        "loss": 3.6,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 38,
+      "white": "usernam12",
+      "black": "Alexsey869",
+      "result": "1/2-1/2",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 29,
+      "perfect_moves": 15,
+      "inaccuracies": 3,
+      "mistakes": 4,
+      "blunders": 5
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqk1nr/ppppppbp/6p1/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "r1b1k2r/ppqn1pbp/2p2np1/4pP2/4P3/2NBBN2/PPP3PP/R2QK2R w KQkq - 1 10",
+        "played": "O-O",
+        "best": "Nd2",
+        "loss": 1.03,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r1b2rk1/ppqn2bp/2p2pp1/4pPB1/4P1n1/2NB1N2/PPPQ2PP/R4RK1 w - - 0 13",
+        "played": "fxg6",
+        "best": "h3",
+        "loss": 2.71,
+        "type": "blunder"
+      },
+      {
+        "move": 15,
+        "fen": "r1b2r1k/ppqn2bP/2p5/4p1p1/4P1n1/2NB1N2/PPPQ2PP/R4RK1 w - - 1 15",
+        "played": "Nxg5",
+        "best": "Qxg5",
+        "loss": 1.92,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r1b2r1k/ppq3bP/2p2n2/4p1N1/4P1n1/2NB4/PPPQ2PP/R4RK1 w - - 1 16",
+        "played": "Qe2",
+        "best": "Rf3",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "5r2/pp1b1B1k/2p5/2b1p3/4P1n1/2N5/PPP1Q1PP/7K w - - 1 24",
+        "played": "Na4",
+        "best": "h3",
+        "loss": 4.63,
+        "type": "blunder"
+      },
+      {
+        "move": 25,
+        "fen": "5r2/pp1b1B1k/2p5/4p3/N2bP1n1/8/PPP1Q1PP/7K w - - 3 25",
+        "played": "c3",
+        "best": "h3",
+        "loss": 3.95,
+        "type": "blunder"
+      },
+      {
+        "move": 27,
+        "fen": "5r2/pp1b1B1k/2p5/4p3/N2bP3/2P4n/PP2Q1PP/6K1 w - - 3 27",
+        "played": "Kh1",
+        "best": "Kf1",
+        "loss": 3.73,
+        "type": "blunder"
+      },
+      {
+        "move": 29,
+        "fen": "5r2/pp1b1B1k/2p5/4p3/N2bP3/2P4n/PP2Q1PP/6K1 w - - 7 29",
+        "played": "Kh1",
+        "best": "Kf1",
+        "loss": 3.83,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 39,
+      "white": "usernam12",
+      "black": "ismail201",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 35,
+      "perfect_moves": 24,
+      "inaccuracies": 2,
+      "mistakes": 6,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 9,
+        "fen": "rnbqk2r/pp3ppp/8/2p1P3/1b1Pp3/5N2/PPPB2PP/R2QKB1R w KQkq - 0 9",
+        "played": "Bxb4",
+        "best": "c3",
+        "loss": 0.74,
+        "type": "mistake"
+      },
+      {
+        "move": 10,
+        "fen": "rnbqk2r/pp3ppp/8/4P3/1p1Pp3/5N2/PPP3PP/R2QKB1R w KQkq - 0 10",
+        "played": "Ng1",
+        "best": "Bb5+",
+        "loss": 0.56,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r2q1rk1/pp3ppp/8/n3P3/1pBPp1b1/2P5/PP2N1PP/R2QK2R w KQ - 1 14",
+        "played": "Bb5",
+        "best": "Bb3",
+        "loss": 0.63,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "r4rk1/1p3ppp/p7/n3P3/B2Pp1b1/2P3P1/P1Q1N1qP/R3K2R w KQ - 3 19",
+        "played": "Rg1",
+        "best": "Rf1",
+        "loss": 1.65,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "r4rk1/1p5p/p4pp1/n3P3/3P4/2P1Q1P1/P7/q2BK2R w - - 0 26",
+        "played": "Qh6",
+        "best": "e6",
+        "loss": 0.84,
+        "type": "mistake"
+      },
+      {
+        "move": 35,
+        "fen": "2r3k1/1p3r1p/p4PpQ/n7/8/3q2P1/P7/K2B3R w - - 6 35",
+        "played": "Bg4",
+        "best": "Qf4",
+        "loss": 0.73,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 40,
+      "white": "usernam12",
+      "black": "akbarf",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 28,
+      "perfect_moves": 15,
+      "inaccuracies": 4,
+      "mistakes": 6,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 13,
+        "fen": "r3k2r/1p1qbppp/p3pn2/2p5/5P2/1QP2RN1/PP1P2PP/R1B3K1 w kq - 1 13",
+        "played": "d4",
+        "best": "f5",
+        "loss": 0.97,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r3k2r/1p1qbppp/p3pn2/8/3p1P2/1QP2RN1/PP4PP/R1B3K1 w kq - 0 14",
+        "played": "cxd4",
+        "best": "f5",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "r3k2r/1p1qbppp/p3pn2/8/5P2/1Q2BRN1/PP4PP/R5K1 w kq - 2 16",
+        "played": "Rd1",
+        "best": "f5",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r4rk1/1p1qbppp/p3p3/3n1P2/8/1Q2BRN1/PP4PP/3R2K1 w - - 1 18",
+        "played": "f6",
+        "best": "Bf2",
+        "loss": 1.09,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r2r2k1/1p1q1p1p/p3pp1B/3n4/8/1Q4N1/PP4PP/3R2K1 w - - 2 21",
+        "played": "Ne4",
+        "best": "Qf3",
+        "loss": 7.13,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "r5rk/1p3p1p/p3pN1B/1q1n4/8/6Q1/PP4PP/3R2K1 w - - 3 24",
+        "played": "Qe5",
+        "best": "Nxg8",
+        "loss": 1.23,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "r5rk/1p2np1p/p3pN1B/1q2Q3/8/8/PP4PP/3R2K1 w - - 5 25",
+        "played": "Rd5",
+        "best": "Nd5+",
+        "loss": 99.86,
+        "type": "blunder"
+      },
+      {
+        "move": 27,
+        "fen": "r5rk/1p3p1p/pq2pN2/3nQ3/8/4B3/PP4PP/6K1 w - - 0 27",
+        "played": "Bxb6",
+        "best": "Nxd5+",
+        "loss": 0.61,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 41,
+      "white": "usernam12",
+      "black": "Pason69",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 17,
+      "perfect_moves": 8,
+      "inaccuracies": 1,
+      "mistakes": 4,
+      "blunders": 2
+    },
+    "key_mistakes": [
+      {
+        "move": 7,
+        "fen": "rn1qkb1r/pp3ppp/2p1pn2/8/5Pb1/5NN1/PPPP2PP/R1BQKB1R w KQkq - 0 7",
+        "played": "c3",
+        "best": "h3",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 9,
+        "fen": "rn2k2r/ppq2ppp/2pbpn2/8/3P1Pb1/2P2NN1/PP4PP/R1BQKB1R w KQkq - 1 9",
+        "played": "h3",
+        "best": "Bd3",
+        "loss": 0.69,
+        "type": "mistake"
+      },
+      {
+        "move": 11,
+        "fen": "rn2k2r/pp3ppp/2p1pn2/8/3P1qb1/2P2NNP/PP4P1/R2QKB1R w KQkq - 0 11",
+        "played": "Kf2",
+        "best": "Ne2",
+        "loss": 0.53,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "rn2k2r/pp3ppp/2p1pn2/8/3P1q2/2P2bNP/PP3KP1/R2Q1B1R w kq - 0 12",
+        "played": "gxf3",
+        "best": "Qxf3",
+        "loss": 1.07,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "2kr3r/pp1n1ppp/2p1p3/3n4/3P1q2/2PQ1PNP/PP3K2/R4BR1 w - - 5 15",
+        "played": "Nh5",
+        "best": "c4",
+        "loss": 2.13,
+        "type": "blunder"
+      },
+      {
+        "move": 17,
+        "fen": "2kr3r/pp1n2pp/2p1p3/3n1p2/3P3q/2PQ1PNP/PP3K2/R4BR1 w - - 0 17",
+        "played": "Kg2",
+        "best": "c4",
+        "loss": 2.34,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 42,
+      "white": "usernam12",
+      "black": "Piperno2023",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 52,
+      "perfect_moves": 35,
+      "inaccuracies": 2,
+      "mistakes": 6,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+        "played": "f4",
+        "best": "Nf3",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 18,
+        "fen": "r3k2r/pp1qppbp/6pn/3pP3/3N1P2/B1PQ4/P2P2PP/1R2K2R w Kkq - 3 18",
+        "played": "Qb5",
+        "best": "O-O",
+        "loss": 0.8,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "r3k2r/p2qppbp/1p4pn/1Q1pP3/3N1P2/B1P5/P2P2PP/1R2K2R w Kkq - 0 19",
+        "played": "Qb4",
+        "best": "Nc6",
+        "loss": 0.62,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "2r1k2r/p2q1pbp/1p2p3/1Q1pPp2/5P2/B1P5/P2P2PP/1R3RK1 w k - 2 23",
+        "played": "Rfc1",
+        "best": "Qa6",
+        "loss": 0.78,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "5r2/p2k1p1p/1p2p3/1RrpPp2/P4P2/2P5/3P2PP/2R3K1 w - - 1 28",
+        "played": "Rcb1",
+        "best": "Rxc5",
+        "loss": 0.74,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "8/1k3p2/pp2p3/3pPp1p/PP3P2/1R1P1K1P/3r2P1/8 w - - 0 38",
+        "played": "g4",
+        "best": "Kg3",
+        "loss": 0.57,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 43,
+      "white": "usernam12",
+      "black": "alpha1975omega",
+      "result": "0-1",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 40,
+      "perfect_moves": 17,
+      "inaccuracies": 4,
+      "mistakes": 11,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 16,
+        "fen": "1r5r/3kbQ1p/1qbpp3/p1pnP3/1p3P2/3P1N1P/PPP1N1P1/R1B2RK1 w - - 1 16",
+        "played": "Ng5",
+        "best": "f5",
+        "loss": 0.68,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "1r5r/2nkbQ1p/1qbpp3/p1p1P1N1/1p3P2/3P3P/PPP1N1P1/R1B2RK1 w - - 3 17",
+        "played": "f5",
+        "best": "exd6",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "3k1r1r/2n1bQ1p/1qbpP3/p1p1P1N1/1p6/3P3P/PPP1N1P1/R1B2RK1 w - - 1 19",
+        "played": "Qg7",
+        "best": "exd6",
+        "loss": 1.32,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "3k2rr/2n1b1Qp/1qbpP3/p3P1N1/1ppP4/7P/PPP1N1P1/R1B2RK1 w - - 1 21",
+        "played": "Nf7+",
+        "best": "Qf7",
+        "loss": 2.27,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "2k4N/4b2p/1qbpn3/p3P3/1ppP4/7P/PPP1N1P1/R1B2RK1 w - - 0 24",
+        "played": "exd6",
+        "best": "Be3",
+        "loss": 0.64,
+        "type": "mistake"
+      },
+      {
+        "move": 27,
+        "fen": "1bk5/5N1p/1q2n3/p2b4/1ppP4/4B2P/PPP1N1P1/R4RK1 w - - 4 27",
+        "played": "Rf6",
+        "best": "Rf2",
+        "loss": 0.98,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "1bk5/2q2N1p/4nR2/p2b4/1ppP4/4B2P/PPP1N1P1/R5K1 w - - 6 28",
+        "played": "Nf4",
+        "best": "Ne5",
+        "loss": 1.27,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "1bk5/4qN1p/5R2/p2b4/1ppP1B2/7P/PPP3P1/R5K1 w - - 1 30",
+        "played": "Be5",
+        "best": "Nd6+",
+        "loss": 1.39,
+        "type": "mistake"
+      },
+      {
+        "move": 33,
+        "fen": "1b3R2/3kq2p/8/p2bB3/1ppP4/7P/PPP3P1/5RK1 w - - 4 33",
+        "played": "Bxb8",
+        "best": "Rxb8",
+        "loss": 0.67,
+        "type": "mistake"
+      },
+      {
+        "move": 36,
+        "fen": "1B3R2/3k3p/8/p2b4/1ppP4/7P/PqP2RPK/8 w - - 0 36",
+        "played": "R8f5",
+        "best": "R8f6",
+        "loss": 1.84,
+        "type": "mistake"
+      },
+      {
+        "move": 37,
+        "fen": "1B6/7p/2k5/p2b1R2/1ppP4/7P/PqP2RPK/8 w - - 2 37",
+        "played": "Rf6+",
+        "best": "Re5",
+        "loss": 1.92,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "1B6/7p/5R2/pk1b4/1ppP4/7P/PqP2RPK/8 w - - 4 38",
+        "played": "R6f5",
+        "best": "R2f5",
+        "loss": 2.68,
+        "type": "blunder"
+      },
+      {
+        "move": 39,
+        "fen": "1B6/7p/8/pk1b1R2/1ppq4/7P/P1P2RPK/8 w - - 0 39",
+        "played": "R2f4",
+        "best": "Bg3",
+        "loss": 1.13,
+        "type": "mistake"
+      },
+      {
+        "move": 40,
+        "fen": "1B6/7p/8/pk1b1R2/1pp2R2/7P/P1Pq2PK/8 w - - 2 40",
+        "played": "Rh4",
+        "best": "Rf2",
+        "loss": 101.94,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 44,
+      "white": "usernam12",
+      "black": "alpha1975omega",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 87,
+      "perfect_moves": 41,
+      "inaccuracies": 8,
+      "mistakes": 19,
+      "blunders": 9
+    },
+    "key_mistakes": [
+      {
+        "move": 13,
+        "fen": "1r1q1rk1/p2bn1bp/2npp1p1/1pp2p2/4PPP1/2PP1N1P/PP2N1B1/R1BQ1RK1 w - - 0 13",
+        "played": "exf5",
+        "best": "Be3",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "1r3rk1/p2bq1b1/2npp2p/1ppn1pN1/5PP1/2PP3P/PP1BN1B1/R3QRK1 w - - 0 17",
+        "played": "Nf3",
+        "best": "gxf5",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "4rrk1/p2b2b1/2nppq1p/1ppn1p2/5PPN/2PP3P/PP1BN1B1/R3QRK1 w - - 4 19",
+        "played": "g5",
+        "best": "gxf5",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 27,
+        "fen": "4rr2/p2b4/2nppk2/1ppn1pN1/5P2/2PP3P/PP1BN1B1/4RRK1 w - - 6 27",
+        "played": "Ng3",
+        "best": "Bxd5",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 28,
+        "fen": "4r2r/p2b4/2nppk2/1ppn1pN1/5P2/2PP2NP/PP1B2B1/4RRK1 w - - 8 28",
+        "played": "c4",
+        "best": "Bf3",
+        "loss": 1.14,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "4r2r/p2b4/2nppk2/2p2pN1/1nP2P2/6NP/PP1B2B1/4RRK1 w - - 1 30",
+        "played": "Bc3+",
+        "best": "Rd1",
+        "loss": 0.51,
+        "type": "mistake"
+      },
+      {
+        "move": 40,
+        "fen": "4r3/pb6/6k1/2R5/2P5/P1B3NP/1P3K2/8 w - - 2 40",
+        "played": "Rc7",
+        "best": "h4",
+        "loss": 0.6,
+        "type": "mistake"
+      },
+      {
+        "move": 44,
+        "fen": "8/p1R5/6k1/8/2P5/P1BK3P/1P6/4r2N w - - 3 44",
+        "played": "Nf2",
+        "best": "Bxe1",
+        "loss": 2.41,
+        "type": "blunder"
+      },
+      {
+        "move": 45,
+        "fen": "8/p1R5/6k1/8/2P5/P1BK3P/1P3N2/5r2 w - - 5 45",
+        "played": "Ne4",
+        "best": "Ke2",
+        "loss": 1.06,
+        "type": "mistake"
+      },
+      {
+        "move": 47,
+        "fen": "8/R7/6k1/8/2P1N3/P1BK3r/1P6/8 w - - 0 47",
+        "played": "Kc2",
+        "best": "Kd4",
+        "loss": 1.66,
+        "type": "mistake"
+      },
+      {
+        "move": 48,
+        "fen": "8/R7/8/5k2/2P1N3/P1B4r/1PK5/8 w - - 2 48",
+        "played": "Nd6+",
+        "best": "Re7",
+        "loss": 1.15,
+        "type": "mistake"
+      },
+      {
+        "move": 49,
+        "fen": "8/R7/3N4/8/2P2k2/P1B4r/1PK5/8 w - - 4 49",
+        "played": "Rf7+",
+        "best": "Re7",
+        "loss": 0.79,
+        "type": "mistake"
+      },
+      {
+        "move": 51,
+        "fen": "8/4R3/3N4/8/2P2k2/P1B4r/1PK5/8 w - - 8 51",
+        "played": "Re4+",
+        "best": "Kb3",
+        "loss": 0.71,
+        "type": "mistake"
+      },
+      {
+        "move": 52,
+        "fen": "8/8/3N4/6k1/2P1R3/P1B4r/1PK5/8 w - - 10 52",
+        "played": "Bd2+",
+        "best": "Kb3",
+        "loss": 1.38,
+        "type": "mistake"
+      },
+      {
+        "move": 53,
+        "fen": "8/8/3N1k2/8/2P1R3/P6r/1PKB4/8 w - - 12 53",
+        "played": "Ne8+",
+        "best": "Bc3+",
+        "loss": 1.63,
+        "type": "mistake"
+      },
+      {
+        "move": 55,
+        "fen": "8/8/3N1k2/8/2P1R3/P6r/1PKB4/8 w - - 16 55",
+        "played": "Nb5",
+        "best": "Bc3+",
+        "loss": 1.72,
+        "type": "mistake"
+      },
+      {
+        "move": 56,
+        "fen": "8/8/8/1N3k2/2P1R3/P6r/1PKB4/8 w - - 18 56",
+        "played": "Re2",
+        "best": "Nd6+",
+        "loss": 2.04,
+        "type": "blunder"
+      },
+      {
+        "move": 62,
+        "fen": "8/8/8/8/P1PN3r/8/1PKBR3/5k2 w - - 1 62",
+        "played": "Re3",
+        "best": "Re1+",
+        "loss": 2.54,
+        "type": "blunder"
+      },
+      {
+        "move": 63,
+        "fen": "8/8/8/8/P1Pr4/4R3/1PKB4/5k2 w - - 0 63",
+        "played": "Rc3",
+        "best": "Kc3",
+        "loss": 0.63,
+        "type": "mistake"
+      },
+      {
+        "move": 64,
+        "fen": "8/8/8/8/P1Pr4/2R5/1PKBk3/8 w - - 2 64",
+        "played": "Be3",
+        "best": "Re3+",
+        "loss": 0.84,
+        "type": "mistake"
+      },
+      {
+        "move": 68,
+        "fen": "r7/P7/8/8/2P5/2R1Bk2/1PK5/8 w - - 1 68",
+        "played": "Rb3",
+        "best": "b4",
+        "loss": 3.15,
+        "type": "blunder"
+      },
+      {
+        "move": 69,
+        "fen": "r7/P7/8/8/2P1k3/1R2B3/1PK5/8 w - - 3 69",
+        "played": "Bg1",
+        "best": "Rb8",
+        "loss": 1.51,
+        "type": "mistake"
+      },
+      {
+        "move": 71,
+        "fen": "1R6/P7/8/8/2P1k3/8/1PK5/6r1 w - - 0 71",
+        "played": "Kb3",
+        "best": "a8=Q+",
+        "loss": 90.85,
+        "type": "blunder"
+      },
+      {
+        "move": 74,
+        "fen": "R7/8/8/8/2Pk4/1K6/1P6/8 w - - 1 74",
+        "played": "Rd8+",
+        "best": "Kb4",
+        "loss": 86.63,
+        "type": "blunder"
+      },
+      {
+        "move": 75,
+        "fen": "3R4/8/8/2k5/2P5/1K6/1P6/8 w - - 3 75",
+        "played": "Kc3",
+        "best": "Rh8",
+        "loss": 0.7,
+        "type": "mistake"
+      },
+      {
+        "move": 76,
+        "fen": "3R4/8/2k5/8/2P5/2K5/1P6/8 w - - 5 76",
+        "played": "b4",
+        "best": "Kb4",
+        "loss": 90.98,
+        "type": "blunder"
+      },
+      {
+        "move": 80,
+        "fen": "8/2k5/3R4/2P5/1PK5/8/8/8 w - - 3 80",
+        "played": "Kd5",
+        "best": "Rf6",
+        "loss": 86.27,
+        "type": "blunder"
+      },
+      {
+        "move": 81,
+        "fen": "8/1k6/3R4/2PK4/1P6/8/8/8 w - - 5 81",
+        "played": "b5",
+        "best": "Rf6",
+        "loss": 87.89,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 45,
+      "white": "usernam12",
+      "black": "leosdanyfernandez423",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 37,
+      "perfect_moves": 22,
+      "inaccuracies": 7,
+      "mistakes": 2,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 3,
+        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3",
+        "played": "f4",
+        "best": "d4",
+        "loss": 0.52,
+        "type": "mistake"
+      },
+      {
+        "move": 6,
+        "fen": "r1bqkb1r/pppn1ppp/4pn2/8/4NP2/5N2/PPPP2PP/R1BQKB1R w KQkq - 3 6",
+        "played": "Nc3",
+        "best": "Nxf6+",
+        "loss": 0.55,
+        "type": "mistake"
+      },
+      {
+        "move": 30,
+        "fen": "4r2k/1q4pp/pp2pp2/5b2/P4P2/1Q4RP/1PPrNRPK/8 w - - 10 30",
+        "played": "c3",
+        "best": "Qe3",
+        "loss": 2.19,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 46,
+      "white": "usernam12",
+      "black": "Yan_60",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 30,
+      "perfect_moves": 15,
+      "inaccuracies": 5,
+      "mistakes": 6,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 5,
+        "fen": "rn1qkbnr/pp2pppp/2p5/8/3pPPb1/8/PPPPN1PP/R1BQKBNR w KQkq - 2 5",
+        "played": "d3",
+        "best": "h3",
+        "loss": 0.66,
+        "type": "mistake"
+      },
+      {
+        "move": 7,
+        "fen": "rn1qkbnr/pp2pppp/8/2p5/3pPP2/3P3P/PPP1b1P1/R1BQKBNR w KQkq - 0 7",
+        "played": "Nxe2",
+        "best": "Bxe2",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 8,
+        "fen": "r2qkbnr/pp2pppp/2n5/2p5/3pPP2/3P3P/PPP1N1P1/R1BQKB1R w KQkq - 1 8",
+        "played": "g4",
+        "best": "g3",
+        "loss": 0.75,
+        "type": "mistake"
+      },
+      {
+        "move": 16,
+        "fen": "4rrk1/ppq3pp/2nbppn1/2p4Q/3pPPP1/P2P3P/1PPBN1B1/R4RK1 w - - 10 16",
+        "played": "f5",
+        "best": "Rae1",
+        "loss": 0.54,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "3nr1k1/pp2rqpp/3b1p2/4nP2/2ppPN2/P2P3P/1PPBQKB1/R4R2 w - - 0 23",
+        "played": "Rg1",
+        "best": "Kg1",
+        "loss": 0.56,
+        "type": "mistake"
+      },
+      {
+        "move": 26,
+        "fen": "3nr1k1/pp3qpp/3b1p2/3NnP2/3pP3/P2P3P/1PrBQKB1/R5R1 w - - 3 26",
+        "played": "Bf1",
+        "best": "Rab1",
+        "loss": 0.59,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 47,
+      "white": "usernam12",
+      "black": "Chamaco1967",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 22,
+      "perfect_moves": 13,
+      "inaccuracies": 2,
+      "mistakes": 4,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 6,
+        "fen": "rnbqkb1r/pp3ppp/4pn2/2p5/4NP2/5N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
+        "played": "Ng3",
+        "best": "Nxf6+",
+        "loss": 0.88,
+        "type": "mistake"
+      },
+      {
+        "move": 12,
+        "fen": "2kr3r/pp1qbppp/4pn2/2p5/3n1P2/3P1NN1/PPP3PP/R1B1QRK1 w - - 5 12",
+        "played": "Qc3",
+        "best": "Nxd4",
+        "loss": 0.53,
+        "type": "mistake"
+      },
+      {
+        "move": 17,
+        "fen": "1k1rq2r/pp2bp2/4p1p1/2pnN2p/3nNP2/3P4/PPPQ1RPP/R1B3K1 w - - 0 17",
+        "played": "Ng5",
+        "best": "c3",
+        "loss": 1.63,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "1k1rq2r/pp2np2/4p1p1/2p1NnP1/2P4p/P2P4/1P1Q1RPP/R1B3K1 w - - 1 21",
+        "played": "Qf4",
+        "best": "b4",
+        "loss": 0.99,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 48,
+      "white": "usernam12",
+      "black": "MatZak",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 25,
+      "perfect_moves": 10,
+      "inaccuracies": 3,
+      "mistakes": 8,
+      "blunders": 1
+    },
+    "key_mistakes": [
+      {
+        "move": 12,
+        "fen": "r1bq1rk1/p1p3pp/2p2p2/3pP3/1b1P4/2N2N2/PPPQ2PP/R4RK1 w - - 0 12",
+        "played": "Rfe1",
+        "best": "a3",
+        "loss": 0.57,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r1bq1rk1/p1p3pp/2p2p2/b2pP3/3P4/2N2N2/PPPQ2PP/R3R1K1 w - - 2 13",
+        "played": "e6",
+        "best": "exf6",
+        "loss": 1.31,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r1b2rk1/p1p1q1pp/2p1Pp2/b2p4/3P4/2N2N2/PPPQ2PP/R3R1K1 w - - 1 14",
+        "played": "a3",
+        "best": "Nxd5",
+        "loss": 0.92,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r4rk1/p1p1q1pp/2p1bp2/b2p4/3P4/P1N2N2/1PPQ2PP/R3R1K1 w - - 0 15",
+        "played": "b4",
+        "best": "Nxd5",
+        "loss": 0.65,
+        "type": "mistake"
+      },
+      {
+        "move": 19,
+        "fen": "r3r1k1/p1p2qpp/1bp2p2/3p4/1P1P2bN/P1N5/2PQR1PP/4R1K1 w - - 7 19",
+        "played": "Rxe8+",
+        "best": "Nf3",
+        "loss": 1.42,
+        "type": "mistake"
+      },
+      {
+        "move": 20,
+        "fen": "4r1k1/p1p2qpp/1bp2p2/3p4/1P1P2bN/P1N5/2PQ2PP/4R1K1 w - - 0 20",
+        "played": "Rf1",
+        "best": "Rxe8+",
+        "loss": 1.25,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "4r1k1/p1p3pp/1bp2p2/3p3q/1P1P2bN/P1N5/2PQ2PP/5RK1 w - - 2 21",
+        "played": "Nf3",
+        "best": "Qf2",
+        "loss": 0.9,
+        "type": "mistake"
+      },
+      {
+        "move": 23,
+        "fen": "4r1k1/p1p3pp/1bp2p2/3p4/1P1P2q1/P1N2R2/2PQ2PP/6K1 w - - 1 23",
+        "played": "Ne2",
+        "best": "Rd3",
+        "loss": 5.4,
+        "type": "blunder"
+      },
+      {
+        "move": 24,
+        "fen": "4r1k1/p1p3pp/1bp2p2/3p4/1P1Pq3/P4R2/2PQN1PP/6K1 w - - 3 24",
+        "played": "Rf2",
+        "best": "Kf1",
+        "loss": 1.38,
+        "type": "mistake"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 49,
+      "white": "usernam12",
+      "black": "Oberweier40",
+      "result": "1/2-1/2",
+      "player_color": "white",
+      "player_won": false
+    },
+    "summary": {
+      "total_moves_analyzed": 70,
+      "perfect_moves": 52,
+      "inaccuracies": 2,
+      "mistakes": 11,
+      "blunders": 3
+    },
+    "key_mistakes": [
+      {
+        "move": 2,
+        "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+        "played": "Nc3",
+        "best": "e5",
+        "loss": 0.61,
+        "type": "mistake"
+      },
+      {
+        "move": 6,
+        "fen": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/5P2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6",
+        "played": "Bb5",
+        "best": "d4",
+        "loss": 0.67,
+        "type": "mistake"
+      },
+      {
+        "move": 13,
+        "fen": "r4rk1/1p1bb1pp/pqn1pp2/2ppP3/5P2/2PP1N2/PP2N1PP/R1B1QRK1 w - - 0 13",
+        "played": "d4",
+        "best": "exf6",
+        "loss": 0.86,
+        "type": "mistake"
+      },
+      {
+        "move": 14,
+        "fen": "r4rk1/1p1bb1pp/pqn1pp2/3pP3/3p1P2/2P2N2/PP2N1PP/R1B1QRK1 w - - 0 14",
+        "played": "cxd4",
+        "best": "Nexd4",
+        "loss": 0.56,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "2r2rk1/1p2b1pp/pq2p3/n2pP3/3P4/P3BN2/1P2QRPP/R5K1 w - - 1 21",
+        "played": "b4",
+        "best": "h4",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "2r2rk1/1p2b1p1/pq2p2p/3pP3/1P1P4/P3Q3/3N1RPP/R5K1 w - - 0 24",
+        "played": "Nf3",
+        "best": "Rxf8+",
+        "loss": 0.87,
+        "type": "mistake"
+      },
+      {
+        "move": 25,
+        "fen": "2r2rk1/1p2b1p1/p1q1p2p/3pP3/1P1P4/P3QN2/5RPP/R5K1 w - - 2 25",
+        "played": "Raa2",
+        "best": "Rd1",
+        "loss": 1.44,
+        "type": "mistake"
+      },
+      {
+        "move": 38,
+        "fen": "3b4/5kp1/N3p2p/1P1pP3/3r4/P7/R4KP1/8 w - - 1 38",
+        "played": "Nb8",
+        "best": "a4",
+        "loss": 1.63,
+        "type": "mistake"
+      },
+      {
+        "move": 41,
+        "fen": "1N6/4k1p1/1b2p2p/1P1pP3/r7/P7/R4KP1/8 w - - 7 41",
+        "played": "Kf3",
+        "best": "Ke2",
+        "loss": 0.76,
+        "type": "mistake"
+      },
+      {
+        "move": 43,
+        "fen": "8/3k4/1bN1p2p/1P1pP1p1/r7/P4K2/R5P1/8 w - - 2 43",
+        "played": "Nb4",
+        "best": "Rc2",
+        "loss": 0.91,
+        "type": "mistake"
+      },
+      {
+        "move": 45,
+        "fen": "8/3k4/1bN1p2p/1P1pP1p1/r7/P4K2/R5P1/8 w - - 6 45",
+        "played": "Nb4",
+        "best": "Rc2",
+        "loss": 0.63,
+        "type": "mistake"
+      },
+      {
+        "move": 46,
+        "fen": "8/3k4/4p2p/1PbpP1p1/rN6/P4K2/R5P1/8 w - - 8 46",
+        "played": "Kg4",
+        "best": "Na6",
+        "loss": 3.26,
+        "type": "blunder"
+      },
+      {
+        "move": 59,
+        "fen": "8/5k2/4R3/3K4/6p1/r2p4/6P1/8 w - - 2 59",
+        "played": "Re1",
+        "best": "Rd6",
+        "loss": 3.52,
+        "type": "blunder"
+      },
+      {
+        "move": 61,
+        "fen": "8/5k2/8/3K4/6p1/3p2P1/6r1/4R3 w - - 1 61",
+        "played": "Re3",
+        "best": "Rd1",
+        "loss": 3.93,
+        "type": "blunder"
+      }
+    ]
+  },
+  {
+    "game": {
+      "game_number": 50,
+      "white": "usernam12",
+      "black": "Cryptohumanoid",
+      "result": "1-0",
+      "player_color": "white",
+      "player_won": true
+    },
+    "summary": {
+      "total_moves_analyzed": 25,
+      "perfect_moves": 17,
+      "inaccuracies": 3,
+      "mistakes": 4,
+      "blunders": 0
+    },
+    "key_mistakes": [
+      {
+        "move": 6,
+        "fen": "r1bqkb1r/pp2nppp/2n1p3/1Bpp4/4PP2/2N2N2/PPPP2PP/R1BQK2R w KQkq - 2 6",
+        "played": "Bxc6+",
+        "best": "exd5",
+        "loss": 0.59,
+        "type": "mistake"
+      },
+      {
+        "move": 15,
+        "fen": "r1bq1rk1/pp2b1p1/4p2p/2p5/1n2PP2/3p1NQ1/PPP2RPP/R1BN2K1 w - - 0 15",
+        "played": "f5",
+        "best": "Ne3",
+        "loss": 0.81,
+        "type": "mistake"
+      },
+      {
+        "move": 21,
+        "fen": "r1b2rk1/pp4p1/1q6/2p2pB1/8/2Nn1NQ1/PPp2RPP/R5K1 w - - 2 21",
+        "played": "Rxc2",
+        "best": "Nd5",
+        "loss": 0.65,
+        "type": "mistake"
+      },
+      {
+        "move": 24,
+        "fen": "r4rk1/pp1b2p1/3q4/3N1pB1/2p5/3n1NQ1/PPR3PP/R6K w - - 4 24",
+        "played": "Ne7+",
+        "best": "Qxd6",
+        "loss": 1.54,
+        "type": "mistake"
+      }
+    ]
+  }
+]
